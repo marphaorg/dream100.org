@@ -11,4 +11,4 @@ intro_image_hide_on_mobile: true
 
 We are going to educate and mentor one hundred poor talents of Nepal to complete their higher education. More details coming soon.
 
-If you want to know more or be the part of the Dream100, please contact us.
+If you want to know more or be part of the Dream100 project, please contact us.
