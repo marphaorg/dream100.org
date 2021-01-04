@@ -6,6 +6,28 @@ bodyClass: page-home
 
 <div class="intro">
   <div class="container">
+    <div id="countdown-wrap">
+      <div id="goal">$5,000</div>
+      <div id="glass">
+        <div id="progress"></div>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">29.6%</span>
+        <span class="goal-label">Funded</span>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">$1,480</span>
+        <span class="goal-label">Raised</span>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">$480</span>
+        <span class="goal-label">This year</span>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">11</span>
+        <span class="goal-label">Donors</span>
+      </div>
+    </div>
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-1 order-md-1">
         {{ content }} {% if site.homepage.show_call_box %} {% include call.html
