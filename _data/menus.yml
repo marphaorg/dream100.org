@@ -3,7 +3,7 @@ main:
     url: "/contact/"
     weight: 1
   - name: "Donate"
-    url: "https://charity.gofundme.com/donate/project/dream100org/suvashshah"
+    url: "/donate/"
     weight: 2
 
 footer:
