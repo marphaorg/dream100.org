@@ -6,7 +6,6 @@ bodyClass: page-donate
 
 ## If you are outside of Nepal
 Donation link: [Donate](https://charity.gofundme.com/donate/project/dream100org/suvashshah)
-
 ## Donate from Nepal
 
 If you are from Nepal, you can transfer donation amount to the following account details.
