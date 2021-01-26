@@ -1,7 +1,7 @@
 ---
 title: Dream 100
 layout: home
-description: We are going to educate and mentor one hundred poor talents of Nepal to complete their higher education.
+description: We help poor talents of Nepal to pursue their college dream.
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true

@@ -7,9 +7,9 @@ google_analytics_id: ""
 homepage:
   show_call_box: true
 logo:
-  mobile: "images/logo/logo-mobile.svg"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "36px"
+  mobile: "images/logo/dream100.org-logo-x.png"
+  desktop: "images/logo/dream100.org-logo-x.png"
+  desktop_height: "26px"
 footer:
   copyright_text: 'Free Jekyll theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
 
@@ -17,8 +17,8 @@ seo:
   meta_og_title: "Dream 100"
   meta_og_type: "website"
   meta_og_url: "https://dream100.org"
-  meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
-  meta_og_description: "We help poor talents of Nepal to complete their higher education."
+  meta_og_image: "https://dream100.org/images/screenshots/post-01.png"
+  meta_og_description: "We help poor talents of Nepal to pursue their college dream."
   meta_twitter_card: "summary"
   meta_twitter_site: "@dream100org"
   meta_twitter_creator: "@itsmesuvash"
