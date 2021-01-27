@@ -1,5 +1,5 @@
 ---
-title: Dream 100
+title: Dream 100 - We help poor talents of Nepal to pursue their college dream.
 layout: home
 description: We help poor talents of Nepal to pursue their college dream.
 intro_image: "images/illustrations/pointing.svg"

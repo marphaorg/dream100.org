@@ -9,24 +9,25 @@ layout: default
         {{ content }}
       </div>
     </div>
+
     {% if site.data.donations %}
-    <div class="strip">
-      <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-        <div class="row justify-content-center">
-          {% for donation in site.data.donations %}
-          <div class="col-12 col-md-6 col-lg-4 mb-2">
-            <div class="donation">
-              <small>#{{ donation.sn }}</small>
-              <h2 class="donation-donor">{{ donation.donor }}</h2>
-              <div class="donation-content">
-                {{ donation.currency }}{{ donation.amount }}
-              </div>
-              <div class="donation-date">on {{ donation.date }}</div>
-            </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      {% for donation in site.data.donations %}
+      <div class="col">
+        <div class="card border-primary">
+          <div class="card-header">#{{ donation.sn }}</div>
+          <div class="card-body text-primary">
+            <h5 class="card-title">{{ donation.donor }}</h5>
+            <p class="card-text">
+              {{ donation.currency }}{{ donation.amount }}
+            </p>
           </div>
-          {% endfor %}
+          <div class="card-footer">
+            <small class="text-muted">on {{ donation.date }}</small>
+          </div>
         </div>
       </div>
+      {% endfor %}
     </div>
     {% endif %}
   </div>
