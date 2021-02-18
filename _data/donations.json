@@ -89,6 +89,13 @@
       "currency": "रु. ",
       "amount": 5000,
       "date": "Jan 6, 2021"
+    },
+    {
+      "sn":14,
+      "donor": "Tej Budha",
+      "currency": "$",
+      "amount": 100,
+      "date": "Feb 18, 2021"
     }
   ]
   
