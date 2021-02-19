@@ -96,6 +96,13 @@
       "currency": "$",
       "amount": 100,
       "date": "Feb 18, 2021"
+    },
+    {
+      "sn":14,
+      "donor": "Ajay Shrestha",
+      "currency": "$",
+      "amount": 50,
+      "date": "Feb 18, 2021"
     }
   ]
   
