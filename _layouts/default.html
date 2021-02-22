@@ -1,61 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" type="image/png" href="{{ '/images/favicon-32x32.svg' | relative_url }}">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-  <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
-  <link href="{{ '/assets/css/custom.css' | relative_url }}" rel="stylesheet">
-  {% if page.description %}
-  <meta name="description" content="{{ page.description }}" />
-  {% endif %}
-  <meta property="og:title" content="{{ site.seo.meta_og_title }}" />
-  <meta property="og:type" content="{{ site.seo.meta_og_type }}" />
-  <meta property="og:url" content="{{ site.seo.meta_og_url }}" />
-  <meta property="og:image" content="{{ site.seo.meta_og_image }}" />
-  <meta property="og:description" content="{{ site.seo.meta_og_description }}" />
-  <meta name="twitter:card" content="{{ site.seo.meta_twitter_card }}" />
-  <meta name="twitter:site" content="{{ site.seo.meta_twitter_site }}" />
-  <meta name="twitter:creator" content="{{ site.seo.meta_twitter_creator }}" />
-</head>
-<body class='page {{page.bodyClass}}'>
-  <!-- Load Facebook SDK for JavaScript -->
-  <div id="fb-root"></div>
-  <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        xfbml            : true,
-        version          : 'v9.0'
-      });
-    };
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+    <link rel="icon" type="image/png" href="/assets/img/favicon-32x32.svg" />
 
-  <!-- Your Chat Plugin code -->
-  <div class="fb-customerchat"
-    attribution=setup_tool
-    page_id="103598435072203"
-theme_color="#4484ce"
-greeting_dialog_display="hide"
-logged_in_greeting="Hi Namaste! Do you have question about dream100.org?"
-logged_out_greeting="Hi Namaste! Do you have question about dream100.org?">
-  </div>
-  {% include main-menu-mobile.html %}
-  <div id="wrapper" class="wrapper">
-    {% include header.html headerClass='header-extra' %}
-    {{content}}
-  </div>
-  {% include footer.html %}
-  
-  <script type="text/javascript" src="{{ "/assets/js/scripts.js" | relative_url }}""></script>
-  {% include google-analytics.html %}
-</body>
+    <!-- CSS here -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/assets/css/slicknav.css" />
+    <link rel="stylesheet" href="/assets/css/flaticon.css" />
+    <link rel="stylesheet" href="/assets/css/progressbar_barfiller.css" />
+    <link rel="stylesheet" href="/assets/css/gijgo.css" />
+    <link rel="stylesheet" href="/assets/css/animate.min.css" />
+    <link rel="stylesheet" href="/assets/css/animated-headline.css" />
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="/assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="/assets/css/slick.css" />
+    <link rel="stylesheet" href="/assets/css/nice-select.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/dream100.css" />
+  </head>
+  <body>
+
+    {% include header.html %}
+
+    <main>{{ content }}</main>
+
+    {% include footer.html %}
+
+    <!-- Scroll Up -->
+    <div id="back-top">
+      <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+    {% include scripts.html %}
+  </body>
 </html>
