@@ -6,3 +6,29 @@
         height: 20px;
     }
 }
+
+.btn-faq {
+    /* background: #09cc7f; */
+    font-family: "Muli", sans-serif;
+    padding: 30px 15px;
+    /* color: #fff; */
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 0px;
+    line-height: 1;
+    -moz-user-select: none;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-bottom: 0;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    overflow: hidden;
+    margin: 0;
+  }
+  

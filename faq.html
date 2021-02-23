@@ -1,0 +1,46 @@
+---
+layout: default
+title: Frequently Asked Questions
+permalink: /faq/
+---
+
+<div class="container">
+  <div class="container py-3">
+    <div class="row">
+      <div class="col-12 mx-auto">
+        <div class="accordion" id="faqExample">
+          {% for q in site.data.faq %}
+          <div class="card">
+            <div class="card-header p-2" id="headingOne">
+              <h5 class="mb-0">
+                <button
+                  class="btn-faq btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#faq_{{forloop.index0}}"
+                  aria-expanded="true"
+                  aria-controls="{{forloop.index0}}"
+                >
+                  {{ q.question }}
+                </button>
+              </h5>
+            </div>
+
+            <div
+              id="faq_{{forloop.index0}}"
+              class="collapse pb-4"
+              aria-labelledby="headingOne"
+              data-parent="#faqExample"
+            >
+              <div class="card-body" style="padding-left: 20px;"><b>Answer:</b> {{ q.ans }}</div>
+            </div>
+          </div>
+          {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/row-->
+  </div>
+  <!--container-->
+</div>
