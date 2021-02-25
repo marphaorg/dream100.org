@@ -1,0 +1,25 @@
+year_2021:
+  - name: Student name 1
+    college: College Name, Address
+    img: /assets/img/dreamers/1.png
+  - name: Student name 2
+    college: College Name, Address
+    img: /assets/img/dreamers/2.png
+  - name: Student name 3
+    college: College Name, Address
+    img: /assets/img/dreamers/3.png
+  - name: Student name 4
+    college: College Name, Address
+    img: /assets/img/dreamers/4.png
+  - name: Student name 5
+    college: College Name, Address
+    img: /assets/img/dreamers/5.png
+  - name: Student name 6
+    college: College Name, Address
+    img: /assets/img/dreamers/6.png
+  - name: Student name 7
+    college: College Name, Address
+    img: /assets/img/dreamers/7.png
+  - name: Student name 8
+    college: College Name, Address
+    img: /assets/img/dreamers/8.png
