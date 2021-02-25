@@ -1,36 +1,42 @@
-- name: Suvash Shah
-  title: Team Member
-  img: /assets/img/volunteers/1.png
-- name: Archana Shah
-  title: Team Member
-  img: /assets/img/volunteers/2.png
-- name: Binju Shah
-  title: Team Member
-  img: /assets/img/volunteers/3.png
 - name: Andaj Shah
   title: Team Member
-  img: /assets/img/volunteers/4.png
-- name: Rajib Bista
+  img: /assets/img/team/4.png
+- name: Archana Shah
   title: Team Member
-  img: /assets/img/volunteers/5.png
-- name: Kishor Bista
+  img: /assets/img/team/2.png
+- name: Binju Shah
   title: Team Member
-  img: /assets/img/volunteers/6.png
-- name: Nirmala Giri
-  title: Team Member
-  img: /assets/img/volunteers/7.png
-- name: Pawan Shahi
-  title: Team Member
-  img: /assets/img/volunteers/8.png
-- name: Man B Thapa
-  title: Team Member
-  img: /assets/img/volunteers/9.png
-- name: Khadanand Poudel
-  title: Team Member
-  img: /assets/img/volunteers/10.png
-- name: Krishna B Shah
-  title: Team Member
-  img: /assets/img/volunteers/11.png
+  img: /assets/img/team/3.png
 - name: Harindra B Shah
   title: Team Member
-  img: /assets/img/volunteers/12.png
+  img: /assets/img/team/12.png
+- name: Khadanand Poudel
+  title: Team Member
+  img: /assets/img/team/10.png
+- name: Kishor Bista
+  title: Team Member
+  img: /assets/img/team/6.png
+- name: Krishna B Shah
+  title: Team Member
+  img: /assets/img/team/11.png
+- name: Man B Thapa
+  title: Team Member
+  img: /assets/img/team/9.png
+- name: Nirmala Giri
+  title: Team Member
+  img: /assets/img/team/7.png
+- name: Pawan Shahi
+  title: Team Member
+  img: /assets/img/team/8.png
+- name: Rajib Bista
+  title: Team Member
+  img: /assets/img/team/5.png
+- name: Suvash Shah
+  title: Team Member
+  img: /assets/img/team/0.png
+
+
+
+
+
+
