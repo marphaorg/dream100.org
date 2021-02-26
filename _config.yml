@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: We help poor talents of Nepal to pursue their college dream
+title: We help low-income students of Nepal to pursue their college dreams.
 email: hello@dream100.org
 description: >- # this means to ignore newlines until "baseurl:"
-  We help poor talents of Nepal to pursue their college dream.
+  We help low-income students of Nepal to pursue their college dreams.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dream100.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dream100org
