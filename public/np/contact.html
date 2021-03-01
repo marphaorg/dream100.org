@@ -12,13 +12,13 @@ permalink: /सम्पर्क/
       <div class="row">
         <div class="col-xl-12">
           <div class="hero-cap hero-cap2 pt-20 text-center">
-            <h2>Contact Us</h2>
+            <h2>{{site.data.translations.contact[page.lang]}}</h2>
             <p>
-              Please visit
-              <a class="btn-link" href="/faq/" target="_blank"
-                >frequently asked questions(FAQ)</a
+              हामीलाई सम्पर्क गर्नु भन्दा पहिले एक पटक
+              <a class="btn-link" href="{{site.data.links.faq[page.lang].url}}"
+                >{{site.data.links.faq[page.lang].label}}(FAQ)</a
               >
-              section before reaching out to us.
+              पेज हेर्नु होला |
             </p>
           </div>
         </div>
@@ -32,7 +32,7 @@ permalink: /सम्पर्क/
   <div class="container">
     <div class="section-top-border">
       <div class="row">
-        {% for contact in site.data.contacts %}
+        {% for contact in site.data.contacts[page.lang].agents %}
         <div class="col-md-3">
           <div class="single-defination">
             <h4 class="mb-10">{{ contact.country }}</h4>

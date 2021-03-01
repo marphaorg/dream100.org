@@ -1,3 +1,24 @@
 donate:
   en: "Donate"
   np: "दान पेटिका"
+important_links:
+  en: "Important Links"
+  np: "महत्वपूर्ण पेजहरु"
+contact_info:
+  en: Contact Info
+  np: सम्पर्क ठेगाना
+address:
+  en: Address
+  np: ठेगाना
+phone:
+  en: Phone
+  np: फोन
+email:
+  en: Email
+  np: ईमेल
+contact:
+  en: Contact
+  np: सम्पर्क
+faq:
+  en: Frequently Asked Questions
+  np: सामान्यतया सोधिएका प्रश्नहरू

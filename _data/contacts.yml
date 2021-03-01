@@ -1,15 +1,41 @@
-- country: Europe
-  agent: Pawan Bikram Shahi
-  cell: '+3 592 011 6532'
+en:
+  address: Airawati - 5, Pyuthan, Lumbini, Nepal.
+  phone: '+977 986 189 7510'
+  email: hello@dream100.org
+  agents:
+    - country: Europe
+      agent: Pawan Bikram Shahi
+      cell: '+3 592 011 6532'
 
-- country: Nepal
-  agent: Archana Shah
-  cell: '+977 986 189 7510'
+    - country: Nepal
+      agent: Archana Shah
+      cell: '+977 986 189 7510'
 
-- country: South Asia
-  agent: Rajib Bista
-  cell: '+60 112 137 1674'
+    - country: South Asia
+      agent: Rajib Bista
+      cell: '+60 112 137 1674'
 
-- country: United States
-  agent: Suvash Shah
-  cell: '+1 415 813 8951'
+    - country: United States
+      agent: Suvash Shah
+      cell: '+1 415 813 8951'
+
+np:
+  address: ऐरावती - ५ प्यूठान, लुम्बिनी, नेपाल
+  phone: '+९७७ ९८६ १८९ ७५१०'
+  email: hello@dream100.org
+  agents:
+    - country: Europe
+      agent: Pawan Bikram Shahi
+      cell: '+3 592 011 6532'
+
+    - country: Nepal
+      agent: Archana Shah
+      cell: '+९७७ ९८६ १८९ ७५१०'
+
+    - country: South Asia
+      agent: Rajib Bista
+      cell: '+60 112 137 1674'
+
+    - country: United States
+      agent: Suvash Shah
+      cell: '+1 415 813 8951'

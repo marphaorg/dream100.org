@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: en
 title: Contact
 permalink: /contact/
 ---
@@ -31,7 +32,7 @@ permalink: /contact/
   <div class="container">
     <div class="section-top-border">
       <div class="row">
-        {% for contact in site.data.contacts %}
+        {% for contact in site.data.contacts[page.lang].agents %}
         <div class="col-md-3">
           <div class="single-defination">
             <h4 class="mb-10">{{ contact.country }}</h4>
