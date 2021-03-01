@@ -24,18 +24,18 @@ np:
   phone: '+९७७ ९८६ १८९ ७५१०'
   email: hello@dream100.org
   agents:
-    - country: Europe
-      agent: Pawan Bikram Shahi
-      cell: '+3 592 011 6532'
+    - country: युरोप
+      agent: पवन विक्रम शाही
+      cell: '+३ ५९२ ०११ ६५३२'
 
-    - country: Nepal
-      agent: Archana Shah
+    - country: नेपाल
+      agent: अर्चना शाह
       cell: '+९७७ ९८६ १८९ ७५१०'
 
-    - country: South Asia
-      agent: Rajib Bista
-      cell: '+60 112 137 1674'
+    - country: दक्षिण एसिया
+      agent: राजीब बिस्ट
+      cell: '+६० ११२ १३७ १६७४'
 
-    - country: United States
-      agent: Suvash Shah
-      cell: '+1 415 813 8951'
+    - country: अमेरिका
+      agent: सुभाष शाह
+      cell: '+१ ४१५ ८१३ ८९५१'
