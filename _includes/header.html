@@ -21,9 +21,15 @@
             <div class="row d-flex justify-content-between align-items-center">
               <div class="header-info-left d-flex">
                 <ul>
-                  <li>Airawati - 5 Pyuthan, Lumbini, Nepal</li>
-                  <li>Phone: +977 986 189 7510</li>
-                  <li>Email: hello@dream100.org</li>
+                  <li>{{ site.data.contacts[page.lang].address }}</li>
+                  <li>
+                    {{ site.data.translations.phone[page.lang]}}: {{
+                    site.data.contacts[page.lang].phone }}
+                  </li>
+                  <li>
+                    {{ site.data.translations.email[page.lang]}}: {{
+                    site.data.contacts[page.lang].email }}
+                  </li>
                 </ul>
                 <div class="header-social">
                   <ul>
