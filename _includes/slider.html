@@ -1,0 +1,41 @@
+<!-- slider Area Start-->
+<div class="slider-area">
+  <div class="slider-active">
+    <!-- Single Slider -->
+    <div class="single-slider slider-height d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
+            <div class="hero__caption">
+              <h1 data-animation="fadeInUp" data-delay=".6s">
+                {{ site.data.translations.slogan[page.lang]}}
+              </h1>
+              <p data-animation="fadeInUp" data-delay=".8s">
+                {{ site.data.translations.we_pay_your_college_fee[page.lang]}}
+              </p>
+              <!-- Hero-btn -->
+              <div class="hero__btn">
+                <a
+                  href="{{ site.data.links.apply[page.lang].url }}"
+                  class="btn hero-btn mb-10"
+                  data-animation="fadeInLeft"
+                  data-delay=".8s"
+                  >{{ site.data.links.apply[page.lang].label}}</a
+                >
+                <a
+                  href="{{ site.data.links.get_involved[page.lang].url }}"
+                  class="btn white-btn mb-10"
+                  data-animation="fadeInRight"
+                  data-delay="1.0s"
+                >
+                  {{ site.data.links.get_involved[page.lang].label}}
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- slider Area End-->

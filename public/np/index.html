@@ -5,96 +5,12 @@ title: Dream100.Org
 permalink: /np
 ---
 
-<!-- slider Area Start-->
-<div class="slider-area">
-  <div class="slider-active">
-    <!-- Single Slider -->
-    <div class="single-slider slider-height d-flex align-items-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
-            <div class="hero__caption">
-              <h1 data-animation="fadeInUp" data-delay=".6s">
-                के तपाईलाई कलेज पढ्ने रहर छ र आर्थिक अवस्थाले गर्दा पढ्न पाउनु
-                भएको छैन ?
-              </h1>
-              <p data-animation="fadeInUp" data-delay=".8s">
-                कलेज पढ्न लाग्ने सम्पूर्ण खर्च हामी तिरिदिने छौँ ।
-              </p>
-              <!-- Hero-btn -->
-              <div class="hero__btn">
-                <a
-                  href="{{ site.data.links.apply[page.lang].url }}"
-                  class="btn hero-btn mb-10"
-                  data-animation="fadeInLeft"
-                  data-delay=".8s"
-                  >{{ site.data.links.apply[page.lang].label}}</a
-                >
-                <a
-                  href="{{ site.data.links.get_involved[page.lang].url }}"
-                  class="btn white-btn mb-10"
-                  data-animation="fadeInRight"
-                  data-delay="1.0s"
-                >
-                  {{ site.data.links.get_involved[page.lang].label}}
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- slider Area End-->
+<!-- Slider-->
+{% include slider.html %}
+<!-- Services -->
 {% include services.html %}
-<!--? About Law Start-->
-<section class="about-low-area section-padding2">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-10">
-        <div class="about-caption mb-50">
-          <!-- Section Tittle -->
-          <div class="section-tittle mb-35">
-            <span>About Dream100.Org</span>
-            <h2>It started with a couple's dream to educate 100 students</h2>
-          </div>
-          <p>
-            Amrita and I(Suvash) are blessed to say that, on December 1st, 2020,
-            we got married in front of two hundred family, friends, and
-            relatives at Hotel Sneha Nepalgunj, Nepal.
-          </p>
-          <p>
-            We want to share our happiness by sponsoring one hundred poor
-            talents of Nepal to continue their higher education. During our
-            marriage ceremony, we received many Dakshina and gifts as love and
-            blessing from both sides of our family, and relatives. Amrita and I
-            decided that we will donate collected Dakshina amount of $1,000 to
-            help school kids to pursue their college dream.
-          </p>
-          <p>
-            We will donate $1,000 every year until the 100th kid completes
-            his/her college degree.
-          </p>
-        </div>
-        <a href="/a-dream-to-educate-100-kids/" class="btn">Read full story</a>
-      </div>
-      <div class="col-lg-6 col-md-12">
-        <!-- about-img -->
-        <div class="about-img">
-          <div class="about-font-img d-none d-lg-block">
-            <img src="/assets/img/post/weds-day1.png" alt="" />
-          </div>
-          <div class="about-back-img">
-            <img src="/assets/img/post/weds-day2.JPG" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- About Law End-->
-{% include team.html %}
+<!-- About -->
+{% include about.html %}
 <!-- Want To work -->
 <section class="wantToWork-area">
   <div class="container">
