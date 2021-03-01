@@ -13,3 +13,19 @@ faq:
   np:
     label: सामान्यतया सोधिएका प्रश्नहरू
     url: /सामान्यतया-सोधिएका-प्रश्नहरू/
+
+apply:
+  en:
+    label: apply
+    url: /apply/
+  np:
+    label: आवेदन
+    url: /आवेदन/
+
+get_involved:
+  en:
+    label: Get Involved
+    url: /join-us/
+  np:
+    label: सहभागिता
+    url: /सहभागिता/

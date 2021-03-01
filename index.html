@@ -1,7 +1,8 @@
 ---
-title: Dream100.Org
 layout: default
 lang: np
+title: Dream100.Org
+permalink: /
 ---
 
 <!-- slider Area Start-->
@@ -14,29 +15,28 @@ lang: np
           <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
             <div class="hero__caption">
               <h1 data-animation="fadeInUp" data-delay=".6s">
-                We help low-income students<br />
-                to pursue their college dreams.
+                के तपाईलाई कलेज पढ्ने रहर छ र आर्थिक अवस्थाले गर्दा पढ्न पाउनु
+                भएको छैन ?
               </h1>
               <p data-animation="fadeInUp" data-delay=".8s">
-                Dream100.Org is a social charitable initiative run by
-                volunteers.
+                कलेज पढ्न लाग्ने सम्पूर्ण खर्च हामी तिरिदिने छौँ ।
               </p>
               <!-- Hero-btn -->
               <div class="hero__btn">
                 <a
-                  href="/donate/"
+                  href="{{ site.data.links.apply[page.lang].url }}"
                   class="btn hero-btn mb-10"
                   data-animation="fadeInLeft"
                   data-delay=".8s"
-                  >Donate</a
+                  >{{ site.data.links.apply[page.lang].label}}</a
                 >
                 <a
-                  href="/join-us/"
+                  href="{{ site.data.links.get_involved[page.lang].url }}"
                   class="btn white-btn mb-10"
                   data-animation="fadeInRight"
                   data-delay="1.0s"
                 >
-                  Get Involve
+                  {{ site.data.links.get_involved[page.lang].label}}
                 </a>
               </div>
             </div>
