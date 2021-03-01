@@ -1,0 +1,15 @@
+donate:
+  en: 
+    label: donate
+    url: /donate/
+  np:
+    label: दान पेटिका
+    url: /दान-पेटिका/
+
+faq:
+  en:
+    label: FAQ
+    url: /faq/
+  np:
+    label: सामान्यतया सोधिएका प्रश्नहरू
+    url: /सामान्यतया-सोधिएका-प्रश्नहरू/

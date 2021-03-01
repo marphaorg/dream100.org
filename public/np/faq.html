@@ -1,0 +1,65 @@
+---
+layout: default
+lang: np
+title: सामान्यतया सोधिएका प्रश्नहरू
+permalink: /सामान्यतया-सोधिएका-प्रश्नहरू/
+---
+<!--? Hero Start -->
+<div class="slider-area2">
+  <div class="slider-height2 d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="hero-cap hero-cap2 pt-20 text-center">
+            <h2>सामान्यतया सोधिएका प्रश्नहरू</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Hero End -->
+<div class="container">
+  <div class="container py-3">
+    <div class="row">
+      <div class="col-12 mx-auto">
+        <div class="accordion" id="faqExample">
+          {% for q in site.data.faq %}
+          <div class="card">
+            <div class="card-header p-2" id="headingOne">
+              <h5 class="mb-0">
+                <button
+                  class="btn-faq btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#faq_{{forloop.index0}}"
+                  aria-expanded="true"
+                  aria-controls="{{forloop.index0}}"
+                >
+                  {{ q.question }}
+                </button>
+              </h5>
+            </div>
+
+            <div
+              id="faq_{{forloop.index0}}"
+              class="collapse pb-4"
+              aria-labelledby="headingOne"
+              data-parent="#faqExample"
+            >
+              <div class="card-body" style="padding-left: 20px;"><b>Answer:</b> {{ q.ans }}</div>
+            </div>
+          </div>
+          {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="alert alert-primary mt-5" role="alert">
+        If you still have a question? Please email us at hello@dream100.org.
+      </div>
+    </div>
+    <!--/row-->
+    
+  </div>
+  <!--container-->
+</div>

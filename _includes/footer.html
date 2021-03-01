@@ -39,9 +39,9 @@
               <div class="footer-tittle">
                 <h4>Important Link</h4>
                 <ul>
-                  <li><a href="/faq/"> FAQ</a></li>
-                  <li><a href="/donors/">Donors</a></li>
-                  <li><a href="/dreamers/">Dreamers</a></li>
+                  {% for implink in site.data.important-links[page.lang] %}
+                  <li><a href="{{implink.url}}"> {{ implink.title }}</a></li>
+                  {% endfor %}
                 </ul>
               </div>
             </div>

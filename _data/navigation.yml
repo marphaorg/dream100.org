@@ -1,14 +1,22 @@
-- title: Home
-  url: /
-
-- title: Work
-  url: /work/
-
-- title: About
-  url: /about/
-
-- title: Get Involved
-  url: /join-us/
-
-- title: Contact
-  url: /contact/
+en:
+  - title: Home
+    url: /en
+  - title: Work
+    url: /work/
+  - title: About
+    url: /about/
+  - title: Get Involved
+    url: /join-us/
+  - title: Contact
+    url: /contact/
+np:
+  - title: गृहपृष्ठ
+    url: /np
+  - title: हाम्रो कार्य
+    url: /हाम्रो-कार्य/
+  - title: हाम्रो बारेमा
+    url: /हाम्रो-बारेमा/
+  - title: सामेल हुनुहोस्
+    url: /सामेल-हुनुहोस्/
+  - title: सम्पर्क
+    url: /सम्पर्क/
