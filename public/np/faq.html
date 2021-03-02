@@ -36,7 +36,7 @@ permalink: /सामान्यतया-सोधिएका-प्रश्
                   aria-expanded="true"
                   aria-controls="{{forloop.index0}}"
                 >
-                  {{ q.question }}
+                  {{ q.question[page.lang] }}
                 </button>
               </h5>
             </div>
@@ -47,7 +47,7 @@ permalink: /सामान्यतया-सोधिएका-प्रश्
               aria-labelledby="headingOne"
               data-parent="#faqExample"
             >
-              <div class="card-body" style="padding-left: 20px;"><b>Answer:</b> {{ q.ans }}</div>
+              <div class="card-body" style="padding-left: 20px;"><b>Answer:</b> {{ q.ans[page.lang] }}</div>
             </div>
           </div>
           {% endfor %}

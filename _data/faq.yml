@@ -1,23 +1,63 @@
-- question: What is dream100.org?
-  ans: Dream100.Org is a social charitable initiative run by volunteers with the aim of helping the poor talents of Nepal to complete a college education.
+- question: 
+      en: What is dream100.org?
+      np: Dream100.org भनेको के हो?
+  ans: 
+      en: Dream100.Org is a social charitable initiative run by volunteers with the aim of helping the low-income students of Nepal to complete a college education.
+      np: Dream100.org कमजोर आर्थिक अवस्था भएका विद्यार्थीलाई कलेज (कक्षा ११र १२) पढ्न मद्दत गर्ने उदेश्यले सुरु गरिएको स्वयंसेवक बाट संचालित सामाजिक कार्यक्रम हो।
 
-- question: Is this a registered organization?
-  ans: No, Dream100.Org is not a registered organization.
+- question:
+    en: Is this a registered organization?
+    np: के यो अधिकारिक रुपमा नेपाल सरकारमा दर्ता भएको संस्था हो?
+  ans: 
+    en: No, Dream100.Org is not a registered organization.
+    np: Dream100.org अझै नेपाल सरकारमा दर्ता भैसकेको छैन।
 
-- question: How this project is helping students to continue college education?
-  ans: If the student is not able to join college only because of financial condition, we provide them free scholarship and mentorship until they finish a college degree.
+- question: 
+    en: How this project is helping low-income students to continue college education?
+    np: यो कार्यक्रमले कमजोर आर्थिक अवस्था भएका विद्यार्थीहरुलाई कलेज पढ्न कसरी सहयोग गर्छ?
+  ans: 
+    en: If the student is not able to join college only because of financial condition, we provide them finincial assistantship and mentorship until they finish a college degree.
+    np: यदि कलेजको सुल्क तिर्न नसकेर कोहि विद्यार्थी आफ्नो पढाई अधुरो छोड्ने अवस्था भएमा हामी उसलाई पढ्न विभिन्न तरिकाले मद्धत गर्दछौ, जस्तै कलेजको सम्पूर्ण सुल्क तिरिदिने, उसलाई निसुल्क Coaching, Counsiling, Mentoring, and Tution पढाउने ईत्यादी गर्छौ ता कि  विद्यार्थीले सफल रुपमा पढाई पुरा गर्न सकोस् । 
 
-- question: Do I have to get the first division in SEE in order to apply for the free scholarship?
-  ans: No, there are no eligibility criteria to apply for a scholarship. All are welcome to apply. Our selection committee verifies the student's background and awards the scholarship.
+- question:
+    en: What are the eligibility to get finincial assistance?
+    np: A
+  ans:
+    en: 'In order to be eligible to get finincial assistance from dream100.org program, student has to meet following conditions:
+        <br/> 1. Low-income status
+        <br/> 2. Completed his/her school level education (SEE) from one of the schools of Pyuthan Nepal.
+        <br/> 3. Choose to study in one of the colleges of Pyuthan Nepal'
+    np: A
+- question: 
+    en: Do I have to get the first division in SEE in order to get the finincial assistance?
+    np: A
+  ans: 
+    en: No, there is no such criteria. All are welcome to apply. Our selection committee verifies the student's background and awards the scholarship.
+    np: a
 
-- question: If selected, can I study anywhere in Nepal?
-  ans: Currently this program is available for the colleges of Pyuthan Nepal. In future, we are planning to expand in other areas of Nepal.
+- question: 
+    en: If selected, can I study anywhere in Nepal?
+    np: A
+  ans: 
+    en: Currently this program is available for the colleges of Pyuthan Nepal. In future, we are planning to expand in other areas of Nepal.
+    np: A
+- question: 
+    en: If selected, can I study in any college of Pyuthan Nepal?
+    np: A
+  ans: 
+    en: Yes, student can get admitted to any college of Pyuthan Nepal and we will take care of the college fee regardless of any amount.
+    np: A
 
-- question: If selected, can I study in any college of Pyuthan Nepal?
-  ans: Yes, student can get admitted to any college of Pyuthan Nepal and we will take care of the college fee regardless of any amount.
+- question: 
+    en: When can I apply for the scholarship?
+    np: A
+  ans: 
+    en: We open the application once a year. Generally we open the application after SEE result is published. 
+    np: A
 
-- question: When can I apply for the scholarship?
-  ans: We open the application once a year. Generally we open the application after SEE result is published. 
-
-- question: Is there a number of scholarship quota for each year?
-  ans: Yes, we awards the free scholarship about 10 to 15 students per year. Once the student is selected, he/she will be able to study grade 11 and 12 and we will cover the entire college fee.
+- question: 
+    en: Is there a number of scholarship quota for each year?
+    np: A
+  ans: 
+    en: Yes, we awards the free scholarship about 10 to 15 students per year. Once the student is selected, he/she will be able to study grade 11 and 12 and we will cover the entire college fee.
+    np: A
