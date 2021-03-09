@@ -123,3 +123,21 @@
   <!-- Header End -->
 </header>
 <!-- header end -->
+<div class="header-info-right d-flex align-items-center justify-content-end">
+  <div class="select-this">
+    <div class="select-itms">
+      <select name="select" id="select1" onchange="languageChange()">
+        {% for lang in site.data.languages %} {% if lang.code == page.lang %}
+        <option value="{{ lang.code }}" selected>
+          {{ lang.name }} {{ lang.icon }}
+        </option>
+        {% else %}
+        <option value="{{ lang.code }}">{{ lang.name }} {{ lang.icon }}</option>
+        {% endif %} {% endfor %}
+      </select>
+    </div>
+  </div>
+  <!-- <ul class="contact-now">
+    <li><a href="#">Subscribe Now</a></li>
+  </ul> -->
+</div>
