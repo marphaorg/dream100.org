@@ -5,6 +5,8 @@ en:
     url: /donors/
   - title: Dreamers
     url: /dreamers/
+  - title: Application for 2078
+    url: /apply/
 
 np:
   - title: सामान्यतया सोधिएका प्रश्नहरू
@@ -13,3 +15,5 @@ np:
     url: /दाताहरु/
   - title: भबिस्यका कर्णधारहरु
     url: /भबिस्यका-कर्णधारहरु/
+  - title: ड्रिम हन्ड्रेड आवेदन २०७८
+    url: /आवेदन/
