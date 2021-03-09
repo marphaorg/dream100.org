@@ -37,3 +37,11 @@ new_idea:
   np:
     label: तपाईको विचार
     url: /तपाईको-विचार/
+
+let_us_know:
+  en:
+    label: Let us know
+    url: /let-us-know/
+  np:
+    label: हामीलाई जानकारी दिनुहोस्
+    url: /जानकारी/

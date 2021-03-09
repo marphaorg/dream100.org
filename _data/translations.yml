@@ -41,8 +41,8 @@ your_name:
   en: Your name
   np: तपाईको नाम
 your_email:
-  en: Your email
-  np: ईमेल ठेगाना
+  en: Type your email or phone number
+  np: ईमेल/सम्पर्क फोन टाइप गर्नुहोस
 send:
   en: Send
   np: पठाउनुहोस
@@ -57,4 +57,10 @@ got_a_new_idea:
   np: के तपाई सँग कुनै फरक उपाय छ? 
 share_with_us:
   en: Share with us
-  np: हामीलाई बताउनु होस् 
+  np: हामीलाई बताउनु होस्
+do_you_know_needy_students:
+  en: Do you know someone in your community who needs financial assistance?
+  np: तपाईको गाउँमा आर्थिक समस्याले गर्दा कलेज पढ्न नसकेको कोहि विधार्थी छ ? 
+let_us_know:
+  en: Let us know
+  np: हामीलाई जानकारी दिनुहोस्
