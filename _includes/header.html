@@ -21,7 +21,10 @@
             <div class="row d-flex justify-content-between align-items-center">
               <div class="header-info-left d-flex">
                 <ul>
-                  <li>{{ site.data.contacts[page.lang].address }}</li>
+                  <li>
+                    {{ site.data.contacts[page.lang].address }} {{
+                    site.data.contacts[page.lang].address2 }}
+                  </li>
                   <li>
                     {{ site.data.translations.phone[page.lang]}}: {{
                     site.data.contacts[page.lang].phone }}

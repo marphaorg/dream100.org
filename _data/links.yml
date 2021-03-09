@@ -29,3 +29,11 @@ get_involved:
   np:
     label: सहभागिता
     url: /सहभागिता/
+
+new_idea:
+  en:
+    label: New Idea
+    url: /new-idea/
+  np:
+    label: तपाईको विचार
+    url: /तपाईको-विचार/

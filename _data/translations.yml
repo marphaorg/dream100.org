@@ -25,9 +25,30 @@ email:
 contact:
   en: Contact
   np: सम्पर्क
+contact_form:
+  en: Contact Form
+  np: सम्पर्क फारम
 faq:
   en: Frequently Asked Questions
   np: सामान्यतया सोधिएका प्रश्नहरू
 do_you_want_to_join:
   en: Do you want to be a part of our initiative?
   np: के तपाई पनि हामी संगै हातेमालो गर्न चाहनुहुन्छ?
+please_type_your_message_here:
+  en: Please type your message here
+  np: सन्देस टाइप गर्नुहोस
+your_name:
+  en: Your name
+  np: तपाईको नाम
+your_email:
+  en: Your email
+  np: ईमेल ठेगाना
+send:
+  en: Send
+  np: पठाउनुहोस
+join_us_title:
+  en: Education is the only hope of many low-income students to transform the life of theirs family.
+  np: छोरा छोरिको उच्च शिक्षा, धेरै आमा बाबुको लागि गरिबी बाट उन्मुक्ति पाउने एक मात्र आशा हो ।
+join_us_subtitle:
+  en: Not able to go to college will end their hope forever.
+  np: हामी त्यो बाबु आमाको आशालाई निभ्न दिने छैनौ, तपाई पनि विभिन्न तरिकाले हामी संग हातेमालो गर्न सक्नु हुन्छ ।
