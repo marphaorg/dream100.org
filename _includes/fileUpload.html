@@ -27,6 +27,7 @@
   let selectedFile;
   function handleFileUploadChange(e) {
     selectedFile = e.target.files[0];
+    $("#btnUpload").enable();
   }
   function handleFileUploadSubmit(e) {
     var dt = new Date();

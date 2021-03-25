@@ -30,28 +30,136 @@ permalink: /आवेदन/
   </div>
 </div>
 <!-- Hero End -->
-<div class="service-area section-padding30">
+
+<!-- Download Form -->
+<section class="wantToWork-area">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
-        <!-- Section Tittle -->
-        <div class="section-tittle section-tittle2 text-center mb-70">
-          <span>Form Preview</span>
-          <h2>Form-2078</h2>
+    <div
+      class="wants-wrapper w-padding2 section-bg"
+      data-background="/assets/img/gallery/section_bg02.png"
+    >
+      <div class="row align-items-center justify-content-between">
+        <div class="col-xl-5 col-lg-9 col-md-8">
+          <h2>आवेदन बुझाउने अन्तिम मिति: जेष्ठ ३१ गते सोमवार</h2>
+          <div class="wantToWork-caption wantToWork-caption2">
+            <h2>आबेदन फारम</h2>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4">
           <a
             href="/assets/docs/dream100.org-application-form-2078.pdf"
-            class="btn hero-btn mb-10"
-            data-animation="fadeInLeft"
-            data-delay=".8s"
-            >Download</a
+            class="btn white-btn f-right sm-left"
+            >डाउनलोड गर्नुहोस्</a
           >
         </div>
       </div>
     </div>
-    <img
-      class="img-fluid"
-      alt="..."
-      src="/assets/img/apply/dream100-form-2078.jpeg"
-    />
+  </div>
+</section>
+<!-- Download Form End -->
+<!-- Upload Form -->
+<section class="wantToWork-area">
+  <div class="container">
+    <div
+      class="wants-wrapper w-padding2 section-bg"
+      data-background="/assets/img/gallery/section_bg02.png"
+    >
+      <div class="row align-items-center justify-content-between">
+        <div class="col-xl-5 col-lg-9 col-md-8">
+          <h2>आवेदन बुझाउने अन्तिम मिति: जेष्ठ ३१ गते सोमवार</h2>
+          <div class="wantToWork-caption wantToWork-caption2">
+            <h2>आवेदन फारम बुझाउने</h2>
+          </div>
+        </div>
+        <div class="col-xl-7 col-lg-3 col-md-4">
+          <div id="filesubmit">
+            
+            <input
+              type="file"
+              class="file-select"
+              accept="image/*,application/pdf"
+            />
+            <button
+              id="btnUpload"
+              disabled
+              class="btn white-btn f-right sm-left file-submit"
+              onsubmit="handleFileUploadChange(this)"
+            >
+            अपलोड गर्नुहोस्
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Upload Form End -->
+
+<!-- Modal Error -->
+<div
+  class="modal fade"
+  id="modelError"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content border-danger">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLongTitle">Fail</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        There is some problem with application file, please review carefully and try again. For technical help, please contact us.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
   </div>
 </div>
+<!-- Modal Success -->
+<div
+  class="modal fade"
+  id="modelSuccess"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content  border-success">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLongTitle">Success</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        You application form has been successfully uploaded. Please allow us few weeks to review the application.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include fileUpload.html %}
