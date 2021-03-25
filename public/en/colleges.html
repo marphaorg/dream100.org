@@ -1,0 +1,60 @@
+---
+layout: default
+lang: en
+title: Colleges
+permalink: /colleges/
+---
+
+<!--? Hero Start -->
+<div class="slider-area2">
+  <div class="slider-height2 d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="hero-cap hero-cap2 pt-20 text-center">
+            <h2>Colleges</h2>
+            <p>
+              If you don't see your college,
+              <a class="btn-link" href="/enroll-college/" target="_blank"
+                >enroll college here</a
+              >
+              and we will add it after review.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Hero End -->
+
+<!--? Services Area Start -->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
+          <!-- Section Tittle -->
+          <div class="section-tittle section-tittle2 text-center mb-70">
+            <span>Colleges in Dream100 program</span>
+            <h2>{{ site.data.colleges.size }}</h2>
+          </div>
+        </div>
+      </div>
+    <div class="row">
+    {% for college in site.data.colleges %}
+    <div class="col-sm-6 mb-5">
+        <div class="card">
+            <div class="card-body">
+            <h2 class="card-title">{{college.name}}</h2>
+            <h6 class="card-subtitle mb-2 text-muted">{{college.address}}</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <!-- <a href="#" class="btn-link">Card link</a> -->
+            <a href="#" class="btn-link">View Details</a>
+            </div>
+            <div class="card-footer text-muted"><small>Total students: 12</small></div>
+        </div>
+    </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+  <!-- Services Area End -->
