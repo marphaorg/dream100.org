@@ -1,0 +1,77 @@
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+<!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-storage.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+<script src="/firebaseConfig.js"></script>
+<script>
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  //firebase.analytics();
+
+  const storageService = firebase.storage();
+  const storageRef = storageService.ref();
+</script>
+<script>
+  document
+    .querySelector(".file-select")
+    .addEventListener("change", handleFileUploadChange);
+  document
+    .querySelector(".file-submit")
+    .addEventListener("click", handleFileUploadSubmit);
+  let selectedFile;
+  function handleFileUploadChange(e) {
+    selectedFile = e.target.files[0];
+  }
+  function handleFileUploadSubmit(e) {
+    var dt = new Date();
+    const uploadTask = storageRef
+      .child(
+        `forms-2078/${
+          dt.getFullYear() +
+          "_" +
+          dt.getMonth() +
+          "_" +
+          dt.getDate() +
+          "_" +
+          dt.getHours() +
+          "_" +
+          dt.getMinutes() +
+          "_" +
+          dt.getMilliseconds()
+        }_${selectedFile.name}`
+      )
+      .put(selectedFile); //create a child directory called images, and place the file inside this directory
+    uploadTask.on(
+      "state_changed",
+      (snapshot) => {
+        // Observe state change events such as progress, pause, and resume
+      },
+      (error) => {
+        // Handle unsuccessful uploads
+        console.log(error);
+        $("#filesubmit").fadeTo("slow", 1, function () {
+          $("#modelError").fadeIn();
+          $(".modal").modal("hide");
+          $("#modelError").modal("show");
+        });
+      },
+      () => {
+        // Do something once upload is complete
+        console.log("success");
+        $("#filesubmit").fadeTo("slow", 1, function () {
+          $(this).find(":input").attr("disabled", "disabled");
+          $(this).find("label").css("cursor", "default");
+          $("#modelSuccess").fadeIn();
+          $(".modal").modal("hide");
+          $("#modelSuccess").modal("show");
+        });
+      }
+    );
+  }
+</script>
