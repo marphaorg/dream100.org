@@ -17,30 +17,52 @@ const dbCollegeManager = (() => {
   };
 
   // Get College collection
-  const getColleges = (collegeObj) => {
-    db.collection("colleges")
+  const getCollege = (id) => {
+    var dbTask = db.collection("colleges").doc(id);
+    return dbTask;
+  };
+
+  // Get College collection
+  const getColleges = () => {
+    var dbTask = db
+      .collection("colleges")
       //.where("name", "==", "abc")
-      .get()
-      .then((querySnapshot) => {
-        querySnapshot.forEach((doc) => {
-          // doc.data() is never undefined for query doc snapshots
-          console.log(doc.id, " => ", doc.data());
-          return doc.data();
-        });
-      })
-      .catch((error) => {
-        console.log("Error getting documents: ", error);
-      });
+      .get();
+    return dbTask;
   };
 
   // Add College collection
   const addNewCollege = (collegeObj) => {
-    console.log(collegeObj);
+    // Add a new document in collection "cities"
+    var dbTask = db.collection("colleges").add({
+      name_en: collegeObj.name_en,
+      name_np: collegeObj.name_np,
+      address_en: collegeObj.address_en,
+      address_np: collegeObj.address_np,
+      rm_en: collegeObj.rm_en,
+      rm_np: collegeObj.rm_np,
+      desc_en: collegeObj.desc_en,
+      desc_np: collegeObj.desc_np,
+      subjects: collegeObj.subjects,
+    });
+    return dbTask;
   };
 
   // Add College collection
-  const updateCollege = (collegeObj) => {
-    console.log(collegeObj);
+  const updateCollege = (id, collegeObj) => {
+    var collegeRef = db.collection("cities").doc(id);
+    // Set the "capital" field of the city 'DC'
+    return collegeRef.update({
+      name_en: collegeObj.name_en,
+      name_np: collegeObj.name_np,
+      address_en: collegeObj.address_en,
+      address_np: collegeObj.address_np,
+      rm_en: collegeObj.rm_en,
+      rm_np: collegeObj.rm_np,
+      desc_en: collegeObj.desc_en,
+      desc_np: collegeObj.desc_np,
+      subjects: collegeObj.subjects,
+    });
   };
 
   // Add College collection

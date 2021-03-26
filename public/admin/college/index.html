@@ -27,20 +27,21 @@ permalink: /admin/college/
     <a class="btn hero-btn mb-10" href="/admin/college/new">Add New College</a>
     <h3 class="text-heading mt-5">List of Colleges</h3>
 
-    <div class="list-group">
-      {% for college in site.data.colleges %}
+    <div class="list-group" id="mylist">
+      <label>Loading...</label>
+      <!-- {% for college in items %}
       <a
         href="/admin/college/edit?abcd"
         class="list-group-item list-group-item-action flex-column align-items-start mb-4"
       >
         <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">{{ college.address }}</h5>
+          <h5 class="mb-1">{{ college.address_en }}</h5>
           <small>Updated: 3 days ago</small>
         </div>
-        <p class="mb-1">{{ college.name }}</p>
+        <p class="mb-1">{{ college.name_en }}</p>
         <small>Donec id elit non mi porta.</small>
       </a>
-      {% endfor %}
+      {% endfor %} -->
     </div>
   </div>
 </section>
@@ -50,17 +51,60 @@ permalink: /admin/college/
 {% include firebase.html %}
 
 <script>
-  function getUniqueKey() {
-    var dt = new Date();
-    dt.getUTCMilliseconds();
-  }
-</script>
-<script>
+  readColleges();
   function readColleges() {
-    var cols = dbCollegeManager.getColleges();
+    var dbTask = dbCollegeManager.getColleges();
+    dbTask
+      .then((querySnapshot) => {
+        var content = "";
+        querySnapshot.forEach((doc) => {
+          // doc.data() is never undefined for query doc snapshots
+          console.log(doc.id, " => ", doc.data());
+          var college = doc.data();
+          content +=
+            '<a href="/admin/college/edit?id=' +
+            doc.id +
+            '" class="list-group-item list-group-item-action flex-column align-items-start mb-4"> ' +
+            '<div class="d-flex w-100 justify-content-between">' +
+            '<h5 class="mb-1">' +
+            college.address_en +
+            "</h5> " +
+            "<small>Updated: 3 days ago</small> " +
+            "</div> " +
+            '<p class="mb-1">' +
+            college.name_en +
+            "</p> " +
+            "<small>Donec id elit non mi porta.</small> " +
+            "</a>";
+        });
+        $("#mylist").html(content);
+      })
+      .catch((error) => {
+        console.log("Error getting documents: ", error);
+      });
   }
 
   function createNewCollegeItem(collegeObj, collegeStats) {
-    dbCollegeManager.addCollege(collegeObj);
+    var dbTask = dbCollegeManager.addCollege(collegeObj);
+    dbTask
+      .then((docRef) => {
+        console.log("Document written with ID: ", docRef.id);
+        return docRef.id;
+      })
+      .catch((error) => {
+        console.error("Error writing document: ", error);
+      });
+  }
+
+  function updateCollegeItem(id, collegeObj) {
+    var dbTask = dbCollegeManager.updateCollege(id, collegeObj);
+    dbTask
+      .then(() => {
+        console.log("Document successfully updated!");
+      })
+      .catch((error) => {
+        // The document probably doesn't exist.
+        console.error("Error updating document: ", error);
+      });
   }
 </script>

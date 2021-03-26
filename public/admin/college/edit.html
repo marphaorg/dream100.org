@@ -137,3 +137,34 @@ permalink: /admin/college/edit
     </div>
 </div>
 <!-- End Align Area -->
+
+<!-- Firebase references -->
+{% include firebase.html %}
+
+
+<script>
+    function readColleges() {
+        var id = getParameterByName('id');
+      var dbTask = dbCollegeManager.getCollege(id);
+      dbTask
+        .then((doc) => {
+          console.log(doc);
+        })
+        .catch((error) => {
+          console.log("Error getting documents: ", error);
+        });
+    }
+
+    function updateCollegeItem(id, collegeObj) {
+        var id = getParameterByName('id');
+      var dbTask = dbCollegeManager.updateCollege(id, collegeObj);
+      dbTask
+        .then(() => {
+          console.log("Document successfully updated!");
+        })
+        .catch((error) => {
+          // The document probably doesn't exist.
+          console.error("Error updating document: ", error);
+        });
+    }
+  </script>
