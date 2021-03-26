@@ -45,3 +45,22 @@ permalink: /admin/college/
   </div>
 </section>
 <!-- End Button -->
+
+<!-- Firebase references -->
+{% include firebase.html %}
+
+<script>
+  function getUniqueKey() {
+    var dt = new Date();
+    dt.getUTCMilliseconds();
+  }
+</script>
+<script>
+  function readColleges() {
+    var cols = dbCollegeManager.getColleges();
+  }
+
+  function createNewCollegeItem(collegeObj, collegeStats) {
+    dbCollegeManager.addCollege(collegeObj);
+  }
+</script>
