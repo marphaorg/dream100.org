@@ -13,6 +13,7 @@ permalink: /admin/college/
         <div class="col-xl-12">
           <div class="hero-cap hero-cap2 pt-20 text-center">
             <h2>Admin Panel</h2>
+            <a class="btn-link" href="/admin/">Go to Admin Page</a>
           </div>
         </div>
       </div>
@@ -23,13 +24,23 @@ permalink: /admin/college/
 <!--? Start Button -->
 <section class="button-area">
   <div class="container box_1170 border-top-generic">
-    <h3 class="text-heading">List of Colleges</h3>
+    <a class="btn hero-btn mb-10" href="/admin/college/new">Add New College</a>
+    <h3 class="text-heading mt-5">List of Colleges</h3>
 
-    <div class="button-group-area mt-10">
-      <a href="#" class="genric-btn primary-border e-large">Extra Large</a>
-      <a href="#" class="genric-btn primary-border e-large">Extra Large</a>
-      <a href="#" class="genric-btn primary-border e-large">Extra Large</a>
-      <a href="#" class="genric-btn primary-border e-large">Extra Large</a>
+    <div class="list-group">
+      {% for college in site.data.colleges %}
+      <a
+        href="/admin/college/edit?abcd"
+        class="list-group-item list-group-item-action flex-column align-items-start mb-4"
+      >
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">{{ college.address }}</h5>
+          <small>Updated: 3 days ago</small>
+        </div>
+        <p class="mb-1">{{ college.name }}</p>
+        <small>Donec id elit non mi porta.</small>
+      </a>
+      {% endfor %}
     </div>
   </div>
 </section>

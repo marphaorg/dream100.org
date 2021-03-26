@@ -13,6 +13,7 @@ permalink: /admin/college/new
         <div class="col-xl-12">
           <div class="hero-cap hero-cap2 pt-20 text-center">
             <h2>Admin Panel</h2>
+            Admin > <a class="btn-link" href="/admin/college/">Colleges</a>
           </div>
         </div>
       </div>
@@ -20,3 +21,118 @@ permalink: /admin/college/new
   </div>
 </div>
 <!-- Hero End -->
+
+<!--? Start Align Area -->
+<div class="whole-wrap">
+  <div class="container box_1170">
+      
+      <div class="section-top-border">
+          <div class="row">
+              <div class="col-lg-8 col-md-8">
+                  <h2 class="mb-30">New College Information</h2>
+                  <form action="#">
+                      <div class="mt-10"><h3 class="mb-10">College Name</h3>
+                          <input type="text" name="college_name_en" placeholder="College Name in English"
+                              onfocus="this.placeholder = ''" onblur="this.placeholder = 'College Name in English'" required
+                              class="single-input-primary">
+                      </div>
+                      <div class="mt-10"><h3 class="mb-10">कलेजको नाम</h3>
+                          <input type="text" name="college_name_np" placeholder="कलेजको नाम देवनागरीकमा"
+                              onfocus="this.placeholder = ''" onblur="this.placeholder = 'कलेजको नाम देवनागरीकमा'" required
+                              class="single-input-primary">
+                      </div>
+                      <div class="mb-30"></div>
+                      <div class="mt-10"><h3 class="mb-10">College Address</h3>
+                          <input type="text" name="college_address_en" placeholder="College Address"
+                              onfocus="this.placeholder = ''" onblur="this.placeholder = 'College Address'" required
+                              class="single-input-primary">
+                      </div>
+                      <div class="mt-10"><h3 class="mb-10">कलेजको ठेगाना</h3>
+                          <input type="text" name="college_address_np" placeholder="कलेजको ठेगाना देवनागरीकमा"
+                              onfocus="this.placeholder = ''" onblur="this.placeholder = 'कलेजको ठेगाना देवनागरीकमा'" required
+                              class="single-input-primary">
+                      </div>
+                      <div class="mb-30"></div>
+                      <div class="input-group-icon mt-10">
+                          <h3 class="mb-10">Municipality(गाउँपालिका)</h3>
+                          <div class="form-select" id="default-select"">
+                              <select>
+                                  <option value='1'>Airawati RM</option>
+                                  <option value='2'>Gaumukhi RM</option>
+                                  <option value='3'>Jhimruk RM</option>
+                                  <option value='4'>Naubahini RM</option>
+                                  <option value='5'>Pyuthan Mun</option>
+                                  <option value='6'>Mandavi RM</option>
+                                  <option value='7'>Mallarani RM</option>
+                                  <option value='8'>Shworgdwari Mun</option>
+                                  <option value='9'>Sarumarani RM</option>
+                              </select>
+                          </div>
+                      </div>
+                      <div class="mb-30"></div>
+                      <div class="mt-10"><h3 class="mb-10">Description</h3>
+                          <input type="text" name="college_desc" placeholder="Description"
+                              onfocus="this.placeholder = ''" onblur="this.placeholder = 'Description'" required
+                              class="single-textarea">
+                      </div>
+                      <div class="mt-10"><h3 class="mb-10">थप जानकारी</h3>
+                          <input type="text" name="college_desc" placeholder="थप जानकारी"
+                              onfocus="this.placeholder = ''" onblur="this.placeholder = 'थप जानकारी'" required
+                              class="single-textarea">
+                      </div>
+                      <div class="mb-30"></div>
+                      <div class="mt-10">
+                          <div class="single-element-widget">
+                              <h3 class="mb-10">Subjects(कलेजमा पढाई हुने विषयहरु)</h3>
+                              <div class="switch-wrap d-flex justify-content-between">
+                                  <p>1. Arts</p>
+                                  <div class="primary-switch">
+                                      <input type="checkbox" id="default-switch" checked>
+                                      <label for="default-switch"></label>
+                                  </div>
+                              </div>
+                              <div class="switch-wrap d-flex justify-content-between">
+                                  <p>2. Commerce</p>
+                                  <div class="primary-switch">
+                                      <input type="checkbox" id="primary-switch" checked>
+                                      <label for="primary-switch"></label>
+                                  </div>
+                              </div>
+                              <div class="switch-wrap d-flex justify-content-between">
+                                  <p>3. Science</p>
+                                  <div class="primary-switch">
+                                      <input type="checkbox" id="primary-switch" checked>
+                                      <label for="primary-switch"></label>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                  </form>
+              </div>
+              <div class="col-lg-3 col-md-4 mt-sm-30">
+                  <div class="form-row">
+                      <div class="form-group col-md-12">
+                        <label for="inputEmail4">Students in Grade 11(Year 2077)</label>
+                        <input type="text" class="form-control" id="inputEmail4" placeholder="Students Count">
+                      </div>
+                      <div class="form-group col-md-12">
+                        <label for="inputPassword4">Students in Grade 12(Year 2077)</label>
+                        <input type="text" class="form-control" id="inputPassword4" placeholder="Students Count">
+                      </div>
+                    </div>
+                    
+                  </div>
+
+              </div>
+          </div>
+          <button
+          class="btn hero-btn mb-10"
+          data-animation="fadeInLeft"
+          data-delay=".8s"
+          >Save</button>
+      </div>
+     
+  </div>
+</div>
+<!-- End Align Area -->
