@@ -18,7 +18,7 @@ const dbCollegeManager = (() => {
 
   // Get College collection
   const getCollege = (id) => {
-    var dbTask = db.collection("colleges").doc(id);
+    var dbTask = db.collection("colleges").doc(id).get();
     return dbTask;
   };
 
@@ -72,6 +72,7 @@ const dbCollegeManager = (() => {
 
   return {
     getUniqueKey,
+    getCollege,
     getColleges,
     addNewCollege,
     updateCollege,

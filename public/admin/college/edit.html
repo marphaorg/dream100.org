@@ -88,21 +88,21 @@ permalink: /admin/college/edit
                                 <div class="switch-wrap d-flex justify-content-between">
                                     <p>1. Arts</p>
                                     <div class="primary-switch">
-                                        <input type="checkbox" id="default-switch" checked>
+                                        <input type="checkbox" id="default-switch1" checked>
                                         <label for="default-switch"></label>
                                     </div>
                                 </div>
                                 <div class="switch-wrap d-flex justify-content-between">
                                     <p>2. Commerce</p>
                                     <div class="primary-switch">
-                                        <input type="checkbox" id="primary-switch" checked>
+                                        <input type="checkbox" id="primary-switch2" checked>
                                         <label for="primary-switch"></label>
                                     </div>
                                 </div>
                                 <div class="switch-wrap d-flex justify-content-between">
                                     <p>3. Science</p>
                                     <div class="primary-switch">
-                                        <input type="checkbox" id="primary-switch" checked>
+                                        <input type="checkbox" id="primary-switch3" checked>
                                         <label for="primary-switch"></label>
                                     </div>
                                 </div>
@@ -141,14 +141,15 @@ permalink: /admin/college/edit
 <!-- Firebase references -->
 {% include firebase.html %}
 
-
+<script src="/assets/js/dream100/helper.js"></script>
 <script>
-    function readColleges() {
+    readCollege();
+    function readCollege() {
         var id = getParameterByName('id');
       var dbTask = dbCollegeManager.getCollege(id);
       dbTask
         .then((doc) => {
-          console.log(doc);
+          console.log(doc.data());
         })
         .catch((error) => {
           console.log("Error getting documents: ", error);
