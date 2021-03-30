@@ -13,7 +13,10 @@
     $("#btnUpload").enable();
   }
   function handleFileUploadSubmit(e) {
+    //show loader
+    $("#preloader-active").show();
     const uploadTask = dbFileManager.uploadFileTask("form-2078", selectedFile);
+
     //create a child directory called images, and place the file inside this directory
     uploadTask.on(
       "state_changed",
@@ -22,6 +25,7 @@
       },
       (error) => {
         // Handle unsuccessful uploads
+        $("#preloader-active").hide();
         console.log(error);
         $("#filesubmit").fadeTo("slow", 1, function () {
           $("#modelError").fadeIn();
@@ -31,6 +35,7 @@
       },
       () => {
         // Do something once upload is complete
+        $("#preloader-active").hide();
         console.log("success");
         $("#filesubmit").fadeTo("slow", 1, function () {
           $(this).find(":input").attr("disabled", "disabled");
