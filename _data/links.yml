@@ -81,4 +81,26 @@ hours_served:
   np:
     label: व्यतित समय(घण्टा)
     url: /
+join_us_donate:
+  en: 
+    label: Donate
+    url: /donate/
+  np:
+    label: $१०० दान गर्नुहोस्
+    url: /दान-पेटिका/
+join_us_volunteer:
+  en:
+    label: Become A Virtual Volunteer
+    url: /volunteer-opportunity/
+  np:
+    label: स्वयंसेवक बन्नुहोस्
+    url: /स्वयंसेवक/
+join_us_mentor:
+  en:
+    label: Become a Mentor
+    url: /mentorship/
+  np:
+    label: प्रशिक्षक बन्नुहोस्
+    url: /प्रशिक्षक/
+
 
