@@ -12,7 +12,7 @@
               <!-- Counter Up -->
               <div class="single-counter text-center">
                 <span class="counter color-green"
-                  >{{ site.data.stats.donors }}</span
+                  >{{ site.data.donations.size }}</span
                 >
                 <span class="plus">+</span>
                 <p class="color-green">
@@ -26,7 +26,7 @@
               <!-- Counter Up -->
               <div class="single-counter text-center">
                 <span class="counter color-green"
-                  >{{site.data.stats.colleges}}</span
+                  >{{site.data.colleges.size}}</span
                 >
                 <p class="color-green">
                   <a href="{{site.data.links.colleges[page.lang].url}}"
@@ -39,7 +39,7 @@
               <!-- Counter Up -->
               <div class="single-counter text-center">
                 <span class="counter color-green"
-                  >{{ site.data.stats.students }}</span
+                  >{{ site.data.students.size }}</span
                 >
                 <span class="plus">+</span>
                 <p class="color-green">
@@ -49,13 +49,14 @@
                 </p>
               </div>
             </div>
+            {% assign running_total = 0 %} {% for d in site.data.donations %} {%
+            assign running_total = running_total | plus: d.dollar %} {% endfor
+            %}
             <div class="col-lg-2 col-md-6 col-sm-6">
               <!-- Counter Up -->
               <div class="single-counter text-center">
                 <span class="plus">$</span>
-                <span class="counter color-green"
-                  >{{site.data.stats.fund_raised}}</span
-                >
+                <span class="counter color-green">{{running_total}}</span>
                 <p class="color-green">
                   <a href="{{site.data.links.fund_raised[page.lang].url}}"
                     >{{site.data.links.fund_raised[page.lang].label}}</a
