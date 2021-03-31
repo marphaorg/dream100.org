@@ -3,7 +3,7 @@ slogan:
   np: के तपाईलाई कलेज पढ्ने रहर छ तर आर्थिक अवस्थाले गर्दा कठिनाई छ?
 we_pay_your_college_fee:
   en: We provide you mentorship and financial assistance to study.
-  np: कलेज पढ्न लाग्ने सम्पूर्ण सुल्क हामी तिरिदिने छौँ |
+  np: कलेज पढ्न लाग्ने सम्पूर्ण सुल्क हामी तिरिदिने छौँ ।
 donate:
   en: "Donate"
   np: "दान पेटिका"
@@ -54,7 +54,7 @@ join_us_subtitle:
   np: हामी त्यो बाबु आमाको आशालाई निभ्न दिने छैनौ, तपाई पनि विभिन्न तरिकाले हामी संग हातेमालो गर्न सक्नु हुन्छ ।
 got_a_new_idea:
   en: Do you have a better idea?
-  np: के तपाई सँग कुनै फरक उपाय छ? 
+  np: के तपाई सँग अझ राम्रो सोंच/योजना छ?
 share_with_us:
   en: Share with us
   np: हामीलाई बताउनु होस्
@@ -64,3 +64,41 @@ do_you_know_needy_students:
 let_us_know:
   en: Let us know
   np: हामीलाई जानकारी दिनुहोस्
+about_us:
+  en: About Us
+  np: हाम्रो बारेमा
+what_we_are_doing:
+  en: What we are doing
+  np: हाम्रो कार्यहरु
+finincial_assistance:
+  en: Financial Assistance
+  np: आर्थिक सहयोग
+finincial_assistance_desc:
+  en: We evaluate student's economic condition. Once eligible, students choose the college to study, they choose their desired subject. We will pay their entire college fee.
+  np: हामी विद्यार्थीको आर्थीक अवस्थाको मुल्याकन गर्छौँ । योग्य तथा वान्छनिय विद्यार्थीले चाहेको विषय अध्ययनको लागी आवश्यक शुल्क तिरिदिने व्यवस्था गर्छौ ।
+mentorship_program:
+  en: Mentorship Program
+  np: तालिम तथा प्रशिक्षण
+mentorship_program_desc:
+  en: We do not just pay their college fee, we mentor them, we coach them until they graduate.
+  np: हामी विद्यार्थीको कलेजको शुल्क व्यवस्थापनमा मात्र सहयोगी नभएर पढाई पुरा नहुन्जेल विद्यार्थीलाई आवश्यक परामर्श, तालिम तथा प्रशिक्षण दिन्छौँ ।
+got_a_new_idea_desc:
+  en: We love to hear. Let's talk about it. Email us at hello@dream100.org
+  np: हामी तपाईको विचार तथा सुझाब सुन्न आतुर छौँ । सम्पर्कको लागी इमेल hellow@dream100.org ।
+three_s_model:
+  en: Sponsor, School and student (3S) model
+  np: दाता, विद्यालय र विद्यार्थी बीच सहकार्य
+three_s_model_desc1:
+  en: We work on 3S model.
+  np: हामी ३S ढाचामा काम गर्छौं ।
+three_s_model_desc2:
+  en: We find Sponsor/Donor for students.
+  np: हामी विद्यार्थीको आर्थिक सहयोगको लागी दाता खोज्छाै ।
+three_s_model_desc3:
+  en: We co-ordinate with School and Colleges for admission and fee payments.
+  np: हामी विद्यार्थीको भर्ना तथा शुल्क तिरिदिने काममा विद्यालय तथा कलेजहरु सँग समन्वय गर्छाै ।
+three_s_model_desc4:
+  en: We consult students and motivate them to complete their education.
+  np:  हामी विद्यार्थीको शिक्षा पुरा गर्ने विषयमा विद्यार्थीलाई परामर्श तथा उत्प्रेरणामा सदैव साथमा हुन्छाै ।
+
+

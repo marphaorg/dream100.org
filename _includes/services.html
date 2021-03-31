@@ -5,7 +5,7 @@
       <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
         <!-- Section Tittle -->
         <div class="section-tittle text-center mb-80">
-          <span>What we are doing</span>
+          <span>{{ site.data.translations.what_we_are_doing[page.lang] }}</span>
         </div>
       </div>
     </div>
@@ -17,13 +17,12 @@
           </div>
           <div class="cat-cap">
             <h5>
-              <a href="/financial-assistance">Financial Assistance</a>
+              <a href="/financial-assistance"
+                >{{ site.data.translations.finincial_assistance[page.lang]}}</a
+              >
             </h5>
             <p>
-              We evaluate student's economic condition. Once eligible, students
-              choose the college to study, they choose their desired subject. We
-              will pay their entire college fee. They don't have to pay single
-              penny from their pocket.
+              {{site.data.translations.finincial_assistance_desc[page.lang]}}
             </p>
           </div>
         </div>
@@ -35,12 +34,11 @@
           </div>
           <div class="cat-cap">
             <h5>
-              <a href="/mentorship/">Mentorship Program</a>
+              <a href="/mentorship/"
+                >{{ site.data.translations.mentorship_program[page.lang]}}</a
+              >
             </h5>
-            <p>
-              We do not just pay their college fee, we mentor them, we coach
-              them until they graduate.
-            </p>
+            <p>{{site.data.translations.mentorship_program_desc[page.lang]}}</p>
           </div>
         </div>
       </div>
@@ -51,13 +49,17 @@
           </div>
           <div class="cat-cap">
             <h5>
-              <a href="/3s-model">Sponsor, School, Student(3S Model)</a>
+              <a href="/3s-model"
+                >{{site.data.translations.three_s_model[page.lang]}}</a
+              >
             </h5>
             <p>
-              We work on 3S model. <br />(<b>S</b>)We find sponsor/donor for
-              student. <br />(<b>S</b>) We co-ordinate with schools and colleges
-              for admission and fee payment. <br />(<b>S</b>) We consult
-              students and motivate them to complete their education.
+              {{site.data.translations.three_s_model_desc1[page.lang]}}
+              <br />(<b>S</b>){{site.data.translations.three_s_model_desc2[page.lang]}}
+              <br />(<b>S</b>)
+              {{site.data.translations.three_s_model_desc3[page.lang]}}
+              <br />(<b>S</b>)
+              {{site.data.translations.three_s_model_desc4[page.lang]}}
             </p>
           </div>
         </div>
@@ -69,12 +71,11 @@
           </div>
           <div class="cat-cap">
             <h5>
-              <a href="/new-idea">Do you have better idea?</a>
+              <a href="/new-idea"
+                >{{ site.data.translations.got_a_new_idea[page.lang]}}</a
+              >
             </h5>
-            <p>
-              We love to hear. Let's talk about it. Email us at
-              hello@dream100.org
-            </p>
+            <p>{{site.data.translations.got_a_new_idea_desc[page.lang]}}</p>
           </div>
         </div>
       </div>
