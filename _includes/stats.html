@@ -15,7 +15,11 @@
                   >{{ site.data.stats.donors }}</span
                 >
                 <span class="plus">+</span>
-                <p class="color-green"><a href="/donors/">Donors</a></p>
+                <p class="color-green">
+                  <a href="{{site.data.links.donors[page.lang].url}}"
+                    >{{site.data.links.donors[page.lang].label}}</a
+                  >
+                </p>
               </div>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6">
@@ -24,7 +28,11 @@
                 <span class="counter color-green"
                   >{{site.data.stats.colleges}}</span
                 >
-                <p class="color-green"><a href="/colleges/">Colleges</a></p>
+                <p class="color-green">
+                  <a href="{{site.data.links.colleges[page.lang].url}}"
+                    >{{site.data.links.colleges[page.lang].label}}</a
+                  >
+                </p>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -34,7 +42,11 @@
                   >{{ site.data.stats.students }}</span
                 >
                 <span class="plus">+</span>
-                <p class="color-green"><a href="/dreamers/">Students</a></p>
+                <p class="color-green">
+                  <a href="{{site.data.links.students[page.lang].url}}"
+                    >{{site.data.links.students[page.lang].label}}</a
+                  >
+                </p>
               </div>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6">
@@ -44,7 +56,11 @@
                 <span class="counter color-green"
                   >{{site.data.stats.fund_raised}}</span
                 >
-                <p class="color-green"><a href="/donors/">Fund Raised</a></p>
+                <p class="color-green">
+                  <a href="{{site.data.links.fund_raised[page.lang].url}}"
+                    >{{site.data.links.fund_raised[page.lang].label}}</a
+                  >
+                </p>
               </div>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6">
@@ -54,7 +70,9 @@
                   >{{site.data.stats.hours}}</span
                 >
                 <span class="plus">+</span>
-                <p class="color-green">Hours Served</p>
+                <p class="color-green">
+                  {{site.data.links.hours_served[page.lang].label}}
+                </p>
               </div>
             </div>
           </div>

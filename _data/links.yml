@@ -45,3 +45,40 @@ let_us_know:
   np:
     label: हामीलाई जानकारी दिनुहोस्
     url: /जानकारी/
+donors:
+  en:
+    label: Donors
+    url: /donors/
+  np:
+    label: दाताहरु
+    url: /दाताहरु/
+colleges:
+  en:
+    label: Colleges
+    url: /colleges/
+  np:
+    label: कलेजहरु
+    url: /कलेजहरु/
+
+students:
+  en:
+    label: Students
+    url: /students/
+  np:
+    label: विद्यार्थीहरु
+    url: /भबिस्यका-कर्णधारहरु/
+fund_raised:
+  en:
+    label: Fund Raised
+    url: /donors/
+  np:
+    label: संकलित रकम
+    url: /दाताहरु/
+hours_served:
+  en:
+    label: Hours Served
+    url: /
+  np:
+    label: व्यतित समय(घण्टा)
+    url: /
+
