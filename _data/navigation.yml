@@ -9,6 +9,8 @@ en:
     url: /join-us/
   - title: Contact
     url: /contact/
+  - title: Apply 2078
+    url: /apply/
 np:
   - title: गृहपृष्ठ
     url: /np
@@ -20,3 +22,5 @@ np:
     url: /सहभागिता/
   - title: सम्पर्क
     url: /सम्पर्क/
+  - title: आवेदन २०७८
+    url: /आवेदन/
