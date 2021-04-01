@@ -21,43 +21,47 @@
 
 - question:
     en: What are the eligibility to get finincial assistance?
-    np: A
+    np: आर्थिक सहयोग प्राप्त गर्नको लागी के के योग्यता हुनु पर्दछ ?
   ans:
     en: 'In order to be eligible to get finincial assistance from dream100.org program, student has to meet following conditions:
         <br/> 1. Low-income status
         <br/> 2. Completed his/her school level education (SEE) from one of the schools of Pyuthan Nepal.
         <br/> 3. Choose to study in one of the colleges of Pyuthan Nepal'
-    np: A
+    np: 'आर्थिक सहयोग प्राप्त गर्नको लागि निम्नलिखित योग्यता तथा सर्तहरु पुरा गर्नु पर्ने हुन्छ:
+          <br/>१.निम्न आर्थिक अवस्था भएको
+          <br/>२.प्यूठान जिल्ला भित्र पर्ने विद्यालय बाट एसईई उत्तीण भएको हुनु पर्ने छ
+          <br/>३.प्यूठान जिल्ला भित्र पर्ने कुनै एक कलेज छान्नु पर्ने छ'
+
 - question: 
     en: Do I have to get the first division in SEE in order to get the finincial assistance?
-    np: A
+    np: के आर्थिक सहयोग प्राप्त गर्न प्रथम श्रेणीमा एसईई उत्तीण गर्नु पर्ने हुन्छ?
   ans: 
     en: No, there is no such criteria. All are welcome to apply. Our selection committee verifies the student's background and awards the scholarship.
-    np: a
+    np: पर्दैन, आवेदन सबैजनाको लागी खुल्ला छ । हाम्रो छनोट समितिले आवेदकको वास्तविकता बुझिसकेपछि आर्थिक सहयेता दिने वा नदिने भनेर निर्णय गर्दछन ।
 
 - question: 
     en: If selected, can I study anywhere in Nepal?
-    np: A
+    np: के आर्थिक सहोग प्राप्त गरेपछि मैले नेपालको जुनसुकै कलेजमा पढ्न सक्छु?
   ans: 
     en: Currently this program is available for the colleges of Pyuthan Nepal. In future, we are planning to expand in other areas of Nepal.
-    np: A
+    np: हाललाई हाम्रो कार्यक्रम प्यूठान जिल्लामा रहेका क्याम्पस हरुमा मात्र लागु छ। आगामी दिनमा नेपालको अरु जिल्लमा रहेका क्याम्पसमा पनि लागु गर्दै जानेछौं।
 - question: 
     en: If selected, can I study in any college of Pyuthan Nepal?
-    np: A
+    np: यदि म यो कार्यक्रममा छानिए भने प्यूठानको जुनसुकै क्याम्पसमा पढ्न पाउँछु?
   ans: 
     en: Yes, student can get admitted to any college of Pyuthan Nepal and we will take care of the college fee regardless of any amount.
-    np: A
+    np: हो, तपाईले प्यूठान जिल्ला भित्र पर्ने जुनसुकै क्याम्पसमा गएर भर्ना भई पढ्न पाउनु हुन्छ। पढाई शुल्क जतिसुकै भए पनि त्यसको जिम्मेवारी हामी लिने छौँ।
 
 - question: 
     en: When can I apply for the scholarship?
-    np: A
+    np: छात्रवृत्तिको लागि आवेदन कहिले देखि खुल्छ?
   ans: 
     en: We open the application once a year. Generally we open the application after SEE result is published. 
-    np: A
+    np: सामान्यतया एसईई परीक्षा सकिएपछि हाम्रो आवेदन खुल्ला हुन्छ। आवेदन खुले पछि हामी अनलाईनमा जानकारी गराऊछौं।
 
 - question: 
     en: Is there a number of scholarship quota for each year?
-    np: A
+    np: के छात्रवृत्तिको लागि निश्चित सङ्ख्या तोकिएको छ? छ भने हरेक वर्ष कतिजनाले पाउछन्?
   ans: 
-    en: Yes, we awards the free scholarship about 10 to 15 students per year. Once the student is selected, he/she will be able to study grade 11 and 12 and we will cover the entire college fee.
-    np: A
+    en: Yes, we awards the scholarship about 10 to 15 students per year. Once the student is selected, he/she will be able to study grade 11 and 12 and we will cover the cost of college fee.
+    np: हरेक वर्ष करिब १० देखि १५ जनालाई आर्थिक सहयोग दिने कार्यक्रम छ।
