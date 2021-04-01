@@ -3,7 +3,15 @@
 const dbCollegeManager = (() => {
   // Initialize Firebase
   if (!firebase.apps.length) {
-    firebase.initializeApp(firebaseConfig);
+    firebase.initializeApp({
+      apiKey: "{{site.firebase.apiKey}}",
+      authDomain: "{{site.firebase.authDomain}}",
+      projectId: "{{site.firebase.projectId}}",
+      storageBucket: "{{site.firebase.storageBucket}}",
+      messagingSenderId: "{{site.firebase.messagingSenderId}}",
+      appId: "{{site.firebase.appId}}",
+      measurementId: "{{site.firebase.measurementId}}",
+    });
   } else {
     firebase.app(); // if already initialized, use that one
   }
@@ -87,7 +95,15 @@ const dbCollegeManager = (() => {
 const dbFileManager = (() => {
   // Initialize Firebase
   if (!firebase.apps.length) {
-    firebase.initializeApp(firebaseConfig);
+    firebase.initializeApp({
+      apiKey: "{{site.firebase.apiKey}}",
+      authDomain: "{{site.firebase.authDomain}}",
+      projectId: "{{site.firebase.projectId}}",
+      storageBucket: "{{site.firebase.storageBucket}}",
+      messagingSenderId: "{{site.firebase.messagingSenderId}}",
+      appId: "{{site.firebase.appId}}",
+      measurementId: "{{site.firebase.measurementId}}",
+    });
   } else {
     firebase.app(); // if already initialized, use that one
   }

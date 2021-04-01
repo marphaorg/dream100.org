@@ -25,13 +25,23 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dream100.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dream100org
-github_username:  jekyll
+github_username:  marphaorg
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 
+# Firebase Configs
+
+firebase:
+  apiKey: "AIzaSyC8gYTC-3CH3acLTmwwYXCYZp6YhVRX6XM"
+  authDomain: "dream100.firebaseapp.com"
+  projectId: "dream100"
+  storageBucket: "dream100.appspot.com"
+  messagingSenderId: "500158832053"
+  appId: "1:500158832053:web:5ce35a09afa43fece18dfc"
+  measurementId: "G-0V36LDNTWQ"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
