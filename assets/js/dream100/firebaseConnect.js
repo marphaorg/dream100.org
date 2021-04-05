@@ -1,20 +1,6 @@
 // ########## COLLEGE START ###########
 
 const dbCollegeManager = (() => {
-  // Initialize Firebase
-  if (!firebase.apps.length) {
-    firebase.initializeApp({
-      apiKey: "{{site.firebase.apiKey}}",
-      authDomain: "{{site.firebase.authDomain}}",
-      projectId: "{{site.firebase.projectId}}",
-      storageBucket: "{{site.firebase.storageBucket}}",
-      messagingSenderId: "{{site.firebase.messagingSenderId}}",
-      appId: "{{site.firebase.appId}}",
-      measurementId: "{{site.firebase.measurementId}}",
-    });
-  } else {
-    firebase.app(); // if already initialized, use that one
-  }
   //firebase.analytics();
 
   var db = firebase.firestore();
@@ -93,21 +79,6 @@ const dbCollegeManager = (() => {
 // ########## APPLICATION START ###########
 
 const dbFileManager = (() => {
-  // Initialize Firebase
-  if (!firebase.apps.length) {
-    firebase.initializeApp({
-      apiKey: "{{site.firebase.apiKey}}",
-      authDomain: "{{site.firebase.authDomain}}",
-      projectId: "{{site.firebase.projectId}}",
-      storageBucket: "{{site.firebase.storageBucket}}",
-      messagingSenderId: "{{site.firebase.messagingSenderId}}",
-      appId: "{{site.firebase.appId}}",
-      measurementId: "{{site.firebase.measurementId}}",
-    });
-  } else {
-    firebase.app(); // if already initialized, use that one
-  }
-
   const storageService = firebase.storage();
   const storageRef = storageService.ref();
 
