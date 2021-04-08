@@ -97,7 +97,18 @@
                   <nav>
                     <ul id="navigation">
                       {% for link in site.data.navigation[page.lang] %}
-                      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                      <li>
+                        <a href="{{ link.url }}">{{ link.title }}</a>
+                        {% if link.submenu.size >0 %}
+                        <ul class="submenu">
+                          {% for sublink in link.submenu %}
+                          <li>
+                            <a href="{{ sublink.url }}">{{sublink.title}}</a>
+                          </li>
+                          {% endfor %}
+                        </ul>
+                        {% endif %}
+                      </li>
                       {% endfor %}
                     </ul>
                   </nav>
