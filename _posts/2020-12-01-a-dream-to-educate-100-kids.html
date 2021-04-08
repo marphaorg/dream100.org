@@ -1,7 +1,10 @@
 ---
 layout: blog
+lang: en
+
 title: A dream
 permalink: /a-dream-to-educate-100-kids/
+author: sthakuri
 ---
 
 <main>
@@ -106,79 +109,32 @@ permalink: /a-dream-to-educate-100-kids/
                 Share
               </p>
               <div class="col-sm-4 text-center my-2 my-sm-0">
-                <!-- <p class="comment-count"><span class="align-middle"><i class="fa fa-comment"></i></span> 06 Comments</p> -->
               </div>
               <ul class="social-icons">
                 <li>
-                  <div class="fb-share-button" data-href="https://dream100.org/a-dream-to-educate-100-kids/" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdream100.org%2Fa-dream-to-educate-100-kids%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore btn-link"><i class="fab fa-facebook-f"></i></a></div>
+                  <div class="fb-share-button" data-href="https://dream100.org/a-dream-to-educate-100-kids/" data-layout="button_count" data-size="large">
+                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdream100.org%2Fa-dream-to-educate-100-kids%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore btn-link">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </div>
                 </li>
                 <li>
-                  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="A Couple&#39;s Dream To Educate One Hundred Kids" data-url="https://dream100.org/a-dream-to-educate-100-kids/" data-via="dream100Org" data-hashtags="dream100" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="A Couple&#39;s Dream To Educate One Hundred Kids" data-url="https://dream100.org/a-dream-to-educate-100-kids/" data-via="dream100Org" data-hashtags="dream100" data-show-count="false">Tweet</a>
+                  
                 </li>
               </ul>
             </div>
-            <!-- <div class="navigation-area">
-              <div class="row">
-                <div
-                  class="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center"
-                >
-                  <div class="thumb">
-                    <a href="#">
-                      <img
-                        class="img-fluid"
-                        src="/assets/img/post/preview.png"
-                        alt=""
-                      />
-                    </a>
-                  </div>
-                  <div class="arrow">
-                    <a href="#">
-                      <span class="lnr text-white ti-arrow-left"></span>
-                    </a>
-                  </div>
-                  <div class="detials">
-                    <p>Prev Post</p>
-                    <a href="#">
-                      <h4 style="color: #2d2d2d">Space The Final Frontier</h4>
-                    </a>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-6 col-md-6 col-12 nav-right flex-row d-flex justify-content-end align-items-center"
-                >
-                  <div class="detials">
-                    <p>Next Post</p>
-                    <a href="#">
-                      <h4 style="color: #2d2d2d">Telescopes 101</h4>
-                    </a>
-                  </div>
-                  <div class="arrow">
-                    <a href="#">
-                      <span class="lnr text-white ti-arrow-right"></span>
-                    </a>
-                  </div>
-                  <div class="thumb">
-                    <a href="#">
-                      <img
-                        class="img-fluid"
-                        src="/assets/img/post/next.png"
-                        alt=""
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div> -->
+           
           </div>
           <div class="blog-author">
             <div class="media align-items-center">
-              <img src="{{ site.data.authors.sthakuri.img }}" alt="" />
+              <img src="{{ site.data.authors[page.author].img }}" alt="" />
               <div class="media-body">
                 <a href="#">
-                  <h4>{{ site.data.authors.sthakuri.name }}</h4>
+                  <h4>{{ site.data.authors[page.author].name }}</h4>
                 </a>
                 <p>
-                  {{ site.data.authors.sthakuri.bio }}
+                  {{ site.data.authors[page.author].bio }}
                 </p>
               </div>
             </div>
