@@ -14,6 +14,8 @@ en:
         url: /faq/
   - title: Get Involved
     url: /join-us/
+  - title: Blog
+    url: /blog/
   - title: Apply 2078
     url: /apply/
 np:
@@ -32,5 +34,7 @@ np:
         url: /सामान्यतया-सोधिएका-प्रश्नहरू/
   - title: सहभागिता
     url: /सहभागिता/
+  - title: ब्लग
+    url: /ब्लग/
   - title: आवेदन २०७८
     url: /आवेदन/
