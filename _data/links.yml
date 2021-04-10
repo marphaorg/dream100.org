@@ -102,5 +102,12 @@ join_us_mentor:
   np:
     label: प्रशिक्षक बन्नुहोस्
     url: /प्रशिक्षक/
+help_fundraise:
+  en:
+    label: Help Fundraise
+    url: https://www.facebook.com/fund/marphadotorg/
+  np:
+    label: चन्दा संकलनमा मद्दत गर्नुहोस्
+    url: https://www.facebook.com/fund/marphadotorg/
 
 
