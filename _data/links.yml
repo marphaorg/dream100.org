@@ -35,7 +35,7 @@ new_idea:
     label: Share with us
     url: /new-idea/
   np:
-    label: तपाईको विचार
+    label: हामीलाई सुनाउनुहोस
     url: /तपाईको-विचार/
 
 let_us_know:
@@ -86,11 +86,11 @@ join_us_donate:
     label: Donate
     url: /donate/
   np:
-    label: $१०० दान गर्नुहोस्
+    label: दान गर्नुहोस्
     url: /दान-पेटिका/
 join_us_volunteer:
   en:
-    label: Become A Virtual Volunteer
+    label: Volunteer Virtually 
     url: /volunteer-opportunity/
   np:
     label: स्वयंसेवक बन्नुहोस्
@@ -107,7 +107,7 @@ help_fundraise:
     label: Help Fundraise
     url: https://www.facebook.com/fund/marphadotorg/
   np:
-    label: चन्दा संकलनमा मद्दत गर्नुहोस्
+    label: रकम संकलनमा मद्दत गर्नुहोस्
     url: https://www.facebook.com/fund/marphadotorg/
 
 
