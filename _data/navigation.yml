@@ -12,7 +12,7 @@ en:
         url: /contact/
       - title: FAQs
         url: /faq/
-      - label: Donors
+      - title: Donors
         url: /donors/
   - title: Get Involved
     url: /join-us/
@@ -34,7 +34,7 @@ np:
         url: /सम्पर्क/
       - title: प्रश्नोत्तर
         url: /सामान्यतया-सोधिएका-प्रश्नहरू/
-      - label: दाताहरु
+      - title: दाताहरु
         url: /दाताहरु/
   - title: सहभागिता
     url: /सहभागिता/
