@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: admin
 lang: en
 title: College - Admin
 permalink: /admin/college/
@@ -61,6 +61,7 @@ permalink: /admin/college/
           // doc.data() is never undefined for query doc snapshots
           console.log(doc.id, " => ", doc.data());
           var college = doc.data();
+          var dt = new Date(college.updated_date * 1000);
           content +=
             '<a href="/admin/college/edit?id=' +
             doc.id +
@@ -69,12 +70,14 @@ permalink: /admin/college/
             '<h5 class="mb-1">' +
             college.address_en +
             "</h5> " +
-            "<small>Updated: 3 days ago</small> " +
+            "<small>Updated on: " +
+            dt.toLocaleString() +
+            "</small> " +
             "</div> " +
             '<p class="mb-1">' +
             college.name_en +
             "</p> " +
-            "<small>Donec id elit non mi porta.</small> " +
+            "<small>+2, Bachelors | Commerce, Arts</small> " +
             "</a>";
         });
         $("#mylist").html(content);

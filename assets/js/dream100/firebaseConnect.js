@@ -29,24 +29,32 @@ const dbCollegeManager = (() => {
   const addNewCollege = (collegeObj) => {
     // Add a new document in collection "cities"
     var dbTask = db.collection("colleges").add({
+      code: collegeObj.code,
       name_en: collegeObj.name_en,
       name_np: collegeObj.name_np,
       address_en: collegeObj.address_en,
       address_np: collegeObj.address_np,
-      rm_en: collegeObj.rm_en,
-      rm_np: collegeObj.rm_np,
+      municipality: collegeObj.municipality,
+      phone: collegeObj.phone,
+      email: collegeObj.email,
+      website: collegeObj.website,
       desc_en: collegeObj.desc_en,
       desc_np: collegeObj.desc_np,
-      subjects: collegeObj.subjects,
+      plus_two: collegeObj.plus_two,
+      bachelors: collegeObj.bachelors,
+      masters: collegeObj.masters,
+      diploma: collegeObj.diploma,
+      updated_date: collegeObj.updated_date,
     });
     return dbTask;
   };
 
   // Add College collection
-  const updateCollege = (id, collegeObj) => {
-    var collegeRef = db.collection("cities").doc(id);
+  const updateCollege = (code, collegeObj) => {
+    var collegeRef = db.collection("colleges").doc(code);
     // Set the "capital" field of the city 'DC'
     return collegeRef.update({
+      code: collegeObj.code,
       name_en: collegeObj.name_en,
       name_np: collegeObj.name_np,
       address_en: collegeObj.address_en,
@@ -56,10 +64,11 @@ const dbCollegeManager = (() => {
       desc_en: collegeObj.desc_en,
       desc_np: collegeObj.desc_np,
       subjects: collegeObj.subjects,
+      updated_date: collegeObj.updated_date,
     });
   };
 
-  // Add College collection
+  // Remove College from collection
   const removeCollege = (uniqueKey) => {
     console.log(uniqueKey);
   };
