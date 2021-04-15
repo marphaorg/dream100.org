@@ -113,7 +113,7 @@ permalink: /admin/college/edit
                             <div class="switch-wrap d-flex justify-content-between">
                               <p>1. Ten Plus Two - Education</p>
                               <div class="primary-switch">
-                                  <input type="checkbox" id="chkPlusTwo_Edu" checked>
+                                  <input type="checkbox" id="chkPlusTwo_Edu">
                                   <label for="chkPlusTwo_Edu"></label>
                               </div>
                             </div>
@@ -269,8 +269,8 @@ permalink: /admin/college/edit
     .querySelector(".doc-save")
     .addEventListener("click", editCollegeItem);
 
-    readCollege();
-    function readCollege() {
+    loadCollegeInfo();
+    function loadCollegeInfo() {
       var code = getSingleURLParameter();
       var dbTask = dbCollegeManager.getCollege(code);
       dbTask
@@ -290,7 +290,7 @@ permalink: /admin/college/edit
               $('#website').val(collegeObj.website);
               $('#college_desc_en').val(collegeObj.desc_en);
               $('#college_desc_np').val(collegeObj.desc_np);
-
+              loadCollegeSubjects('+2', collegeObj.plus_two);
           }) 
       })
         .catch((error) => {
@@ -377,6 +377,45 @@ permalink: /admin/college/edit
          if($("#chkBachelor_BEd").is(':checked'))
          {
            subjects.push('BEd');
+         }
+      }
+      return subjects;
+    }
+
+    function loadCollegeSubjects(levelofStudy, subjects)
+    {
+      if(levelofStudy == '+2')
+      {
+         if(jQuery.inArray( "Education", subjects) > -1)
+         {
+            $("#chkPlusTwo_Edu").prop("checked", true);
+         }
+         if(jQuery.inArray( "Humanities", subjects) > -1)
+         {
+           $("#chkPlusTwo_Hum").prop("checked", true);
+         }
+         if(jQuery.inArray( "Management", subjects) > -1)
+         {
+           $("#chkPlusTwo_Mng").prop("checked", true);
+         }
+         if(jQuery.inArray( "Science", subjects) > -1)
+         {
+           $("#chkPlusTwo_Sci").prop("checked", true);
+         }
+      }
+      if(levelofStudy == 'bachelors')
+      {
+        if(jQuery.inArray( "BA", subjects) > -1)
+         {
+           $("#chkBachelor_BA").prop("checked", true);
+         }
+         if(jQuery.inArray( "BBS", subjects) > -1)
+         {
+           $("#chkBachelor_BBS").prop("checked", true);
+         }
+         if(jQuery.inArray( "BEd", subjects) > -1)
+         {
+           $("#chkBachelor_BEd").prop("checked", true);
          }
       }
       return subjects;
