@@ -30,7 +30,7 @@ permalink: /admin/college/new
            
               <div class="col-lg-8 col-md-8">
                   <h2 class="mb-30">New College Information</h2>
-                  <form action="#" id="myform"></form>
+                  <form action="#" id="myform">
                       <div class="mt-10"><h3 class="mb-10">College Code</h3>
                         <input id="college_code" type="text" name="college_code" placeholder="College code"
                             onfocus="this.placeholder = ''" onblur="this.placeholder = 'College code'" required
@@ -266,24 +266,32 @@ permalink: /admin/college/new
     .addEventListener("click", createNewCollegeItem);
     
     function createNewCollegeItem(e) {
-        var collegeObj ={
-            code: $('#college_code').val(),
-            name_en: $('#college_name_en').val(),
-            name_np: $('#college_name_np').val(),
-            address_en: $('#college_address_en').val(),
-            address_np: $('#college_address_np').val(),
-            municipality: $('#rm_select').val(),
-            phone: $('#phone').val(),
-            email: $('#email').val(),
-            website: $('#website').val(),
-            desc_en: $('#college_desc_en').val(),
-            desc_np: $('#college_desc_np').val(),
-            plus_two: readCollegeSubjects('+2'),
-            bachelors: readCollegeSubjects('bachelors'),
-            masters: [],
-            diploma: [],
-            updated_date: new Date()
-        }
+
+      var collegeObj ={
+          code: $('#college_code').val(),
+          name_en: $('#college_name_en').val(),
+          name_np: $('#college_name_np').val(),
+          address_en: $('#college_address_en').val(),
+          address_np: $('#college_address_np').val(),
+          municipality: $('#rm_select').val(),
+          phone: $('#phone').val(),
+          email: $('#email').val(),
+          website: $('#website').val(),
+          desc_en: $('#college_desc_en').val(),
+          desc_np: $('#college_desc_np').val(),
+          plus_two: readCollegeSubjects('+2'),
+          bachelors: readCollegeSubjects('bachelors'),
+          masters: [],
+          diploma: [],
+          updated_date: new Date()
+      }
+
+      //check if college code already exist
+      var col = dbCollegeManager.getCollege(collegeObj.code);
+      if (col) {
+        alert("College code '" + collegeObj.code + "' already exist in our record.");
+        return;
+      }
       var dbTask = dbCollegeManager.addNewCollege(collegeObj);
       dbTask
         .then((docRef) => {

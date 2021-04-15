@@ -11,8 +11,8 @@ const dbCollegeManager = (() => {
   };
 
   // Get College collection
-  const getCollege = (id) => {
-    var dbTask = db.collection("colleges").doc(id).get();
+  const getCollege = (code) => {
+    var dbTask = db.collection("colleges").doc(code).get();
     return dbTask;
   };
 
@@ -27,7 +27,7 @@ const dbCollegeManager = (() => {
 
   // Add College collection
   const addNewCollege = (collegeObj) => {
-    // Add a new document in collection "cities"
+    // Add a new document in collection "college"
     var dbTask = db.collection("colleges").add({
       code: collegeObj.code,
       name_en: collegeObj.name_en,
@@ -52,18 +52,22 @@ const dbCollegeManager = (() => {
   // Add College collection
   const updateCollege = (code, collegeObj) => {
     var collegeRef = db.collection("colleges").doc(code);
-    // Set the "capital" field of the city 'DC'
+    // Set the "capital" field of the city 'name'
     return collegeRef.update({
-      code: collegeObj.code,
       name_en: collegeObj.name_en,
       name_np: collegeObj.name_np,
       address_en: collegeObj.address_en,
       address_np: collegeObj.address_np,
-      rm_en: collegeObj.rm_en,
-      rm_np: collegeObj.rm_np,
+      municipality: collegeObj.municipality,
+      phone: collegeObj.phone,
+      email: collegeObj.email,
+      website: collegeObj.website,
       desc_en: collegeObj.desc_en,
       desc_np: collegeObj.desc_np,
-      subjects: collegeObj.subjects,
+      plus_two: collegeObj.plus_two,
+      bachelors: collegeObj.bachelors,
+      masters: collegeObj.masters,
+      diploma: collegeObj.diploma,
       updated_date: collegeObj.updated_date,
     });
   };
