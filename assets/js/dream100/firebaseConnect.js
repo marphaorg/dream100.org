@@ -12,7 +12,7 @@ const dbCollegeManager = (() => {
 
   // Get College collection
   const getCollege = (code) => {
-    var dbTask = db.collection("colleges").doc(code).get();
+    var dbTask = db.collection("colleges").where("code", "==", code).get();
     return dbTask;
   };
 
@@ -50,9 +50,8 @@ const dbCollegeManager = (() => {
   };
 
   // Add College collection
-  const updateCollege = (code, collegeObj) => {
-    var collegeRef = db.collection("colleges").doc(code);
-    // Set the "capital" field of the city 'name'
+  const updateCollege = (id, collegeObj) => {
+    var collegeRef = db.collection("colleges").doc(id);
     return collegeRef.update({
       name_en: collegeObj.name_en,
       name_np: collegeObj.name_np,

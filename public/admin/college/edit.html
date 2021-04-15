@@ -30,135 +30,148 @@ permalink: /admin/college/edit
           <div class="row">
            
               <div class="col-lg-8 col-md-8">
-                  <h2 class="mb-30">New College Information</h2>
-                  <form action="#" id="myform"></form>
+                  <h2 class="mb-30">Edit College Information</h2>
+                  <form action="#" id="myform">
+                      <div class="mt-10"><h3 class="mb-10">College Code</h3>
+                        <input id="doc" value="" hidden>
+                        <input disabled id="college_code" type="text" name="college_code" placeholder="College code"
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'College code'" required
+                            class="single-input-primary">
+                      </div>
                       <div class="mt-10"><h3 class="mb-10">College Name</h3>
-                          <input type="text" name="college_name_en" placeholder="College Name in English"
+                          <input id="college_name_en" type="text" name="college_name_en" placeholder="College Name in English"
                               onfocus="this.placeholder = ''" onblur="this.placeholder = 'College Name in English'" required
                               class="single-input-primary">
                       </div>
                       <div class="mt-10"><h3 class="mb-10">कलेजको नाम</h3>
-                          <input type="text" name="college_name_np" placeholder="कलेजको नाम देवनागरीकमा"
+                          <input id="college_name_np" type="text" name="college_name_np" placeholder="कलेजको नाम देवनागरीकमा"
                               onfocus="this.placeholder = ''" onblur="this.placeholder = 'कलेजको नाम देवनागरीकमा'" required
                               class="single-input-primary">
                       </div>
                       <div class="mb-30"></div>
                       <div class="mt-10"><h3 class="mb-10">College Address</h3>
-                          <input type="text" name="college_address_en" placeholder="College Address"
+                          <input id="college_address_en" type="text" name="college_address_en" placeholder="College Address"
                               onfocus="this.placeholder = ''" onblur="this.placeholder = 'College Address'" required
                               class="single-input-primary">
                       </div>
                       <div class="mt-10"><h3 class="mb-10">कलेजको ठेगाना</h3>
-                          <input type="text" name="college_address_np" placeholder="कलेजको ठेगाना देवनागरीकमा"
+                          <input id="college_address_np" type="text" name="college_address_np" placeholder="कलेजको ठेगाना देवनागरीकमा"
                               onfocus="this.placeholder = ''" onblur="this.placeholder = 'कलेजको ठेगाना देवनागरीकमा'" required
                               class="single-input-primary">
                       </div>
                       <div class="mb-30"></div>
                       <div class="input-group-icon mt-10">
                           <h3 class="mb-10">Municipality(गाउँपालिका)</h3>
-                          <div class="form-select" id="rm_select">
-                              <select>
-                                  <option value='1'>Airawati RM</option>
-                                  <option value='2'>Gaumukhi RM</option>
-                                  <option value='3'>Jhimruk RM</option>
-                                  <option value='4'>Naubahini RM</option>
-                                  <option value='5'>Pyuthan Mun</option>
-                                  <option value='6'>Mandavi RM</option>
-                                  <option value='7'>Mallarani RM</option>
-                                  <option value='8'>Shworgdwari Mun</option>
-                                  <option value='9'>Sarumarani RM</option>
-                              </select>
+                          <div class="form-select">
+                            <select id="rm_select">
+                              <option value='Airawati'>Airawati RM</option>
+                              <option value='Gaumukhi'>Gaumukhi RM</option>
+                              <option value='Jhimruk'>Jhimruk RM</option>
+                              <option value='Naubahini'>Naubahini RM</option>
+                              <option value='Pyuthan'>Pyuthan Mun</option>
+                              <option value='Mandavi'>Mandavi RM</option>
+                              <option value='Mallarani'>Mallarani RM</option>
+                              <option value='Shworgdwari'>Shworgdwari Mun</option>
+                              <option value='Sarumarani'>Sarumarani RM</option>
+                          </select>
                           </div>
+                          
                       </div>
                       <div class="mb-30"></div>
                       <div class="mt-10"><h3 class="mb-10">Phone</h3>
-                        <input type="text" name="phone" placeholder="Phone"
+                        <input id="phone" type="text" name="phone" placeholder="Phone"
                             onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'" required
                             class="single-input-primary">
                       </div>
                       <div class="mb-30"></div>
                       <div class="mt-10"><h3 class="mb-10">Email</h3>
-                        <input type="text" name="email" placeholder="Email"
+                        <input id="email" type="text" name="email" placeholder="Email"
                             onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" required
                             class="single-input-primary">
                       </div>
                       <div class="mb-30"></div>
                       <div class="mt-10"><h3 class="mb-10">Website</h3>
-                        <input type="text" name="website" placeholder="Website"
+                        <input id="website" type="text" name="website" placeholder="Website"
                             onfocus="this.placeholder = ''" onblur="this.placeholder = 'Website'" required
                             class="single-input-primary">
                       </div>
                       <div class="mb-30"></div>
                       <div class="mt-10"><h3 class="mb-10">Description</h3>
-                          <input type="text" name="college_desc_en" placeholder="Description"
+                          <input id="college_desc_en" type="text" name="college_desc_en" placeholder="Description"
                               onfocus="this.placeholder = ''" onblur="this.placeholder = 'Description'" required
                               class="single-textarea">
                       </div>
                       <div class="mt-10"><h3 class="mb-10">थप जानकारी</h3>
-                          <input type="text" name="college_desc_np" placeholder="थप जानकारी"
+                          <input id="college_desc_np" type="text" name="college_desc_np" placeholder="थप जानकारी"
                               onfocus="this.placeholder = ''" onblur="this.placeholder = 'थप जानकारी'" required
                               class="single-textarea">
                       </div>
                       <div class="mb-30"></div>
                       <div class="mt-10">
                         <div class="single-element-widget">
-                          <h3 class="mb-10">Additional Info</h3>
-                            
+                          <h3 class="mb-10">Subjects(कलेजमा पढाई हुने विषयहरु)</h3>
+                            <div class="switch-wrap d-flex justify-content-between">
+                              <p>1. Ten Plus Two - Education</p>
+                              <div class="primary-switch">
+                                  <input type="checkbox" id="chkPlusTwo_Edu" checked>
+                                  <label for="chkPlusTwo_Edu"></label>
+                              </div>
+                            </div>
+                            <div class="switch-wrap d-flex justify-content-between">
+                              <p>2. Ten Plus Two - Humanities</p>
+                              <div class="primary-switch">
+                                  <input type="checkbox" id="chkPlusTwo_Hum" >
+                                  <label for="chkPlusTwo_Hum"></label>
+                              </div>
+                            </div>
+                            <div class="switch-wrap d-flex justify-content-between">
+                              <p>3. Ten Plus Two - Management</p>
+                              <div class="primary-switch">
+                                  <input type="checkbox" id="chkPlusTwo_Mng" >
+                                  <label for="chkPlusTwo_Mng"></label>
+                              </div>
+                            </div>
+                            <div class="switch-wrap d-flex justify-content-between">
+                              <p>4. Ten Plus Two - Science</p>
+                              <div class="primary-switch">
+                                  <input type="checkbox" id="chkPlusTwo_Sci" >
+                                  <label for="chkPlusTwo_Sci"></label>
+                              </div>
+                            </div>
+                            <div class="switch-wrap d-flex justify-content-between">
+                              <p>5. Bachelor of Arts - BA</p>
+                              <div class="primary-switch">
+                                  <input type="checkbox" id="chkBachelor_BA" >
+                                  <label for="chkBachelor_BA"></label>
+                              </div>
+                            </div>
+                            <div class="switch-wrap d-flex justify-content-between">
+                              <p>6. Bachelor of Business Studies - BBS</p>
+                              <div class="primary-switch">
+                                  <input type="checkbox" id="chkBachelor_BBS" >
+                                  <label for="chkBachelor_BBS"></label>
+                              </div>
+                            </div>
+                            <div class="switch-wrap d-flex justify-content-between">
+                              <p>7. Bachelor of Education - B.Ed</p>
+                              <div class="primary-switch">
+                                  <input type="checkbox" id="chkBachelor_BEd" >
+                                  <label for="chkBachelor_BEd"></label>
+                              </div>
+                            </div>
                         </div>
                   </div>
               </div>
-              <div class="col-lg-4 col-md-4 mt-sm-30">
-                  <div class="single-element-widget">
-                    <h3 class="mb-10">Subjects(कलेजमा पढाई हुने विषयहरु)</h3>
-                    <div class="switch-wrap d-flex justify-content-between">
-                      <p>1. Ten Plus Two - Education</p>
-                      <div class="primary-switch">
-                          <input type="checkbox" id="chkPlusTwo_Edu" checked>
-                          <label for="chkPlusTwo_Edu"></label>
+              <div class="col-lg-3 col-md-4 mt-sm-30">
+                  <div class="form-row">
+                      <div class="form-group col-md-12">
+                        <label for="inputEmail4">Students in Grade 11(Year 2077)</label>
+                        <input type="text" class="form-control" id="txtstudents11" placeholder="Students Count">
                       </div>
-                    </div>
-                    <div class="switch-wrap d-flex justify-content-between">
-                      <p>2. Ten Plus Two - Humanities</p>
-                      <div class="primary-switch">
-                          <input type="checkbox" id="chkPlusTwo_Hum" >
-                          <label for="chkPlusTwo_Hum"></label>
+                      <div class="form-group col-md-12">
+                        <label for="inputPassword4">Students in Grade 12(Year 2077)</label>
+                        <input type="text" class="form-control" id="txtstudents12" placeholder="Students Count">
                       </div>
-                    </div>
-                    <div class="switch-wrap d-flex justify-content-between">
-                      <p>3. Ten Plus Two - Management</p>
-                      <div class="primary-switch">
-                          <input type="checkbox" id="chkPlusTwo_Mng" >
-                          <label for="chkPlusTwo_Mng"></label>
-                      </div>
-                    </div>
-                    <div class="switch-wrap d-flex justify-content-between">
-                      <p>4. Ten Plus Two - Science</p>
-                      <div class="primary-switch">
-                          <input type="checkbox" id="chkPlusTwo_Sci" >
-                          <label for="chkPlusTwo_Sci"></label>
-                      </div>
-                    </div>
-                    <div class="switch-wrap d-flex justify-content-between">
-                      <p>5. Bachelor of Arts - BA</p>
-                      <div class="primary-switch">
-                          <input type="checkbox" id="chkBachelor_BA" >
-                          <label for="chkBachelor_BA"></label>
-                      </div>
-                    </div>
-                    <div class="switch-wrap d-flex justify-content-between">
-                      <p>6. Bachelor of Business Studies - BBS</p>
-                      <div class="primary-switch">
-                          <input type="checkbox" id="chkBachelor_BBS" >
-                          <label for="chkBachelor_BBS"></label>
-                      </div>
-                    </div>
-                    <div class="switch-wrap d-flex justify-content-between">
-                      <p>7. Bachelor of Education - B.Ed</p>
-                      <div class="primary-switch">
-                          <input type="checkbox" id="chkBachelor_BEd" >
-                          <label for="chkBachelor_BEd"></label>
-                      </div>
-                    </div>
                     </div>
                 </form>
                   </div>
@@ -170,7 +183,7 @@ permalink: /admin/college/edit
           class="btn hero-btn mb-10 doc-save"
           data-animation="fadeInLeft"
           data-delay=".8s"
-          onsubmit="createNewCollegeItem(this)"
+          onsubmit="editCollegeItem(this)"
           >Save</button>
       </div>
      
@@ -178,34 +191,194 @@ permalink: /admin/college/edit
 </div>
 <!-- End College Area -->
 
+<!-- Modal Error -->
+<div
+  class="modal fade"
+  id="modelError"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content border-danger">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLongTitle">Fail</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        There is an issue with saving data.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Success -->
+<div
+  class="modal fade"
+  id="modelSuccess"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content  border-success">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLongTitle">Success</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Data has been saved successfully.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <!-- Firebase references -->
 {% include firebase.html %}
 
 <script src="/assets/js/dream100/helper.js"></script>
 <script>
+  
+    document
+    .querySelector(".doc-save")
+    .addEventListener("click", editCollegeItem);
+
     readCollege();
     function readCollege() {
-        var id = getParameterByName('id');
-      var dbTask = dbCollegeManager.getCollege(id);
+      var code = getSingleURLParameter();
+      var dbTask = dbCollegeManager.getCollege(code);
       dbTask
-        .then((doc) => {
-          console.log(doc.data());
-        })
+        .then((querySnapshot) => {
+          querySnapshot.forEach((doc) => {
+              console.log(doc.data());
+              var collegeObj = doc.data();
+              $('#doc').val(doc.id);
+              $('#college_code').val(collegeObj.code);
+              $('#college_name_en').val(collegeObj.name_en);
+              $('#college_name_np').val(collegeObj.name_np);
+              $('#college_address_en').val(collegeObj.address_en);
+              $('#college_address_np').val(collegeObj.address_np);
+              $('#rm_select').val(collegeObj.municipality);
+              $('#rm_select').niceSelect('update');
+              $('#email').val(collegeObj.email);
+              $('#website').val(collegeObj.website);
+              $('#college_desc_en').val(collegeObj.desc_en);
+              $('#college_desc_np').val(collegeObj.desc_np);
+
+          }) 
+      })
         .catch((error) => {
           console.log("Error getting documents: ", error);
+      });
+    }
+    
+    function editCollegeItem(e) {
+      $("#preloader-active").show();
+      var collegeObj ={
+          code: $('#college_code').val(),
+          name_en: $('#college_name_en').val(),
+          name_np: $('#college_name_np').val(),
+          address_en: $('#college_address_en').val(),
+          address_np: $('#college_address_np').val(),
+          municipality: $('#rm_select').val(),
+          phone: $('#phone').val(),
+          email: $('#email').val(),
+          website: $('#website').val(),
+          desc_en: $('#college_desc_en').val(),
+          desc_np: $('#college_desc_np').val(),
+          plus_two: readCollegeSubjects('+2'),
+          bachelors: readCollegeSubjects('bachelors'),
+          masters: [],
+          diploma: [],
+          updated_date: new Date()
+      }
+
+      var dbTask = dbCollegeManager.updateCollege($('#doc').val(), collegeObj);
+      dbTask
+        .then((docRef) => {
+          $("#preloader-active").hide();
+        $("#myform").fadeTo("slow", 1, function () {
+                $(this).find(":input").attr("disabled", "disabled");
+                $(this).find("label").css("cursor", "default");
+                $("#modelSuccess").fadeIn();
+                $(".modal").modal("hide");
+                $("#modelSuccess").modal("show");
+        });
+        })
+        .catch((error) => {
+          $("#preloader-active").hide();
+          console.error("Error updating document: ", error);
+          $("#myform").fadeTo("slow", 1, function () {
+                $("#modelError").fadeIn();
+                $(".modal").modal("hide");
+                $("#modelError").modal("show");
+            });
         });
     }
 
-    function updateCollegeItem(id, collegeObj) {
-        var id = getParameterByName('id');
-      var dbTask = dbCollegeManager.updateCollege(id, collegeObj);
-      dbTask
-        .then(() => {
-          console.log("Document successfully updated!");
-        })
-        .catch((error) => {
-          // The document probably doesn't exist.
-          console.error("Error updating document: ", error);
-        });
+    function readCollegeSubjects(levelofStudy)
+    {
+      var subjects = [];
+      if(levelofStudy == '+2')
+      {
+         if($("#chkPlusTwo_Edu").is(':checked'))
+         {
+           subjects.push('Education');
+         }
+         if($("#chkPlusTwo_Hum").is(':checked'))
+         {
+           subjects.push('Humanities');
+         }
+         if($("#chkPlusTwo_Mng").is(':checked'))
+         {
+           subjects.push('Management');
+         }
+         if($("#chkPlusTwo_Sci").is(':checked'))
+         {
+           subjects.push('Science');
+         }
+      }
+      if(levelofStudy == 'bachelors')
+      {
+         if($("#chkBachelor_BA").is(':checked'))
+         {
+           subjects.push('BA');
+         }
+         if($("#chkBachelor_BBS").is(':checked'))
+         {
+           subjects.push('BBS');
+         }
+         if($("#chkBachelor_BEd").is(':checked'))
+         {
+           subjects.push('BEd');
+         }
+      }
+      return subjects;
     }
   </script>

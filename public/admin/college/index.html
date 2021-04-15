@@ -63,8 +63,8 @@ permalink: /admin/college/
           var college = doc.data();
           var dt = new Date(college.updated_date * 1000);
           content +=
-            '<a href="/admin/college/edit?id=' +
-            doc.id +
+            '<a href="/admin/college/edit/' +
+            college.code +
             '" class="list-group-item list-group-item-action flex-column align-items-start mb-4"> ' +
             '<div class="d-flex w-100 justify-content-between">' +
             '<h5 class="mb-1">' +
