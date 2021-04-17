@@ -18,10 +18,7 @@ const dbCollegeManager = (() => {
 
   // Get College collection
   const getColleges = () => {
-    var dbTask = db
-      .collection("colleges")
-      //.where("name", "==", "abc")
-      .get();
+    var dbTask = db.collection("colleges").orderBy("name_en").get();
     return dbTask;
   };
 
@@ -138,14 +135,43 @@ const dbLookUpManager = (() => {
 
   // Get Look Up collection item
   const getLookUp = (collection, code) => {
-    var dbTask = db.collection(collection).where("code", "==", code).get();
-    return dbTask;
+    var items = getLookUps(collection);
+    items.forEach(function (item, index) {
+      //console.log("[" + index + "]: " + item.code);
+      if (JSON.stringify(item.code) === JSON.stringify(code)) {
+        console.log(item);
+        return item;
+      }
+    });
   };
 
   // Get Look Up collection
   const getLookUps = (collection) => {
-    var dbTask = db.collection(collection).get();
-    return dbTask;
+    var items = [];
+
+    // Retrieve the object from storage
+    var retrievedObject = localStorage.getItem(collection);
+    if (retrievedObject) {
+      items = JSON.parse(retrievedObject || "[]");
+    } else {
+      db.collection(collection)
+        .orderBy("code")
+        .get()
+        .then((querySnapshot) => {
+          querySnapshot.forEach((doc) => {
+            var d = doc.data();
+            console.log(d);
+            items.push(d);
+          });
+
+          // Put the object into storage
+          localStorage.setItem(collection, JSON.stringify(items));
+        })
+        .catch((error) => {
+          console.log("Error getting documents: ", error);
+        });
+    }
+    return items;
   };
 
   // Add College collection

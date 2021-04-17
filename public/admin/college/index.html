@@ -51,7 +51,9 @@ permalink: /admin/college/
 {% include firebase.html %}
 
 <script>
+  var items = dbLookUpManager.getLookUps("lookup-municipalities");
   readColleges();
+
   function readColleges() {
     var dbTask = dbCollegeManager.getColleges();
     dbTask
@@ -59,15 +61,22 @@ permalink: /admin/college/
         var content = "";
         querySnapshot.forEach((doc) => {
           // doc.data() is never undefined for query doc snapshots
-          console.log(doc.id, " => ", doc.data());
+          //console.log(doc.id, " => ", doc.data());
           var college = doc.data();
           var dt = new Date(college.updated_date * 1000);
+          console.log(college.municipality);
+          var rmAddr = items.find(
+            (x) =>
+              JSON.stringify(x.code) === JSON.stringify(college.municipality)
+          );
           content +=
             '<a href="/admin/college/edit/' +
             college.code +
             '" class="list-group-item list-group-item-action flex-column align-items-start mb-4"> ' +
             '<div class="d-flex w-100 justify-content-between">' +
             '<h5 class="mb-1">' +
+            rmAddr.name_en +
+            ", " +
             college.address_en +
             "</h5> " +
             "<small>Updated on: " +
@@ -84,30 +93,6 @@ permalink: /admin/college/
       })
       .catch((error) => {
         console.log("Error getting documents: ", error);
-      });
-  }
-
-  function createNewCollegeItem(collegeObj, collegeStats) {
-    var dbTask = dbCollegeManager.addCollege(collegeObj);
-    dbTask
-      .then((docRef) => {
-        console.log("Document written with ID: ", docRef.id);
-        return docRef.id;
-      })
-      .catch((error) => {
-        console.error("Error writing document: ", error);
-      });
-  }
-
-  function updateCollegeItem(id, collegeObj) {
-    var dbTask = dbCollegeManager.updateCollege(id, collegeObj);
-    dbTask
-      .then(() => {
-        console.log("Document successfully updated!");
-      })
-      .catch((error) => {
-        // The document probably doesn't exist.
-        console.error("Error updating document: ", error);
       });
   }
 </script>

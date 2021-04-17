@@ -182,9 +182,8 @@ permalink: /admin/lookup/edit
                 "<p class=\"mb-1\"> "+
                     "देवनागरीक: " + item.name_np +
                 "</p>" +
-                "<small>Tag: "+collection+"</small>" +
                 "<div class=\"d-flex w-100 justify-content-between\"> " +
-                    "<h5 class=\"mb-1\">Code: "+item.code+"</h5>" +
+                    "<small>Tag: "+collection+"</small>" +
                     "<button class=\"border-btn\" onClick=\"deleteDoc('"+doc.id+"')\">Delete</button>" +
                 "</div>" +
                 "</a>";
@@ -219,14 +218,15 @@ permalink: /admin/lookup/edit
             var dbTask = dbLookUpManager.addNewItem(collection, item);
               dbTask
             .then((docRef) => {
+              loadLookUps();
               console.log("Document written with ID: ", docRef.id);
-            $("#myform").fadeTo("slow", 1, function () {
-                    $(this).find(":input").attr("disabled", "disabled");
-                    $(this).find("label").css("cursor", "default");
-                    $("#modelSuccess").fadeIn();
-                    $(".modal").modal("hide");
-                    $("#modelSuccess").modal("show");
-            });
+              $("#myform").fadeTo("slow", 1, function () {
+                      $(this).find("label").css("cursor", "default");
+                      $("#modelSuccess").fadeIn();
+                      $(".modal").modal("hide");
+                      $("#modelSuccess").modal("show");
+
+              });
             })
             .catch((error) => {
               console.error("Error writing document: ", error);
