@@ -128,3 +128,60 @@ const dbFileManager = (() => {
 })();
 
 // ########## APPLICATION END ##########
+
+// ########## LOOK UP START ###########
+
+const dbLookUpManager = (() => {
+  //firebase.analytics();
+
+  var db = firebase.firestore();
+
+  // Get Look Up collection item
+  const getLookUp = (collection, code) => {
+    var dbTask = db.collection(collection).where("code", "==", code).get();
+    return dbTask;
+  };
+
+  // Get Look Up collection
+  const getLookUps = (collection) => {
+    var dbTask = db.collection(collection).get();
+    return dbTask;
+  };
+
+  // Add College collection
+  const addNewItem = (collection, item) => {
+    // Add a new document in collection "college"
+    var dbTask = db.collection(collection).add({
+      code: item.code,
+      name_en: item.name_en,
+      name_np: item.name_np,
+      updated_date: item.updated_date,
+    });
+    return dbTask;
+  };
+
+  // Add College collection
+  const updateItem = (collection, docId, item) => {
+    var itemRef = db.collection(collection).doc(docId);
+    return itemRef.update({
+      name_en: item.name_en,
+      name_np: item.name_np,
+      updated_date: item.updated_date,
+    });
+  };
+
+  // Remove item from collection
+  const removeItem = (collection, docId) => {
+    return db.collection(collection).doc(docId).delete();
+  };
+
+  return {
+    getLookUp,
+    getLookUps,
+    addNewItem,
+    updateItem,
+    removeItem,
+  };
+})();
+
+// ########## LOOK UP END ##########

@@ -1,0 +1,270 @@
+---
+layout: admin
+lang: en
+title: Edit Look Up
+permalink: /admin/lookup/edit
+---
+
+<!--? Hero Start -->
+<div class="slider-area2">
+  <div class="slider-height2 d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="hero-cap hero-cap2 pt-20 text-center">
+            <h2>Look Ups</h2>
+            <a class="btn-link" href="/admin/">Go to Admin Page</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Hero End -->
+
+<!--? Start Lookup Area -->
+<div class="whole-wrap">
+    <div class="container box_1170">
+        <div class="section-top-border">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="mb-30">New Look Up Information</h2>
+                    <form action="#" id="myform">
+                        <div class="mt-10"><h3 class="mb-10">Code</h3>
+                          <input id="code" type="text" placeholder="code"
+                              onfocus="this.placeholder = ''" onblur="this.placeholder = 'code'" required
+                              class="single-input-primary">
+                        </div>
+                        <div class="mt-10"><h3 class="mb-10">Name</h3>
+                            <input id="name_en" type="text" placeholder="Name in English"
+                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name in English'" required
+                                class="single-input-primary">
+                        </div>
+                        <div class="mt-10"><h3 class="mb-10">नाम</h3>
+                            <input id="name_np" type="text" placeholder="नाम देवनागरीकमा"
+                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'नाम देवनागरीकमा'" required
+                                class="single-input-primary">
+                        </div>
+                </div>
+            </div>
+            <button
+            id="btnSave"
+            class="btn hero-btn mb-10 doc-save"
+            data-animation="fadeInLeft"
+            data-delay=".8s"
+            onsubmit="createNewItem(this)"
+            >Save</button>
+        </div>
+       
+    </div>
+  </div>
+  <!-- End Lookup Area -->
+  <div class="whole-wrap">
+    <div class="container box_1170">
+        <h3>Look Ups</h3>
+        <div class="list-group" id="mylist">
+            <label>Loading...</label>
+            <!-- <a href="javascript:void(0)" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Code: </h5>
+                    <small>3 days ago</small>
+                </div>
+                <p class="mb-1">
+                    English: Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+                </p>
+                <p class="mb-1">
+                    देवनागरीक: Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
+                </p>
+                <small>Tag: lookup-subjects</small>
+            </a> -->
+            
+        </div>
+  </div>
+</div>
+  <!-- Modal Error -->
+  <div
+    class="modal fade"
+    id="modelError"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content border-danger">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLongTitle">Fail</h5>
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          There is an issue with saving data.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Success -->
+  <div
+    class="modal fade"
+    id="modelSuccess"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content  border-success">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLongTitle">Success</h5>
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Data has been saved successfully.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- Firebase references -->
+  {% include firebase.html %}
+  
+  <script src="/assets/js/dream100/helper.js"></script>
+  <script>
+      document
+      .querySelector(".doc-save")
+      .addEventListener("click", createNewItem);
+      var collection = getSingleURLParameter();
+    console.log(collection);
+    loadLookUps();
+    function loadLookUps() {
+        var dbTask = dbLookUpManager.getLookUps(collection);
+        dbTask
+        .then((querySnapshot) => {
+            var content = "";
+            querySnapshot.forEach((doc) => {
+            // doc.data() is never undefined for query doc snapshots
+            // console.log(doc.id, " => ", doc.data());
+            var item = doc.data();
+            var dt = new Date(item.updated_date * 1000);
+            content +=
+                "<a id=\"doc_"+doc.id+"\" href=\"javascript:void(0)\" class=\"list-group-item list-group-item-action flex-column align-items-start mb-4\">"+
+                "<div class=\"d-flex w-100 justify-content-between\"> " +
+                    "<h5 class=\"mb-1\">Code: "+item.code+"</h5>" +
+                    "<small>"+dt.toLocaleString()+"</small>" +
+                "</div>" +
+                "<p class=\"mb-1\"> "+
+                    "English: " + item.name_en +
+                "</p>" +
+                "<p class=\"mb-1\"> "+
+                    "देवनागरीक: " + item.name_np +
+                "</p>" +
+                "<small>Tag: "+collection+"</small>" +
+                "<div class=\"d-flex w-100 justify-content-between\"> " +
+                    "<h5 class=\"mb-1\">Code: "+item.code+"</h5>" +
+                    "<button class=\"border-btn\" onClick=\"deleteDoc('"+doc.id+"')\">Delete</button>" +
+                "</div>" +
+                "</a>";
+            });
+            $("#mylist").html(content);
+        })
+        .catch((error) => {
+            console.log("Error getting documents: ", error);
+        });
+    }
+
+    function createNewItem(e) {
+      if(!$("#myform").valid())
+      {
+          alert('Form not valid');
+          return;
+      }
+
+      var item ={
+          code: $('#code').val(),
+          name_en: $('#name_en').val(),
+          name_np: $('#name_np').val(),
+          updated_date: new Date()
+      }
+
+      //check if lookup code already exist
+      var getLookUpTask = dbLookUpManager.getLookUp(collection, item.code);
+      getLookUpTask
+        .then((querySnapshot) => {
+          if(querySnapshot.size == 0)
+          {
+            var dbTask = dbLookUpManager.addNewItem(collection, item);
+              dbTask
+            .then((docRef) => {
+              console.log("Document written with ID: ", docRef.id);
+            $("#myform").fadeTo("slow", 1, function () {
+                    $(this).find(":input").attr("disabled", "disabled");
+                    $(this).find("label").css("cursor", "default");
+                    $("#modelSuccess").fadeIn();
+                    $(".modal").modal("hide");
+                    $("#modelSuccess").modal("show");
+            });
+            })
+            .catch((error) => {
+              console.error("Error writing document: ", error);
+              $("#myform").fadeTo("slow", 1, function () {
+                    $("#modelError").fadeIn();
+                    $(".modal").modal("hide");
+                    $("#modelError").modal("show");
+                });
+            });
+          }
+          else
+          {
+            alert("Item already exist");
+          }
+        })
+        .catch((error) => {
+            console.log("Error getting documents: ", error);
+      });
+
+      
+    }
+
+    function deleteDoc(docId)
+    {
+      var r = confirm("Do you want to delete the item?");
+      if (r == true) {
+        console.log(docId);
+        var dbDeleteTask = dbLookUpManager.removeItem(collection, docId);
+        dbDeleteTask.then(() => {
+            console.log("Document successfully deleted!");
+        }).catch((error) => {
+            console.error("Error removing document: ", error);
+        });
+        $("#doc_"+docId).remove();
+      } else {
+        //
+      }
+      
+    }
+  
+  </script>
