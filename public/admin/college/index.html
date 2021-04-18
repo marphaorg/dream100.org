@@ -49,9 +49,16 @@ permalink: /admin/college/
 
 <!-- Firebase references -->
 {% include firebase.html %}
-
+<!--Set page lang in js variable -->
+{% if page.lang == "en" %}
 <script>
-  var items = dbLookUpManager.getLookUps("lookup-municipalities");
+  var pageLang = "np";
+</script>
+{% endif %}
+<script>
+  var lkup_muni = dbLookUpManager.getLookUps("lookup-municipalities");
+  var lkup_subjects = dbLookUpManager.getLookUps("lookup-subjects");
+
   readColleges();
 
   function readColleges() {
@@ -65,7 +72,7 @@ permalink: /admin/college/
           var college = doc.data();
           var dt = new Date(college.updated_date * 1000);
           console.log(college.municipality);
-          var rmAddr = items.find(
+          var rmAddr = lkup_muni.find(
             (x) =>
               JSON.stringify(x.code) === JSON.stringify(college.municipality)
           );
@@ -75,18 +82,20 @@ permalink: /admin/college/
             '" class="list-group-item list-group-item-action flex-column align-items-start mb-4"> ' +
             '<div class="d-flex w-100 justify-content-between">' +
             '<h5 class="mb-1">' +
-            rmAddr.name_en +
+            (pageLang === "en" ? rmAddr.name_en : rmAddr.name_np) +
             ", " +
-            college.address_en +
+            (pageLang === "en" ? college.address_en : college.address_np) +
             "</h5> " +
             "<small>Updated on: " +
             dt.toLocaleString() +
             "</small> " +
             "</div> " +
             '<p class="mb-1">' +
-            college.name_en +
+            (pageLang === "en" ? college.name_en : college.name_np) +
             "</p> " +
-            "<small>+2, Bachelors | Commerce, Arts</small> " +
+            "<small>" +
+            displaySubjects(college) +
+            "</small> " +
             "</a>";
         });
         $("#mylist").html(content);
@@ -94,5 +103,39 @@ permalink: /admin/college/
       .catch((error) => {
         console.log("Error getting documents: ", error);
       });
+  }
+
+  function displaySubjects(college) {
+    var rmAddr = lkup_subjects.find(
+      (x) => JSON.stringify(x.code) === JSON.stringify(college.municipality)
+    );
+    var txt = "";
+    if (college.plus_two.length > 0) {
+      txt += "10+2: ";
+      college.plus_two.forEach(function (v) {
+        var sub = lkup_subjects.find(
+          (x) => JSON.stringify(x.name_en) === JSON.stringify(v)
+        );
+        if (pageLang === "en") {
+          txt += sub.name_en + " ";
+        } else {
+          txt += sub.name_np + " ";
+        }
+      });
+    }
+    if (college.bachelors.length > 0) {
+      txt += " | Bachelors: ";
+      college.bachelors.forEach(function (v) {
+        var sub = lkup_subjects.find(
+          (x) => JSON.stringify(x.name_en) === JSON.stringify(v)
+        );
+        if (pageLang === "en") {
+          txt += sub.name_en + " ";
+        } else {
+          txt += sub.name_np + " ";
+        }
+      });
+    }
+    return txt;
   }
 </script>
