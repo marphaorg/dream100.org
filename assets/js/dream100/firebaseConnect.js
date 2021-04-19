@@ -5,11 +5,6 @@ const dbCollegeManager = (() => {
 
   var db = firebase.firestore();
 
-  const getUniqueKey = () => {
-    var dt = new Date();
-    return dt.getUTCMilliseconds();
-  };
-
   // Get College collection
   const getCollege = (code) => {
     var dbTask = db.collection("colleges").where("code", "==", code).get();
@@ -74,7 +69,6 @@ const dbCollegeManager = (() => {
   };
 
   return {
-    getUniqueKey,
     getCollege,
     getColleges,
     addNewCollege,
@@ -88,38 +82,57 @@ const dbCollegeManager = (() => {
 // ########## APPLICATION START ###########
 
 const dbFileManager = (() => {
+  var db = firebase.firestore();
+
   const storageService = firebase.storage();
   const storageRef = storageService.ref();
 
-  const getUniqueKey = () => {
-    var dt = new Date();
-    return dt.getUTCMilliseconds();
+  // Get Upload stats
+  const getApplicationStats = (folder) => {
+    var task = db.collection(folder);
+    return task;
   };
 
   // Get College collection
   const uploadFileTask = (folder, selectedFile) => {
     var dt = new Date();
-    const uploadTask = storageRef
-      .child(
-        `${folder}/${
-          dt.getFullYear() +
-          "_" +
-          dt.getMonth() +
-          "_" +
-          dt.getDate() +
-          "_" +
-          dt.getHours() +
-          "_" +
-          dt.getMinutes() +
-          "_" +
-          dt.getMilliseconds()
-        }_${selectedFile.name}`
-      )
-      .put(selectedFile);
+    var fullFileName = `${folder}/${
+      dt.getFullYear() +
+      "_" +
+      dt.getMonth() +
+      "_" +
+      dt.getDate() +
+      "_" +
+      dt.getHours() +
+      "_" +
+      dt.getMinutes() +
+      "_" +
+      dt.getMilliseconds()
+    }_${selectedFile.name}`;
+    const uploadTask = storageRef.child(fullFileName).put(selectedFile);
+
+    //track upload in collection
+    var dbTask = db.collection(folder).add({
+      filename: fullFileName,
+      application_date: "",
+      reviewed: false,
+      reviewed_date: "",
+      verified: false,
+      verified_date: "",
+      approved: false,
+      group: "",
+      approved_date: "",
+      got_admitted: false,
+      admitted_date: "",
+      note: "",
+      updated_date: dt,
+    });
+
     return uploadTask;
   };
 
   return {
+    getApplicationStats,
     uploadFileTask,
   };
 })();
@@ -143,6 +156,7 @@ const dbLookUpManager = (() => {
         return item;
       }
     });
+    return null;
   };
 
   // Get Look Up collection
@@ -160,7 +174,7 @@ const dbLookUpManager = (() => {
         .then((querySnapshot) => {
           querySnapshot.forEach((doc) => {
             var d = doc.data();
-            console.log(d);
+            d["docId"] = d.id;
             items.push(d);
           });
 
@@ -183,12 +197,18 @@ const dbLookUpManager = (() => {
       name_np: item.name_np,
       updated_date: item.updated_date,
     });
+    //clear local storage for lookup
+    localStorage.removeItem(collection);
     return dbTask;
   };
 
   // Add College collection
   const updateItem = (collection, docId, item) => {
     var itemRef = db.collection(collection).doc(docId);
+
+    //clear local storage for lookup
+    localStorage.removeItem(collection);
+
     return itemRef.update({
       name_en: item.name_en,
       name_np: item.name_np,
@@ -198,6 +218,9 @@ const dbLookUpManager = (() => {
 
   // Remove item from collection
   const removeItem = (collection, docId) => {
+    //clear local storage for lookup
+    localStorage.removeItem(collection);
+
     return db.collection(collection).doc(docId).delete();
   };
 

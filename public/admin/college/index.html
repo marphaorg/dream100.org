@@ -125,6 +125,7 @@ permalink: /admin/college/
     }
     if (college.bachelors.length > 0) {
       txt += " | Bachelors: ";
+      console.log(college.bachelors);
       college.bachelors.forEach(function (v) {
         var sub = lkup_subjects.find(
           (x) => JSON.stringify(x.name_en) === JSON.stringify(v)
