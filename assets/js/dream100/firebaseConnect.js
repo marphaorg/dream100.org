@@ -113,8 +113,9 @@ const dbFileManager = (() => {
 
     //track upload in collection
     var dbTask = db.collection(folder).add({
+      application_id: "not-assigned",
       filename: fullFileName,
-      application_date: "",
+      application_date: dt,
       reviewed: false,
       reviewed_date: "",
       verified: false,
