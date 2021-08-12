@@ -21,7 +21,7 @@
       .get()
       .then((querySnapshot) => {
         querySnapshot.forEach((doc) => {
-          console.log(doc.data());
+          //console.log(doc.data());
           submittedCount += 1;
           if (doc.data().reviewed == true) {
             reviewedCount++;
@@ -33,7 +33,7 @@
             approvedCount++;
           }
         });
-        console.log(submittedCount);
+        //console.log(submittedCount);
         $("#lblSubmitted").text(submittedCount);
         $("#lblUnderReview").text(reviewedCount);
         $("#lblVerified").text(verifiedCount);
