@@ -23,13 +23,13 @@
         querySnapshot.forEach((doc) => {
           //console.log(doc.data());
           submittedCount += 1;
-          if (doc.data().reviewed == true) {
+          if (doc.data().reviewed == true && !doc.data().verified_date) {
             reviewedCount++;
           }
-          if (doc.data().verified == true) {
+          if (doc.data().verified == true && doc.data().verified_date) {
             verifiedCount++;
           }
-          if (doc.data().approved == true) {
+          if (doc.data().approved == true && doc.data().approved_date) {
             approvedCount++;
           }
         });
