@@ -43,43 +43,4 @@
         console.log("Error getting documents: ", error);
       });
   }
-  function handleFileUploadChange(e) {
-    selectedFile = e.target.files[0];
-    $("#btnUpload").enable();
-  }
-  function handleFileUploadSubmit(e) {
-    //show loader
-    $("#preloader-active").show();
-    const uploadTask = dbFileManager.uploadFileTask("form-2078", selectedFile);
-
-    //create a child directory called images, and place the file inside this directory
-    uploadTask.on(
-      "state_changed",
-      (snapshot) => {
-        // Observe state change events such as progress, pause, and resume
-      },
-      (error) => {
-        // Handle unsuccessful uploads
-        $("#preloader-active").hide();
-        console.log(error);
-        $("#filesubmit").fadeTo("slow", 1, function () {
-          $("#modelError").fadeIn();
-          $(".modal").modal("hide");
-          $("#modelError").modal("show");
-        });
-      },
-      () => {
-        // Do something once upload is complete
-        $("#preloader-active").hide();
-        console.log("success");
-        $("#filesubmit").fadeTo("slow", 1, function () {
-          $(this).find(":input").attr("disabled", "disabled");
-          $(this).find("label").css("cursor", "default");
-          $("#modelSuccess").fadeIn();
-          $(".modal").modal("hide");
-          $("#modelSuccess").modal("show");
-        });
-      }
-    );
-  }
 </script>
