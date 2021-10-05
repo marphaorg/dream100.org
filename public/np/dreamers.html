@@ -13,10 +13,7 @@ permalink: /भबिस्यका-कर्णधारहरु/
         <div class="col-xl-12">
           <div class="hero-cap hero-cap2 pt-20 text-center">
             <h2>Our dreamers</h2>
-            <p>
-              List of students who are receiving financial assitance to study
-              grade 11 and 12.
-            </p>
+            <p>शैक्षिक वर्ष २०७८ मा छनोट भएका विद्यार्थी हरु</p>
           </div>
         </div>
       </div>
@@ -33,18 +30,18 @@ permalink: /भबिस्यका-कर्णधारहरु/
         <!-- Section Tittle -->
         <div class="section-tittle section-tittle2 text-center mb-70">
           <span>Academic Year</span>
-          <h2>2021</h2>
+          <h2>2078</h2>
         </div>
       </div>
     </div>
     <div class="row">
-      {% for dream in site.data.dreamers.year_2021 %}
+      {% for dream in site.data.dreamers.year_2078 %}
       <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="single-team mb-30">
           <div class="team-img">
-            <img src="{{ dream.img }}" alt="" />
+            <img src="/assets/img/logo/Dream100LogoSymbol_Square.png" alt="" />
             <!-- Blog Social -->
-            <ul class="team-social">
+            <!-- <ul class="team-social">
               <li>
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
               </li>
@@ -54,11 +51,13 @@ permalink: /भबिस्यका-कर्णधारहरु/
               <li>
                 <a href="#"><i class="fas fa-globe"></i></a>
               </li>
-            </ul>
+            </ul> -->
           </div>
           <div class="team-caption">
-            <h3><a href="instructor.html">{{ dream.name }}</a></h3>
-            <p>{{ dream.college }}</p>
+            <h3>
+              <a href="javascript:void(0)">{{ dream.name[page.lang] }}</a>
+            </h3>
+            <p>{{ dream.college[page.lang] }}</p>
           </div>
         </div>
       </div>

@@ -38,13 +38,13 @@ permalink: /dreamers/
       </div>
     </div>
     <div class="row">
-      {% for dream in site.data.dreamers.year_2021 %}
+      {% for dream in site.data.dreamers.year_2078 %}
       <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="single-team mb-30">
           <div class="team-img">
-            <img src="{{ dream.img }}" alt="" />
+            <img src="/assets/img/logo/Dream100LogoSymbol_Square.png" alt="" />
             <!-- Blog Social -->
-            <ul class="team-social">
+            <!-- <ul class="team-social">
               <li>
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
               </li>
@@ -54,11 +54,13 @@ permalink: /dreamers/
               <li>
                 <a href="#"><i class="fas fa-globe"></i></a>
               </li>
-            </ul>
+            </ul> -->
           </div>
           <div class="team-caption">
-            <h3><a href="instructor.html">{{ dream.name }}</a></h3>
-            <p>{{ dream.college }}</p>
+            <h3>
+              <a href="javascript:void(0)">{{ dream.name[page.lang] }}</a>
+            </h3>
+            <p>{{ dream.college[page.lang] }}</p>
           </div>
         </div>
       </div>

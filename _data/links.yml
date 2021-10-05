@@ -55,15 +55,15 @@ donors:
 colleges:
   en:
     label: Colleges
-    url: /colleges/
+    url: /dreamers/
   np:
     label: कलेजहरु
-    url: /कलेजहरु/
+    url: /भबिस्यका-कर्णधारहरु/
 
 students:
   en:
     label: Students
-    url: /students/
+    url: /dreamers/
   np:
     label: विद्यार्थीहरु
     url: /भबिस्यका-कर्णधारहरु/
