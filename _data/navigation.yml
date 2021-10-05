@@ -18,8 +18,8 @@ en:
     url: /join-us/
   - title: Blog
     url: /blog/
-  - title: Form 2078 Result
-    url: /assets/docs/dream100-form2078-result-announcement.pdf
+  - title: Meetup
+    url: /events/meet-and-greet-2078
 np:
   - title: गृहपृष्ठ
     url: /np
@@ -40,5 +40,5 @@ np:
     url: /सहभागिता/
   - title: ब्लग
     url: /ब्लग/
-  - title: फारम २०७८ नतिजा
-    url: /आवेदन/
+  - title: कार्यक्रम
+    url: /events/meet-and-greet-2078
