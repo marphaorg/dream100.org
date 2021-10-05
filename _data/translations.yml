@@ -79,6 +79,18 @@ mentorship_program:
 mentorship_program_desc:
   en: We do not just pay their college fee, we mentor them, we coach them until they graduate.
   np: हामी विद्यार्थीको कलेजको शुल्क व्यवस्थापनमा मात्र सहयोगी नभएर पढाई पुरा नहुन्जेल विद्यार्थीलाई आवश्यक परामर्श, तालिम तथा प्रशिक्षण दिन्छौँ ।
+donor_loyalty_program:
+  en: Donor Loyalty Program
+  np: Donor Loyalty Program
+donor_loyalty_program_desc1:
+  en: Loyal donors are the pillars of our organization. Without them, we can not step forward. We want to make emotional connection and relationship between donors and organization.
+  np: Loyal donors are the pillars of our organization. Without them, we can not step forward. We want to make emotional connection and relationship between donors and organization.
+donor_loyalty_program_desc2:
+  en: Donor Choice Fund.
+  np: Donor Choice Fund
+donor_loyalty_program_desc3:
+  en: Life Time Member.
+  np: Life Time Member
 got_a_new_idea_desc:
   en: We love to hear. Let's talk about it. Email us at hello@dream100.org
   np: हामी तपाईको विचार तथा सुझाब सुन्न आतुर छौँ । सम्पर्कको लागी इमेल hello@dream100.org ।
