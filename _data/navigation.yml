@@ -18,8 +18,6 @@ en:
     url: /join-us/
   - title: Blog
     url: /blog/
-  - title: Meetup
-    url: /events/meet-and-greet-2078
 np:
   - title: गृहपृष्ठ
     url: /np
@@ -40,5 +38,3 @@ np:
     url: /सहभागिता/
   - title: ब्लग
     url: /ब्लग/
-  - title: कार्यक्रम
-    url: /events/meet-and-greet-2078
