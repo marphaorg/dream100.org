@@ -1,0 +1,173 @@
+---
+layout: default
+lang: np
+title: जिल्लास्तरिय ड्रिम हन्ड्रेड कविता प्रतियोगिता २०७८ - प्यूठान
+permalink: /poem/
+---
+
+
+<!--? Hero Start -->
+<div class="slider-area2">
+    <div class="slider-height2 d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="hero-cap hero-cap2 pt-20 text-center">
+              <h2>जिल्लास्तरिय ड्रिम हन्ड्रेड कविता प्रतियोगिता २०७८ - प्यूठान</h2>
+              <p>कविता बुझाउने अन्तिम मिति: फागुन ७ गते शनिवार</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero End -->
+<!--? Count Down Start -->
+<div class="count-down-area pt-25">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 col-md-12">
+        <div class="count-down-wrapper">
+          <div class="row justify-content-between">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <!-- Counter Up -->
+              <div class="text-center">
+                <span id="lblSubmitted" class="color-green">0</span>
+                <p class="color-green">प्राप्त संख्या</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <!-- Counter Up -->
+              <div class="text-center">
+                <span id="lblUnderReview" class="color-green">0</span>
+                <p class="color-green">Under Review</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <!-- Counter Up -->
+              <div class="text-center">
+                <span id="lblVerified" class="color-green">0</span>
+
+                <p class="color-green">Verified</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <!-- Counter Up -->
+              <div class="text-center">
+                <span id="lblApproved" class="color-green">0</span>
+                <p class="color-green">Approved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Count Down End -->
+
+<!-- Upload Form -->
+<section class="wantToWork-area">
+  <div class="container">
+    <div
+      class="wants-wrapper w-padding2 section-bg"
+      data-background="/assets/img/gallery/section_bg02.png"
+    >
+      <div class="row align-items-center justify-content-between">
+        <div class="col-xl-5 col-lg-9 col-md-8">
+          <h2>कविता बुझाउने अन्तिम मिति: फागुन ७ गते शनिवार</h2>
+          <div class="wantToWork-caption wantToWork-caption2">
+            <h2>कविता बुझाउने</h2>
+          </div>
+        </div>
+        <div class="col-xl-7 col-lg-3 col-md-4">
+          <div id="filesubmit">
+            
+            <input
+              type="file"
+              class="file-select"
+              accept="image/*,application/pdf"
+            />
+            <button
+              id="btnUpload"
+              disabled
+              class="btn white-btn f-right sm-left file-submit"
+              onsubmit="handleFileUploadChange(this)"
+            >
+            अपलोड गर्नुहोस्
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Upload Form End -->
+
+<!-- Modal Error -->
+<div
+  class="modal fade"
+  id="modelError"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content border-danger">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLongTitle">सफल भएन</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        There is some problem with application file, please review carefully and try again. For technical help, please contact us.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            बन्द गर्नुहोस्
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Success -->
+<div
+  class="modal fade"
+  id="modelSuccess"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content  border-success">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLongTitle">सफल भयो</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        तपाईको डकुमेन्ट सफलतापुर्वक अपलोड भयो|
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+        बन्द गर्नुहोस्
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+{% include fileUpload.html %}
