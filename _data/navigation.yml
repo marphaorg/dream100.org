@@ -3,6 +3,9 @@ en:
     url: /en
   - title: Work
     url: /work/
+    submenu:
+      - title: Our Dreamers
+        url: /dreamers/
   - title: About
     url: /about/
     submenu:
@@ -25,6 +28,9 @@ np:
     url: /np
   - title: हाम्रो कार्य
     url: /हाम्रो-कार्य/
+    submenu:
+      - title: Our Dreamers
+        url: /भबिस्यका-कर्णधारहरु/
   - title: हाम्रो बारेमा
     url: /हाम्रो-बारेमा/
     submenu:

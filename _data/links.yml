@@ -109,5 +109,12 @@ help_fundraise:
   np:
     label: रकम संकलनमा मद्दत गर्नुहोस्
     url: https://www.facebook.com/fund/marphadotorg/
+more_information:
+  en:
+    label: More Details
+    url: /poem/
+  np:
+    label: थप जानकारी
+    url: /poem/
 
 
