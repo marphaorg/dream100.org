@@ -20,7 +20,7 @@ apply:
     url: /apply/
   np:
     label: आवेदन
-    url: /आवेदन/
+    url: /apply/
 
 get_involved:
   en:
@@ -58,15 +58,15 @@ colleges:
     url: /dreamers/
   np:
     label: कलेजहरु
-    url: /भबिस्यका-कर्णधारहरु/
+    url: /सपनाहरु/
 
 students:
   en:
     label: Students
     url: /dreamers/
   np:
-    label: विद्यार्थीहरु
-    url: /भबिस्यका-कर्णधारहरु/
+    label: हाम्रा सपनाहरु
+    url: /सपनाहरु/
 fund_raised:
   en:
     label: Fund Raised

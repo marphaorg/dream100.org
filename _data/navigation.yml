@@ -4,8 +4,12 @@ en:
   - title: Work
     url: /work/
     submenu:
-      - title: Our Dreamers
-        url: /dreamers/
+      - title: Financial Assistanchip
+        url: /work/
+      - title : Mentorship
+        url: /work/
+      - title: Fundraising
+        url: /work/
   - title: About
     url: /about/
     submenu:
@@ -21,16 +25,20 @@ en:
     url: /join-us/
   - title: Blog
     url: /blog/
-  - title: Poem Competition
-    url: /poem/
+  - title: Application 2079
+    url: /apply/
 np:
   - title: गृहपृष्ठ
     url: /np
   - title: हाम्रो कार्य
     url: /हाम्रो-कार्य/
     submenu:
-      - title: Our Dreamers
-        url: /भबिस्यका-कर्णधारहरु/
+      - title: आर्थिक सहयोग
+        url: /हाम्रो-कार्य/
+      - title : तालिम तथा प्रशिक्षण
+        url: /हाम्रो-कार्य/
+      - title: आर्थिक सङ्कलन
+        url: /हाम्रो-कार्य/
   - title: हाम्रो बारेमा
     url: /हाम्रो-बारेमा/
     submenu:
@@ -46,5 +54,5 @@ np:
     url: /सहभागिता/
   - title: ब्लग
     url: /ब्लग/
-  - title: कविता प्रतियोगिता
-    url: /poem/
+  - title: आवेदन २०७९
+    url: /apply/
