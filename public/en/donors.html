@@ -5,110 +5,133 @@ title: Donations
 permalink: /donors/
 ---
 <style>
-    #countdown-wrap {
-    width: 100%;
-    height: 100px;
-    max-width: 650px;
-    margin: 0px auto 100px;
-  }
+  #countdown-wrap {
+  width: 100%;
+  height: 100px;
+  max-width: 650px;
+  margin: 0px auto 100px;
+}
 
-  .a-link{
-    color: #007bff !important;
+.a-link{
+  color: #007bff !important;
+}
+
+#goal {
+  font-size: 48px;
+  text-align: right;
+  color: #2f2f41;
+  @media only screen and (max-width : 640px) {
+    text-align: center;  
   }
   
-  #goal {
-    font-size: 48px;
-    text-align: right;
-    color: #2f2f41;
-    @media only screen and (max-width : 640px) {
-      text-align: center;  
-    }
-    
-  }
+}
+
+#glass {
+  width: 100%;
+  height: 20px;
+  background: #d8d8d8;
+  border-radius: 10px;
+  float: left;
+  overflow: hidden;
+}
+
+#progress {
+  float: left;
+  width: 55%;
+  height: 20px;
+  background: #4484ce;
+  z-index: 333;
+}
+
+.goal-stat {
+  width: 25%;
+  padding: 10px;
+  float: left;
+  margin: 0;
+  color: #2f2f41;
   
-  #glass {
-    width: 100%;
-    height: 20px;
-    background: #d8d8d8;
-    border-radius: 10px;
-    float: left;
-    overflow: hidden;
+  @media only screen and (max-width : 640px) {
+    width: 50%;
+    text-align: center;
   }
-  
-  #progress {
-    float: left;
-    width: 34%;
-    height: 20px;
-    background: #4484ce;
-    z-index: 333;
-  }
-  
-  .goal-stat {
-    width: 25%;
-    padding: 10px;
-    float: left;
-    margin: 0;
-    color: #2f2f41;
-    
-    @media only screen and (max-width : 640px) {
-      width: 50%;
-      text-align: center;
-    }
-  }
-  
-  .goal-number, .goal-label {
-    display: block;
-  }
-  
-  .goal-number {
-    font-weight: bold;
-  }
+}
+
+.goal-number, .goal-label {
+  display: block;
+}
+
+.goal-number {
+  font-weight: bold;
+}
 </style>
 <!--? Hero Start -->
 <div class="slider-area2">
-  <div class="slider-height2 d-flex align-items-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-12">
-          <div class="hero-cap hero-cap2 pt-20 text-center">
-            <h2>Total Donations Received</h2>
-          </div>
+<div class="slider-height2 d-flex align-items-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="hero-cap hero-cap2 pt-20 text-center">
+          <h2>Total Donations Received</h2>
         </div>
       </div>
     </div>
   </div>
 </div>
+</div>
 <!-- Hero End -->
 <!--? Services Area Start -->
 <div class="container">
-    <div id="countdown-wrap">
-        <div id="goal">$5,000</div>
-        <div id="glass">
-          <div id="progress"></div>
-        </div>
-        <div class="goal-stat">
-          <span class="goal-number">45%</span>
-          <span class="goal-label">Funded</span>
-        </div>
-        <div class="goal-stat">
-          <span class="goal-number">$2,250</span>
-          <span class="goal-label"
-            ><a class="a-link" href="/donors/">Raised</a></span
-          >
-        </div>
-        <div class="goal-stat">
-          <span class="goal-number">$1,250</span>
-          <span class="goal-label">This year</span>
-        </div>
-        <div class="goal-stat">
-          <span class="goal-number">22</span>
-          <span class="goal-label"
-            ><a class="a-link" href="/donors/">Donors</a></span
-          >
-        </div>
+  <div id="countdown-wrap">
+      <div id="goal">$10,000</div>
+      <div id="glass">
+        <div id="progress"></div>
       </div>
-    <div class="row">
-    {% for donation in site.data.donations %}
+      <div class="goal-stat">
+        <span class="goal-number">53.62%</span>
+        <span class="goal-label">Funded</span>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">$5,362</span>
+        <span class="goal-label"
+          ><a class="a-link" href="/donors/">Raised</a></span
+        >
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">$2,001</span>
+        <span class="goal-label">This year</span>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">24</span>
+        <span class="goal-label"
+          ><a class="a-link" href="/donors/">Donors</a></span
+        >
+      </div>
+    </div>
+    <h3>Year 2022</h3>
+    <hr/>
+  <div class="row">
+  {% for donation in site.data.donations.year_2022 %}
+  <div class="col-sm-3">
+    <div class="card border-primary mb-5">
+      <div class="card-header">#{{ donation.sn }}</div>
+      <div class="card-body text-primary">
+        <h5 class="card-title">{{ donation.donor }}</h5>
+        <p class="card-text">
+          {{ donation.currency }}{{ donation.amount }}
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">on {{ donation.date }}</small>
+      </div>
+    </div>
+  </div>
+    {% endfor %}
+  </div>
+  <br/>
+  <h3>Year 2021</h3>
+  <hr/>
+  <div class="row">
+    {% for donation in site.data.donations.year_2021 %}
     <div class="col-sm-3">
       <div class="card border-primary mb-5">
         <div class="card-header">#{{ donation.sn }}</div>
@@ -125,6 +148,6 @@ permalink: /donors/
     </div>
       {% endfor %}
     </div>
-  </div>
 </div>
-  <!-- Services Area End -->
+</div>
+<!-- Services Area End -->
