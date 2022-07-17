@@ -21,6 +21,8 @@ en:
         url: /faq/
       - title: Donors
         url: /donors/
+      - title: Dreamers
+        url: /dreamers/
   - title: Get Involved
     url: /join-us/
   - title: Blog
@@ -50,6 +52,8 @@ np:
         url: /सामान्यतया-सोधिएका-प्रश्नहरू/
       - title: दाताहरु
         url: /दाताहरु/
+      - title: हाम्रा सपनाहरु
+        url: /सपनाहरु/
   - title: सहभागिता
     url: /सहभागिता/
   - title: ब्लग
