@@ -10,8 +10,66 @@ permalink: /np
 <!-- slider Area End-->
 {% include services.html %}
 <!-- About -->
-<!-- {% include about.html %} -->
+<!--  include about.html  -->
 <!-- Want to work with us ?-->
 {% include want-to-work.html %}
+<!-- Let us know about student -->
+<section class="wantToWork-area">
+  <div class="container">
+    <div
+      class="wants-wrapper w-padding2 section-bg"
+      data-background="/assets/img/gallery/section_bg02.png"
+    >
+      <div class="row align-items-center justify-content-between">
+        <div class="col-xl-8 col-lg-9 col-md-8">
+          <h2>
+            {{site.data.translations.join_us_let_us_know_text[page.lang]}}
+          </h2>
+          <div class="wantToWork-caption wantToWork-caption2">
+            <h2>
+              {{site.data.translations.join_us_let_us_know_caption[page.lang]}}
+            </h2>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4">
+          <a
+            href="{{site.data.links.let_us_know[page.lang].url}}"
+            class="btn white-btn f-right sm-left"
+            >{{site.data.links.let_us_know[page.lang].label}}</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Want To work End -->
+<!-- Donate and help -->
+<section class="wantToWork-area">
+  <div class="container">
+    <div
+      class="wants-wrapper w-padding2 section-bg"
+      data-background="/assets/img/gallery/join-us-bg-01.png"
+    >
+      <div class="row align-items-center justify-content-between">
+        <div class="col-xl-8 col-lg-9 col-md-8">
+          <h2>{{site.data.translations.join_us_donate_100_text[page.lang]}}</h2>
+          <div class="wantToWork-caption wantToWork-caption2">
+            <h2>
+              {{site.data.translations.join_us_donate_100_caption[page.lang]}}
+            </h2>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4">
+          <a
+            href="{{site.data.links.join_us_donate[page.lang].url}}"
+            class="btn white-btn f-right sm-left"
+            >{{site.data.links.join_us_donate[page.lang].label}}</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Want To work End -->
 <!-- Stats -->
 {% include stats.html %}
