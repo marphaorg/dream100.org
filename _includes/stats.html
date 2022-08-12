@@ -1,4 +1,6 @@
 <!--? Count Down Start -->
+{% assign donations = site.data.donations.year_2021 | concat:
+site.data.donations.year_2022 %}
 <div
   class="count-down-area pt-25 section-bg"
   data-background="/assets/img/gallery/section_bg02.png"
@@ -11,10 +13,7 @@
             <div class="col-lg-2 col-md-6 col-sm-6">
               <!-- Counter Up -->
               <div class="single-counter text-center">
-                <span class="counter color-green"
-                  >{{ site.data.donations.year_2021.size +
-                  site.data.donations.year_2022.size }}</span
-                >
+                <span class="counter color-green">{{ donations.size }}</span>
                 <span class="plus">+</span>
                 <p class="color-green">
                   <a href="{{site.data.links.donors[page.lang].url}}"
@@ -48,9 +47,7 @@
                 </p>
               </div>
             </div>
-            {% assign running_total = 0 %} {% assign donations =
-            site.data.donations.year_2021 | concat:
-            site.data.donations.year_2022 %} {% for d in donations %} {% assign
+            {% assign running_total = 0 %} {% for d in donations %} {% assign
             running_total = running_total | plus: d.dollar %} {% endfor %}
             <div class="col-lg-2 col-md-6 col-sm-6">
               <!-- Counter Up -->
