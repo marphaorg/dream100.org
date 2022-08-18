@@ -5,8 +5,8 @@ en:
     url: /donors/
   - title: Our Dreamers
     url: /dreamers/
-  - title: Application for 2079
-    url: /apply/
+  - title: Form 2079 result
+    url: /pages/dream100-form2079-result/
 
 np:
   - title: सामान्यतया सोधिएका प्रश्नहरू
@@ -15,5 +15,5 @@ np:
     url: /दाताहरु/
   - title: हाम्रा सपनाहरु
     url: /सपनाहरु/
-  - title: ड्रिम हन्ड्रेड आवेदन २०७९
-    url: /आवेदन/
+  - title: २०७९ को नतिजा
+    url: /pages/dream100-form2079-result/
