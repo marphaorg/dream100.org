@@ -111,8 +111,151 @@ year_2078:
         np: श्री मुक्ति मा. वि. रातामाटा, प्यूठान
         en: Shree Mukti H.S.S, Ratamata, Pyuthan
     img: /assets/img/dreamers/016-tulshi-bhattrai.png
-
-
-
-
-
+year_2079:
+  - name: 
+        np: अजय  परियार
+        en: Ajay Pariyar
+    college: 
+        np: श्री भानुभक्त मा वि, मल्लरानी गाउपलिका, प्यूठान
+        en: Shree Bhanu Bhakta H.S.S, Mallarani RM, Pyuthan
+    img: /assets/img/dreamers/017-ajay-pariyar.png
+  - name: 
+        np: आकाश बिश्वकर्मा
+        en: Akash Bishwokarma
+    college: 
+        np: श्री सरस्वति मा वि, सरुमरानी गाउपालिका, प्यूठान
+        en: Shree Sarashwoti H.S.S, Sarumarani RM, Pyuthan
+    img: /assets/img/dreamers/018-akash-bishwokarma.png
+  - name: 
+        np: अन्जली गन्दर्ब
+        en: Anjali Gandarva
+    college: 
+        np: श्री मुक्ति मा वि, प्यूठान नगरपालिका, प्यूठान
+        en: Shree Mukti H.S.S, Pyuthan Mun, Pyuthan
+    img: /assets/img/dreamers/019-anjali-gandarva.png
+  - name: 
+        np: अस्मिता बिक
+        en: Asmita B.K.
+    college: 
+        np: श्री जनता मा वि, ऐरावती गाउपालिका, प्यूठान
+        en: Shree Janta H.S.S, Airawoti RM, Pyuthan
+    img: /assets/img/dreamers/020-asmita-bk.png
+  - name: 
+        np: बिनोद नेपाली
+        en: Binod Nepali
+    college: 
+        np: श्री जनता मा वि, प्यूठान नगरपालिका, प्यूठान
+        en: Shree Janta H.S.S, Pyuthan Mun, Pyuthan
+    img: /assets/img/dreamers/021-binod-nepali.png
+  - name: 
+        np: गीता बुढाथोकी
+        en: Geeta Buthathoki
+    college: 
+        np: श्री उमामहेश्वरी मा वि, स्वर्गद्वारी नगरपालिका, प्यूठान
+        en: Shree Umamaheshwori H.S.S, Sworgadwari Mun, Pyuthan
+    img: /assets/img/dreamers/022-geeta-budhathoki.png
+  - name: 
+        np: हिमाल भण्डारी 
+        en: Himal Bhandari
+    college: 
+        np: श्री मुक्ति  मा वि, प्यूठान नगरपालिका, प्यूठान
+        en: Shree Mukti H.S.S, Pyuthan Mun, Pyuthan
+    img: /assets/img/dreamers/023-himal-bhandari.png
+  - name: 
+        np: जुना थापा
+        en: Juna Thapa
+    college: 
+        np: श्री जनता मा वि, ऐरावती गाउपालिका, प्यूठान
+        en: Shree Janta H.S.S, Airawoti RM, Pyuthan
+    img: /assets/img/dreamers/024-juna-thapa.png
+  - name: 
+        np: ज्योति थापा 
+        en: Jyoti Thapa
+    college: 
+        np: श्री मोति मा वि, ऐरावाती गाउपालिका, प्यूठान
+        en: Shree Moti H.S.S, Airawoti RM, Pyuthan
+    img: /assets/img/dreamers/025-jyoti-thapa.png
+  - name: 
+        np: कल्पना भट्टराई
+        en: Kalpana Bhattarai
+    college: 
+        np: श्री भानुभक्त मा वि, मल्लरानी गाउपलिका, प्यूठान
+        en: Shree Bhanu Bhakta H.S.S, Mallarani RM, Pyuthan
+    img: /assets/img/dreamers/026-kalpana-bhattarai.png
+  - name: 
+        np: खुशी सुनार
+        en: Khusi Sunar
+    college: 
+        np: श्री उमामहेश्वरी मा वि, स्वर्गद्वारी नगरपालिका, प्यूठान
+        en: Shree Umamaheshwori H.S.S, Sworgadwari Mun, Pyuthan
+    img: /assets/img/dreamers/027-khusi-sunar.png
+  - name: 
+        np: मनिषा बिक
+        en: Manisa BK
+    college: 
+        np: श्री मुक्ति मा वि, प्यूठान नगरपालिका, प्यूठान
+        en: Shree Mukti H.S.S, Pyuthan Mun, Pyuthan
+    img: /assets/img/dreamers/028-manisa-bk.png
+  - name: 
+        np: मञ्जु सुनार
+        en: Manju Sunar
+    college: 
+        np: श्री उमामहेश्वरी मा वि, स्वर्गद्वारी नगरपालिका, प्यूठान
+        en: Shree Umamaheshwori H.S.S, Sworgadwari Mun, Pyuthan
+    img: /assets/img/dreamers/029-manju-sunar.png
+  - name: 
+        np: पुर्णिमा राना मगर
+        en: Purnima Rana Magar
+    college: 
+        np: श्री भानुभक्त मा वि, मल्लरानी गाउपलिका, प्यूठान
+        en: Shree Bhanu Bhakta H.S.S, Mallarani Mun, Pyuthan
+    img: /assets/img/dreamers/030-purnima-rana.png
+  - name: 
+        np: पुष्पा राउत
+        en: Puspa Raut
+    college: 
+        np: श्री सरस्वति मा वि, सरुमरानी गाउपालिका, प्यूठान
+        en: Shree Sarashwoti H.S.S, Sarumarani RM, Pyuthan
+    img: /assets/img/dreamers/031-puspa-raut.png
+  - name: 
+        np: सागर पुन
+        en: Sagar Pun
+    college: 
+        np: श्री मुक्ति मा वि, प्यूठान नगरपालिका, प्यूठान
+        en: Shree Mukti H.S.S, Pyuthan Mun, Pyuthan
+    img: /assets/img/dreamers/032-sagar-pun.png
+  - name: 
+        np: समिर सेजवाल
+        en: Sameer Sejwal
+    college: 
+        np: श्री महेन्द्र मा वि, मल्लरानी गाउपलिका, प्यूठान
+        en: Shree Mahendra H.S.S, Mallarani RM, Pyuthan
+    img: /assets/img/dreamers/033-sameer-sejwal.png
+  - name: 
+        np: सन्ध्या गिरि
+        en: Sandhya Giri
+    college: 
+        np: श्री सरस्वति मा वि, सरुमरानी गाउपालिका, प्यूठान
+        en: Shree Sarashwoti H.S.S, Sarumarani RM, Pyuthan
+    img: /assets/img/dreamers/034-sandhya-giri.png
+  - name: 
+        np: श्रीस्टि नेपाली
+        en: Shristee Nepali
+    college: 
+        np: श्री महेन्द्र मा वि, मल्लरानी गाउपलिका, प्यूठान
+        en: Shree Mahendra H.S.S, Mallarani RM, Pyuthan
+    img: /assets/img/dreamers/035-shristee-nepali.png
+  - name: 
+        np: सुन्दर थापा
+        en: Sundar Thapa
+    college: 
+        np: श्री सरस्वति मा वि, सरुमरानी गाउपालिका, प्यूठान
+        en: Shree Sarashwoti H.S.S, Sarumarani RM, Pyuthan
+    img: /assets/img/dreamers/036-sundar-thapa.png
+  - name: 
+        np: टेकी सुनार
+        en: Teki Sunar
+    college: 
+        np: श्री मुक्ति मा वि, प्यूठान नगरपालिका, प्यूठान
+        en: Shree Mukti H.S.S, Pyuthan Mun, Pyuthan
+    img: /assets/img/dreamers/037-teki-sunar.png
