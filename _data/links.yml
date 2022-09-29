@@ -116,12 +116,12 @@ more_information:
   np:
     label: थप जानकारी
     url: /poem/
-form2079_result:
+meetup_2079:
   en:
-    label: Form 2079 result
-    url: /pages/dream100-form2079-result/
+    label: Meetup 2079
+    url: /events/meet-and-greet-2079
   np:
-    label: २०७९ को नतिजा
-    url: /pages/dream100-form2079-result/
+    label: Meetup 2079
+    url: /events/meet-and-greet-2079
 
 
