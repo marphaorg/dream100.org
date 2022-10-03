@@ -7,12 +7,20 @@ en:
   email_caption: Send us your query anytime!
   agents:
     - country: Nepal
-      agent: Archana Shah
-      cell: '+977 986 189 7510'
+      agent: Sandesh Subedi
+      cell: '+977 (974) 870-3830'
 
     - country: United States
       agent: Suvash Shah
-      cell: '+1 415 813 8951'
+      cell: '+1 (415) 813-8951'
+    
+    - country: South Korea
+      agent: Rajendra Acharaya
+      cell: '+82 (105) 836-9166'
+
+    - country: Dilip Shah
+      agent: Australia
+      cell: '+61 (450) 756-122'
 
 np:
   address: ऐरावती - ६ प्यूठान, 
@@ -24,8 +32,8 @@ np:
   agents:
     - country: नेपाल
       agent: अर्चना शाह
-      cell: '+९७७ ९८६ १८९ ७५१०'
+      cell: '+९७७ (९७४) ८७०-३८३०'
 
     - country: अमेरिका
       agent: सुभाष शाह
-      cell: '+१ ४१५ ८१३ ८९५१'
+      cell: '+१ (४१५) ८१३-८९५१'
