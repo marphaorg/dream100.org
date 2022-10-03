@@ -18,8 +18,8 @@ en:
       agent: Rajendra Acharaya
       cell: '+82 (105) 836-9166'
 
-    - country: Dilip Shah
-      agent: Australia
+    - country: Australia
+      agent: Dilip Shah
       cell: '+61 (450) 756-122'
 
 np:
@@ -37,3 +37,11 @@ np:
     - country: अमेरिका
       agent: सुभाष शाह
       cell: '+१ (४१५) ८१३-८९५१'
+
+    - country: दक्षिण कोरिया  
+      agent: राजेन्द्र आचार्य
+      cell: '+८२ (१०५) ८३५-९१६६'
+
+    - country: अस्ट्रेलिया
+      agent: दिलिप शाह
+      cell: '+६१ (४५०) ७५६-१२२'
