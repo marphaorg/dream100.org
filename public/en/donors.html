@@ -115,7 +115,7 @@ permalink: /donors/
     <div class="card border-primary mb-5">
       <div class="card-header">#{{ donation.sn }}</div>
       <div class="card-body text-primary">
-        <h5 class="card-title">{{ donation.donor }}</h5>
+        <h5 class="card-title">{{ donation.donor | markdownify }}</h5>
         <p class="card-text">
           {{ donation.currency }}{{ donation.amount }}
         </p>
@@ -136,7 +136,7 @@ permalink: /donors/
       <div class="card border-primary mb-5">
         <div class="card-header">#{{ donation.sn }}</div>
         <div class="card-body text-primary">
-          <h5 class="card-title">{{ donation.donor }}</h5>
+          <h5 class="card-title">{{ donation.donor | markdownify}}</h5>
           <p class="card-text">
             {{ donation.currency }}{{ donation.amount }}
           </p>

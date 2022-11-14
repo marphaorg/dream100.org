@@ -67,7 +67,7 @@
     {
       "sn":9,
       "donor": "Bharat Pariyar",
-      "currency": "$ ",
+      "currency": "$",
       "amount": "100",
       "date": "Sept 18, 2022",
       "dollar": 100
@@ -75,7 +75,7 @@
     {
       "sn":10,
       "donor": "Manoj Thapa Magar",
-      "currency": "$. ",
+      "currency": "$",
       "amount": "25",
       "date": "Sept 27, 2022",
       "dollar": 25
@@ -83,7 +83,7 @@
     {
       "sn":11,
       "donor": "Er. Dilip Kumar Yadav",
-      "currency": "$ ",
+      "currency": "$",
       "amount": "115",
       "date": "Oct 04, 2022",
       "dollar": 115
@@ -91,15 +91,15 @@
     {
       "sn":12,
       "donor": "Milan K. Shahi",
-      "currency": "$. ",
+      "currency": "$",
       "amount": "40",
       "date": "Oct 08, 2022",
       "dollar": 40
     },
     {
       "sn":13,
-      "donor": "<a href='/assets/docs/SONSIK-dream100-donors.pdf' target='_blank'>Society of Nepalese Students in Korea<a/>",
-      "currency": "₩ ",
+      "donor": "[Society of Nepalese Students in Korea](/assets/docs/SONSIK-dream100-donors.pdf)",
+      "currency": "₩",
       "amount": "486,693",
       "date": "Nov 06, 2022",
       "dollar": 350
@@ -284,7 +284,7 @@
     },
     {
       "sn":23,
-      "donor": "<a href='/assets/docs/yama-devi-gharti-magar-dream100-fund-2078.pdf' target='_blank'>Yama Devi Gharti Magar dream100 Fund</a>",
+      "donor": "[Yama Devi Gharti Magar dream100 Fund](/assets/docs/yama-devi-gharti-magar-dream100-fund-2078.pdf)",
       "currency": "रु. ",
       "amount": "68,100",
       "date": "Nov 14, 2021",
@@ -292,7 +292,7 @@
     },
     {
       "sn":24,
-      "donor": "<a href='/assets/docs/run-for-dream100-75miles.pdf' target='_blank'>75 Miles Run for Dream100<a/>",
+      "donor": "[75 Miles Run for Dream100](/assets/docs/run-for-dream100-75miles.pdf)",
       "currency": "$",
       "amount": 500,
       "date": "Dec 22, 2021",
