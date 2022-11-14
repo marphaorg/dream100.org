@@ -79,6 +79,22 @@
       "amount": "2,500",
       "date": "Sept 27, 2022",
       "dollar": 25
+    },
+    {
+      "sn":11,
+      "donor": "Er. Dilip Kumar Yadav",
+      "currency": "रु. ",
+      "amount": "15,000",
+      "date": "Oct 04, 2022",
+      "dollar": 115
+    },
+    {
+      "sn":12,
+      "donor": "<a href='/assets/docs/SONSIK-dream100-donors.pdf' target='_blank'>Society of Nepalese Students in Korea-SONSIK<a/>",
+      "currency": "₩ ",
+      "amount": "486,693",
+      "date": "Nov 06, 2022",
+      "dollar": 350
     }
   ],
   "year_2021":[
