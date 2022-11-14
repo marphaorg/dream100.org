@@ -83,15 +83,15 @@
     {
       "sn":11,
       "donor": "Er. Dilip Kumar Yadav",
-      "currency": "रु. ",
-      "amount": "15,000",
+      "currency": "$ ",
+      "amount": "115",
       "date": "Oct 04, 2022",
       "dollar": 115
     },
     {
       "sn":12,
       "donor": "Milan K. Shahi",
-      "currency": "र$. ",
+      "currency": "$. ",
       "amount": "40",
       "date": "Oct 08, 2022",
       "dollar": 40
