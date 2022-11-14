@@ -67,16 +67,16 @@
     {
       "sn":9,
       "donor": "Bharat Pariyar",
-      "currency": "रु. ",
-      "amount": "10,000",
+      "currency": "$ ",
+      "amount": "100",
       "date": "Sept 18, 2022",
       "dollar": 100
     },
     {
       "sn":10,
       "donor": "Manoj Thapa Magar",
-      "currency": "रु. ",
-      "amount": "2,500",
+      "currency": "$. ",
+      "amount": "25",
       "date": "Sept 27, 2022",
       "dollar": 25
     },
@@ -90,6 +90,14 @@
     },
     {
       "sn":12,
+      "donor": "Milan K. Shahi",
+      "currency": "र$. ",
+      "amount": "40",
+      "date": "Oct 08, 2022",
+      "dollar": 40
+    },
+    {
+      "sn":13,
       "donor": "<a href='/assets/docs/SONSIK-dream100-donors.pdf' target='_blank'>Society of Nepalese Students in Korea<a/>",
       "currency": "₩ ",
       "amount": "486,693",
