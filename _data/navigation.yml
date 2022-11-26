@@ -27,8 +27,6 @@ en:
     url: /join-us/
   - title: Events
     url: /events/
-  - title: Blog
-    url: /blog/
 np:
   - title: गृहपृष्ठ
     url: /np
@@ -58,5 +56,3 @@ np:
     url: /events/
   - title: सहभागिता
     url: /सहभागिता/
-  - title: ब्लग
-    url: /ब्लग/
