@@ -25,6 +25,8 @@ en:
         url: /dreamers/
   - title: Get Involved
     url: /join-us/
+  - title: Events
+    url: /events/
   - title: Blog
     url: /blog/
 np:
@@ -52,6 +54,8 @@ np:
         url: /दाताहरु/
       - title: हाम्रा सपनाहरु
         url: /सपनाहरु/
+  - title: गतिविधिहरु
+    url: /events/
   - title: सहभागिता
     url: /सहभागिता/
   - title: ब्लग

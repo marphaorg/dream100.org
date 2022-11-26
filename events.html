@@ -12,7 +12,7 @@ permalink: /events/
       <div class="row">
         <div class="col-xl-12">
           <div class="hero-cap hero-cap2 pt-20 text-center">
-            <h2>Social Events</h2>
+            <h2>Events & Activities</h2>
           </div>
         </div>
       </div>
@@ -25,6 +25,7 @@ permalink: /events/
   class="featured-job-area section-padding30 section-bg2"
   data-background="/assets/img/gallery/section_bg03.png"
 >
+  {% assign today = site.time | date: '%y %m %d' %}
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
@@ -36,29 +37,72 @@ permalink: /events/
       </div>
     </div>
     <div class="row justify-content-center">
+      {% assign sortedUpcomingEvents = site.data.events | where_exp:"upevent",
+      "upevent.date >= today "| sort: "date" %} {% for upcomingEvent in
+      sortedUpcomingEvents %}
       <div class="col-lg-9 col-md-12">
         <!-- single-job-content -->
-        <div class="single-job-items mb-30">
+        <div class="single-job-items mb-30 mt-30">
           <div class="job-items">
             <div class="company-img">
               <a href="#"
-                ><img src="/assets/img/gallery/socialEvents1.png" alt=""
+                ><img
+                  src="{{ upcomingEvent.img }}"
+                  alt=""
+                  height="90"
+                  width="90"
               /></a>
             </div>
             <div class="job-tittle">
-              <a href="/events/meet-and-greet-2079"><h4>Meet & Greet</h4></a>
+              <a href="{{ upcomingEvent.url }}"
+                ><h4>{{ upcomingEvent.name}}</h4></a
+              >
               <ul>
-                <li><i class="far fa-clock"></i>11:00apm - 2:30pm</li>
+                <li><i class="far fa-clock"></i>{{upcomingEvent.time}}</li>
+                <li><i class="fas fa-calendar"></i>{{upcomingEvent.date}}</li>
                 <li>
-                  <i class="fas fa-sort-amount-down"></i>Ashoj 15, 2079(Oct 1,
-                  2022)
+                  <i class="fas fa-map-marker-alt"></i>{{upcomingEvent.place}}
                 </li>
-                <li><i class="fas fa-map-marker-alt"></i>Pyuthan, Nepal</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
+      {% endfor %}
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
+        <!-- Section Tittle -->
+        <div class="section-tittle text-center mb-80 mt-50">
+          <h2>Past events</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      {% assign sortedPastEvents = site.data.events | where_exp:"event",
+      "event.date < today"| sort: "date"| reverse %} {% for event in
+      sortedPastEvents %}
+      <div class="col-lg-9 col-md-12">
+        <!-- single-job-content -->
+        <div class="single-job-items mb-30 mt-30">
+          <div class="job-items">
+            <div class="company-img">
+              <a href="#"
+                ><img src="{{ event.img }}" alt="" height="90" width="90"
+              /></a>
+            </div>
+            <div class="job-tittle">
+              <a href="{{ event.url }}"><h4>{{ event.name}}</h4></a>
+              <ul>
+                <li><i class="far fa-clock"></i>{{event.time}}</li>
+                <li><i class="fas fa-calendar"></i>{{event.date}}</li>
+                <li><i class="fas fa-map-marker-alt"></i>{{event.place}}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
