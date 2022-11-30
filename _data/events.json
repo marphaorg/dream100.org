@@ -4,7 +4,7 @@
         "img": "/assets/img/gallery/application.png",
         "desc": "Application open for 2078",
         "time": "10:00 AM",
-        "date": "2021-05-19",
+        "date": "2021/05/19",
         "place": "Online",
         "url": "/events/"
     },
@@ -13,7 +13,7 @@
         "img": "/assets/img/gallery/result.png",
         "desc": "",
         "time": "10:00 AM",
-        "date": "2021-09-25",
+        "date": "2021/09/25",
         "place": "Online",
         "url": "/pages/dream100-form2078-result/"
     },
@@ -22,7 +22,7 @@
         "img": "/assets/img/gallery/meet_greet.png",
         "desc": "",
         "time": "10:00 AM",
-        "date": "2021-10-11",
+        "date": "2021/10/11",
         "place": "Pyuthan, Nepal",
         "url": "/events/meet-and-greet-2078"
     },
@@ -31,7 +31,7 @@
         "img": "/assets/img/gallery/poem_competition.png",
         "desc": "",
         "time": "10:00 AM",
-        "date": "2022-01-09",
+        "date": "2022/01/09",
         "place": "Online"
     },
     {
@@ -39,7 +39,7 @@
         "img": "/assets/img/gallery/application.png",
         "desc": "Application open for 2078",
         "time": "10:00 AM",
-        "date": "2022-05-15",
+        "date": "2022/05/15",
         "place": "Online",
         "url": "/events/"
     },
@@ -48,7 +48,7 @@
         "img": "/assets/img/gallery/result.png",
         "desc": "",
         "time": "10:00 AM",
-        "date": "2022-08-18",
+        "date": "2022/08/18",
         "place": "Online",
         "url": "/pages/dream100-form2079-result/"
     },
@@ -57,8 +57,26 @@
         "img": "/assets/img/gallery/meet_greet.png",
         "desc": "",
         "time": "10:00 AM",
-        "date": "2022-10-01",
+        "date": "2022/10/01",
         "place": "Pyuthan, Nepal",
         "url": "/events/meet-and-greet-2079"
+    },
+    {
+        "name": "Dream Quiz Championship Registraion Open",
+        "img": "/assets/img/gallery/registration.png",
+        "desc": "",
+        "time": "10:00 AM",
+        "date": "2022/12/01",
+        "place": "Pyuthan, Nepal",
+        "url": "/events/quiz"
+    },
+    {
+        "name": "Dream Quiz Championship",
+        "img": "/assets/img/gallery/quiz.png",
+        "desc": "",
+        "time": "10:00 AM",
+        "date": "2023/01/27",
+        "place": "Pyuthan, Nepal",
+        "url": "/events/quiz"
     }
 ]

@@ -25,7 +25,7 @@ permalink: /events/
   class="featured-job-area section-padding30 section-bg2"
   data-background="/assets/img/gallery/section_bg03.png"
 >
-  {% assign today = site.time | date: '%y %m %d' %}
+  {% assign today = site.time | date: '%Y/%m/%d' %}
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
@@ -59,7 +59,10 @@ permalink: /events/
               >
               <ul>
                 <li><i class="far fa-clock"></i>{{upcomingEvent.time}}</li>
-                <li><i class="fas fa-calendar"></i>{{upcomingEvent.date}}</li>
+                <li>
+                  <i class="fas fa-calendar"></i>{{upcomingEvent.date | date:
+                  "%B %d, %Y"}}
+                </li>
                 <li>
                   <i class="fas fa-map-marker-alt"></i>{{upcomingEvent.place}}
                 </li>
@@ -95,7 +98,10 @@ permalink: /events/
               <a href="{{ event.url }}"><h4>{{ event.name}}</h4></a>
               <ul>
                 <li><i class="far fa-clock"></i>{{event.time}}</li>
-                <li><i class="fas fa-calendar"></i>{{event.date}}</li>
+                <li>
+                  <i class="fas fa-calendar"></i>{{event.date | date: "%B %d,
+                  %Y"}}
+                </li>
                 <li><i class="fas fa-map-marker-alt"></i>{{event.place}}</li>
               </ul>
             </div>
