@@ -123,5 +123,19 @@ meetup_2079:
   np:
     label: Meetup 2079
     url: /events/meet-and-greet-2079
+quiz_details:
+  en:
+    label: More Details
+    url: /events/quiz
+  np:
+    label: थप जानकारी
+    url: /events/quiz
+quiz_registration:
+  en:
+    label: Register
+    url: /events/quiz/register
+  np:
+    label: अनलाईन दर्ता
+    url: /events/quiz/register
 
 
