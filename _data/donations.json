@@ -103,6 +103,14 @@
       "amount": "486,693",
       "date": "Nov 06, 2022",
       "dollar": 350
+    },
+    {
+      "sn":14,
+      "donor": "Bigyan Thapa",
+      "currency": "$",
+      "amount": "100",
+      "date": "Dec 28, 2022",
+      "dollar": 100
     }
   ],
   "year_2021":[
