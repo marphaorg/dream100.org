@@ -137,5 +137,11 @@ quiz_registration:
   np:
     label: अनलाईन दर्ता
     url: /events/quiz/register
-
+students_highlight:
+  en:
+    label: View All
+    url: /dreamers/
+  np:
+    label: सबै बिद्यार्थीहरु
+    url: /सपनाहरु/
 

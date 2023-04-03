@@ -8,6 +8,48 @@ permalink: /
 <!-- Slider-->
 {% include slider.html %}
 <!-- slider Area End-->
+
+<!-- Students Highlights -->
+<div class="team-area pt-20">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
+        <!-- Section Tittle -->
+        <div class="section-tittle section-tittle2 text-center mb-70">
+          <span>{{site.data.translations.students_highlight[page.lang]}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {% assign sortedStudents = site.data.dreamers.year_2078 | sort: "img" %}
+      {% for dream in sortedStudents limit:8 %}
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="single-team mb-30">
+          <div class="team-img">
+            <img src="{{ dream.img }}" alt="" />
+          </div>
+          <div class="team-caption">
+            <h3>
+              <a href="javascript:void(0)">{{ dream.name[page.lang] }}</a>
+            </h3>
+            <p>{{ dream.college[page.lang] }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <a
+          href="{{site.data.links.students_highlight[page.lang].url}}"
+          class="btn-link float-right"
+          >{{site.data.links.students_highlight[page.lang].label}}</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
+
 {% include services.html %}
 <!-- About -->
 <!--  include about.html  -->
