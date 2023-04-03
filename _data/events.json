@@ -78,5 +78,14 @@
         "date": "2023/01/27",
         "place": "Pyuthan, Nepal",
         "url": "/events/quiz"
+    },
+    {
+        "name": "Application Open",
+        "img": "/assets/img/gallery/application.png",
+        "desc": "Application open for 2080",
+        "time": "10:00 AM",
+        "date": "2023/04/15",
+        "place": "Online",
+        "url": "/events/"
     }
 ]
