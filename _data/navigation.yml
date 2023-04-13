@@ -27,6 +27,8 @@ en:
     url: /join-us/
   - title: Events
     url: /events/
+  - title: Application 2080
+    url: /events/
 np:
   - title: गृहपृष्ठ
     url: /np
@@ -56,3 +58,5 @@ np:
     url: /events/
   - title: सहभागिता
     url: /सहभागिता/
+  - title: आवेदन २०८०
+    url: /apply/

@@ -2,10 +2,10 @@
 <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
 <script>
   document
-    .getElementById("txt-form2079-select")
+    .getElementById("txt-form2080-select")
     .addEventListener("change", handleFileUploadChange);
   document
-    .getElementById("btn-form2079-upload")
+    .getElementById("btn-form2080-upload")
     .addEventListener("click", handleFileUploadSubmit);
   let selectedFormFile;
   function loadApplicationStats(folderName) {
@@ -45,72 +45,17 @@
   function handleFileUploadChange(e) {
     selectedFormFile = e.target.files[0];
     if (selectedFormFile) {
-      $("#btn-form2079-upload").enable();
+      $("#btn-form2080-upload").enable();
     } else {
-      $("#btn-form2079-upload").prop("disabled", true);
+      $("#btn-form2080-upload").prop("disabled", true);
     }
   }
   function handleFileUploadSubmit(e) {
     //show loader
     $("#preloader-active").show();
     const uploadTask = dbFileManager.uploadFileTask(
-      "form-2079",
+      "form-2080",
       selectedFormFile
-    );
-
-    //create a child directory called images, and place the file inside this directory
-    uploadTask.on(
-      "state_changed",
-      (snapshot) => {
-        // Observe state change events such as progress, pause, and resume
-      },
-      (error) => {
-        // Handle unsuccessful uploads
-        $("#preloader-active").hide();
-        console.log(error);
-        $("#filesubmit").fadeTo("slow", 1, function () {
-          $("#modelError").fadeIn();
-          $(".modal").modal("hide");
-          $("#modelError").modal("show");
-        });
-      },
-      () => {
-        // Do something once upload is complete
-        $("#preloader-active").hide();
-        console.log("success");
-        $("#filesubmit").fadeTo("slow", 1, function () {
-          $(this).find(":input").attr("disabled", "disabled");
-          $(this).find("label").css("cursor", "default");
-          $("#modelSuccess").fadeIn();
-          $(".modal").modal("hide");
-          $("#modelSuccess").modal("show");
-        });
-      }
-    );
-  }
-</script>
-<script>
-  document
-    .getElementById("txt-marksheet2079-select")
-    .addEventListener("change", handleFile2UploadChange);
-  document
-    .getElementById("btn-marksheet2079-upload")
-    .addEventListener("click", handleFile2UploadSubmit);
-  let selectedMarksheetFile;
-  function handleFile2UploadChange(e) {
-    selectedMarksheetFile = e.target.files[0];
-    if (selectedMarksheetFile) {
-      $("#btn-marksheet2079-upload").enable();
-    } else {
-      $("#btn-marksheet2079-upload").prop("disabled", true);
-    }
-  }
-  function handleFile2UploadSubmit(e) {
-    //show loader
-    $("#preloader-active").show();
-    const uploadTask = dbFileManager.uploadFileTask(
-      "marksheet-2079",
-      selectedMarksheetFile
     );
 
     //create a child directory called images, and place the file inside this directory
