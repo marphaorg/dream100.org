@@ -15,6 +15,14 @@
       "amount": "100",
       "date": "Apr 12, 2023",
       "dollar": 100
+    },
+    {
+      "sn":3,
+      "donor": "Ranjit Lama",
+      "currency": "$",
+      "amount": "100",
+      "date": "Apr 12, 2023",
+      "dollar": 100
     }
   ],
   "year_2022":[
