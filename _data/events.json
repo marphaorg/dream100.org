@@ -84,8 +84,17 @@
         "img": "/assets/img/gallery/application.png",
         "desc": "Application open for 2080",
         "time": "10:00 AM",
-        "date": "2023/04/15",
+        "date": "2023/04/13",
         "place": "Online",
         "url": "/apply"
+    },
+    {
+        "name": "Town Hall Meeting",
+        "img": "/assets/img/gallery/application.png",
+        "desc": "Town Hall Meeting",
+        "time": "07:00 PM - 09:00 PM",
+        "date": "2023/04/28",
+        "place": "Online Zoom",
+        "url": "/events/townhall"
     }
 ]
