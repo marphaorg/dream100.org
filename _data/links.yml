@@ -144,4 +144,10 @@ students_highlight:
   np:
     label: सबै बिद्यार्थीहरु
     url: /सपनाहरु/
-
+result_2080:
+  en:
+    label: Result 2080
+    url: /pages/dream100-form2080-result/
+  np:
+    label: नतिजा २०८०
+    url: /pages/dream100-form2080-result/
