@@ -29,6 +29,8 @@ en:
     url: /events/
   - title: Application 2080
     url: /events/
+  - title: Result 2080
+    url: /pages/dream100-form2080-result/
 np:
   - title: गृहपृष्ठ
     url: /np
@@ -58,5 +60,5 @@ np:
     url: /events/
   - title: सहभागिता
     url: /सहभागिता/
-  - title: आवेदन २०८०
-    url: /apply/
+  - title: नतिजा २०८०
+    url: /pages/dream100-form2080-result/
