@@ -23,6 +23,14 @@
       "amount": "100",
       "date": "Apr 12, 2023",
       "dollar": 100
+    },
+    {
+      "sn":5,
+      "donor": "[Er. Dilip Kumar Yadav dream100 Fund](/assets/docs/dilip-yadav-dream100-fund-2079.pdf)",
+      "currency": "$",
+      "amount": "120",
+      "date": "May 22, 2023",
+      "dollar": 120
     }
   ],
   "year_2022":[
@@ -108,9 +116,9 @@
     },
     {
       "sn":11,
-      "donor": "[Er. Dilip Kumar Yadav](/assets/docs/dilip-yadav-dream100-fund-2079.pdf)",
+      "donor": "[Er. Dilip Kumar Yadav dream100 Fund](/assets/docs/dilip-yadav-dream100-fund-2079.pdf)",
       "currency": "$",
-      "amount": "115",
+      "amount": 115,
       "date": "Oct 04, 2022",
       "dollar": 115
     },
@@ -118,7 +126,7 @@
       "sn":12,
       "donor": "Milan K. Shahi",
       "currency": "$",
-      "amount": "40",
+      "amount": 40,
       "date": "Oct 08, 2022",
       "dollar": 40
     },
@@ -134,7 +142,7 @@
       "sn":14,
       "donor": "Bigyan Thapa",
       "currency": "$",
-      "amount": "100",
+      "amount": 100,
       "date": "Dec 28, 2022",
       "dollar": 100
     },
@@ -248,7 +256,7 @@
       "sn":13,
       "donor": "Samir Karki",
       "currency": "रु. ",
-      "amount": 5000,
+      "amount": "5,000",
       "date": "Jan 6, 2021",
       "dollar": 50
     },

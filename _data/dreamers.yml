@@ -259,3 +259,81 @@ year_2079:
         np: श्री मुक्ति मा वि, प्यूठान नगरपालिका, प्यूठान
         en: Shree Mukti H.S.S, Pyuthan Mun, Pyuthan
     img: /assets/img/dreamers/037-teki-sunar.png
+year_2080:
+  - name: 
+        np: अभिषेक जी.सी
+        en: Abhisek G.C.
+    college: 
+        np: श्री गौमुखी मा.वि., गौमुखी -०५, ठुलाबेशी प्यूठान
+        en: Shree Gaumukhi H.S.S, Gaumukhi - 05, Thulabesi Pyuthan
+    img: /assets/img/dreamers/038-abhisek-gc.png
+  - name: 
+        np: अशोक परियार
+        en: Ashok Pariyar
+    college: 
+        np: श्री भानुभक्त मा.वि., मल्लरानी -०३, बर्वोट प्यूठान
+        en: Shree Bhanubhakta H.S.S, Mallarani - 03, Barbot Pyuthan
+    img: /assets/img/dreamers/039-ashok-pariyar.png
+  - name: 
+        np: बिमल खत्री
+        en: Bimal Khatri
+    college: 
+        np: श्री सरस्वती मा.वि., सरुमरानी -०१, बाङ्गेशाल प्यूठान
+        en: Shree Sarashwoti H.S.S, Sarumarani - 01, Bangesal Pyuthan
+    img: /assets/img/dreamers/040-bimal-khatri.png
+  - name: 
+        np: बिशाल बि.क.
+        en: Bisal B.K.
+    college: 
+        np: श्री जनता मा.वि., ऐरावती -०६, विजुली प्यूठान
+        en: Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan
+    img: /assets/img/dreamers/041-bisal-bk.png
+  - name: 
+        np: चाँदनी घर्ति मगर
+        en: Chandani Gharti Magar
+    college: 
+        np: श्री उमामहेश्वरी मा.वि., स्वर्गद्वारी -०५, सारी प्यूठान
+        en: Shree Umamaheshwori H.S.S, Sworgadwari - 05, Sari Pyuthan
+    img: /assets/img/dreamers/042-chandani-gharti-magar.png
+  - name: 
+        np: झरना थापा
+        en: Jharana Thapa
+    college: 
+        np: श्री महेन्द्र मा.वि., ऐरावती -०५, सराङ्गवेशी, प्यूठान
+        en: Shree Mahendra H.S.S, Airawoti - 05, Sarangbesi Pyuthan
+    img: /assets/img/dreamers/043-jharana-thapa.png
+  - name: 
+        np: मनकला थापा
+        en: Mankala Thapa
+    college: 
+        np: श्री महेन्द्र मा.वि., ऐरावती -०५, सराङ्गवेशी, प्यूठान
+        en: Shree Mahendra H.S.S, Airawoti - 05, Sarangbesi Pyuthan
+    img: /assets/img/dreamers/044-mankala-thapa.png
+  - name: 
+        np: मिना राना मगर
+        en: Meena Rana Magar
+    college: 
+        np: श्री जनता मा.वि., ऐरावती -०६, विजुली प्यूठान
+        en: Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan
+    img: /assets/img/dreamers/045-meena-rana-magar.png
+  - name: 
+        np: निशा सुनार
+        en: Nisa Sunar
+    college: 
+        np: श्री माण्डवी मा.वि., माण्डवी -०३, नयाँगाउँ प्यूठान
+        en: Shree Mandavi H.S.S, Mandavi - 06, Nayagaun Pyuthan
+    img: /assets/img/dreamers/046-nisa-sunar.png
+  - name: 
+        np: प्रदिप हमाल
+        en: Pradip Hamal
+    college: 
+        np: श्री गौमुखी मा.वि., गौमुखी -०५, ठुलाबेशी प्यूठान
+        en: Shree Gaumukhi H.S.S, Gaumukhi - 06, Thulabesi Pyuthan
+    img: /assets/img/dreamers/047-pradip-hamal.png
+  - name: 
+        np: पुष्पा मल्ल
+        en: Puspa Malla
+    college: 
+        np: श्री गौमुखी मा.वि., गौमुखी -०५, ठुलाबेशी प्यूठान
+        en: Shree Gaumukhi H.S.S, Gaumukhi - 06, Thulabesi Pyuthan
+    img: /assets/img/dreamers/048-puspa-malla.png

@@ -118,5 +118,21 @@
         "phone":"+11111",
         "email": "email@gmail.com",
         "website": "www.abc.com"
+    },
+    {
+        "name": "माण्डवी उच्च माध्यामिक विद्यालय, माण्डवी -०३, नयाँगाउँ प्यूठान",
+        "address":"Airawati - 5, Pyuthan Nepal",
+        "contact":"Contact Person Name",
+        "phone":"+11111",
+        "email": "email@gmail.com",
+        "website": "www.abc.com"
+    },
+    {
+        "name": "गौमुखी मा.वि., गौमुखी -०५, ठुलाबेशी प्यूठान",
+        "address":"Airawati - 5, Pyuthan Nepal",
+        "contact":"Contact Person Name",
+        "phone":"+11111",
+        "email": "email@gmail.com",
+        "website": "www.abc.com"
     }
 ]
