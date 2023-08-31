@@ -1,6 +1,6 @@
 [
     {
-        "name": "Application Open",
+        "name": "Application 2078 Open",
         "img": "/assets/img/gallery/application.png",
         "desc": "Application open for 2078",
         "time": "10:00 AM",
@@ -9,7 +9,7 @@
         "url": "/events/"
     },
     {
-        "name": "Result Publish",
+        "name": "Result 2078 Publish",
         "img": "/assets/img/gallery/result.png",
         "desc": "",
         "time": "10:00 AM",
@@ -35,7 +35,7 @@
         "place": "Online"
     },
     {
-        "name": "Application Open",
+        "name": "Application 2079 Open",
         "img": "/assets/img/gallery/application.png",
         "desc": "Application open for 2078",
         "time": "10:00 AM",
@@ -44,7 +44,7 @@
         "url": "/events/"
     },
     {
-        "name": "Result Publish",
+        "name": "Result 2079 Publish",
         "img": "/assets/img/gallery/result.png",
         "desc": "",
         "time": "10:00 AM",
@@ -80,7 +80,7 @@
         "url": "/events/quiz"
     },
     {
-        "name": "Application Open",
+        "name": "Application 2080 Open",
         "img": "/assets/img/gallery/application.png",
         "desc": "Application open for 2080",
         "time": "10:00 AM",
@@ -89,12 +89,21 @@
         "url": "/apply"
     },
     {
-        "name": "Town Hall Meeting",
+        "name": "<strike>Town Hall Meeting</strike>",
         "img": "/assets/img/gallery/application.png",
         "desc": "Town Hall Meeting",
         "time": "07:00 PM - 09:00 PM",
         "date": "2023/04/28",
         "place": "Online Zoom",
         "url": "/events/townhall"
+    },
+    {
+        "name": "Result 2080 Publish",
+        "img": "/assets/img/gallery/result.png",
+        "desc": "",
+        "time": "10:00 AM",
+        "date": "2023/08/16",
+        "place": "Online",
+        "url": "/pages/dream100-form2080-result/"
     }
 ]
