@@ -31,6 +31,22 @@
       "amount": "120",
       "date": "May 22, 2023",
       "dollar": 120
+    },
+    {
+      "sn":6,
+      "donor": "Shrada Pradhan",
+      "currency": "$",
+      "amount": "500",
+      "date": "Oct 16, 2023",
+      "dollar": 500
+    },
+    {
+      "sn":7,
+      "donor": "Kumar Prateek",
+      "currency": "$",
+      "amount": "1300",
+      "date": "Oct 16, 2023",
+      "dollar": 1300
     }
   ],
   "year_2022":[
