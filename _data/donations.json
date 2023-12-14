@@ -47,6 +47,14 @@
       "amount": "1300",
       "date": "Oct 16, 2023",
       "dollar": 1300
+    },
+    {
+      "sn":8,
+      "donor": "Sonika Maharjan",
+      "currency": "$",
+      "amount": "100",
+      "date": "Dec 13, 2023",
+      "dollar": 100
     }
   ],
   "year_2022":[
