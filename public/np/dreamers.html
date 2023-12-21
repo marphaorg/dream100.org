@@ -24,126 +24,166 @@ permalink: /सपनाहरु/
 </div>
 <!-- Hero End -->
 
-<!--? Team Ara Start -->
-<div class="team-area pt-160 pb-160">
+<!--? Student Area Start -->
+<div class="team-area pt-50 pb-50">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
-        <!-- Section Tittle -->
-        <div class="section-tittle section-tittle2 text-center mb-70">
-          <span>शैक्षिक वर्ष</span>
-          <h2>२०८०</h2>
+    <ul class="nav nav-tabs dreamers-tab" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link active year-tab"
+          id="tab-2080"
+          data-toggle="tab"
+          data-target="#content-2080"
+          type="button"
+          role="tab"
+          aria-controls="content-2080"
+          aria-selected="true"
+        >
+          शैक्षिक वर्ष २०८०
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link year-tab"
+          id="tab-2079"
+          data-toggle="tab"
+          data-target="#content-2079"
+          type="button"
+          role="tab"
+          aria-controls="content-2079"
+          aria-selected="false"
+        >
+          शैक्षिक वर्ष २०७९
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link year-tab"
+          id="tab-2078"
+          data-toggle="tab"
+          data-target="#content-2078"
+          type="button"
+          role="tab"
+          aria-controls="content-2078"
+          aria-selected="false"
+        >
+          शैक्षिक वर्ष २०७८
+        </button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div
+        class="tab-pane fade show active"
+        id="content-2080"
+        role="tabpanel"
+        aria-labelledby="tab-2080"
+      >
+        <div class="row">
+          {% assign sortedStudents = site.data.dreamers.year_2080 | sort: "img"
+          %} {% for dream in sortedStudents %}
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="single-team mb-30">
+              <div class="team-img">
+                <img src="{{ dream.img }}" alt="" />
+                <!-- Blog Social -->
+                <!-- <ul class="team-social">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-globe"></i></a>
+                </li>
+              </ul> -->
+              </div>
+              <div class="team-caption">
+                <h3>
+                  <a href="javascript:void(0)">{{ dream.name[page.lang] }}</a>
+                </h3>
+                <p>{{ dream.college[page.lang] }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
         </div>
       </div>
-    </div>
-    <div class="row">
-      {% assign sortedStudents = site.data.dreamers.year_2080 | sort: "img" %}
-      {% for dream in sortedStudents %}
-      <div class="col-lg-3 col-md-6 col-sm-6">
-        <div class="single-team mb-30">
-          <div class="team-img">
-            <img src="{{ dream.img }}" alt="" />
-            <!-- Blog Social -->
-            <!-- <ul class="team-social">
-              <li>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fas fa-globe"></i></a>
-              </li>
-            </ul> -->
+      <div
+        class="tab-pane fade"
+        id="content-2079"
+        role="tabpanel"
+        aria-labelledby="tab-2079"
+      >
+        <div class="row">
+          {% assign sortedStudents = site.data.dreamers.year_2079 | sort: "img"
+          %} {% for dream in sortedStudents %}
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="single-team mb-30">
+              <div class="team-img">
+                <img src="{{ dream.img }}" alt="" />
+                <!-- Blog Social -->
+                <!-- <ul class="team-social">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-globe"></i></a>
+                </li>
+              </ul> -->
+              </div>
+              <div class="team-caption">
+                <h3>
+                  <a href="javascript:void(0)">{{ dream.name[page.lang] }}</a>
+                </h3>
+                <p>{{ dream.college[page.lang] }}</p>
+              </div>
+            </div>
           </div>
-          <div class="team-caption">
-            <h3>
-              <a href="javascript:void(0)">{{ dream.name[page.lang] }}</a>
-            </h3>
-            <p>{{ dream.college[page.lang] }}</p>
-          </div>
+          {% endfor %}
         </div>
       </div>
-      {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
-        <!-- Section Tittle -->
-        <div class="section-tittle section-tittle2 text-center mb-70">
-          <span>शैक्षिक वर्ष</span>
-          <h2>२०७९</h2>
+      <div
+        class="tab-pane fade"
+        id="content-2078"
+        role="tabpanel"
+        aria-labelledby="tab-2078"
+      >
+        <div class="row">
+          {% assign sortedStudents = site.data.dreamers.year_2078 | sort: "img"
+          %} {% for dream in sortedStudents %}
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="single-team mb-30">
+              <div class="team-img">
+                <img src="{{ dream.img }}" alt="" />
+                <!-- Blog Social -->
+                <!-- <ul class="team-social">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-globe"></i></a>
+                </li>
+              </ul> -->
+              </div>
+              <div class="team-caption">
+                <h3>
+                  <a href="javascript:void(0)">{{ dream.name[page.lang] }}</a>
+                </h3>
+                <p>{{ dream.college[page.lang] }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
         </div>
       </div>
-    </div>
-    <div class="row">
-      {% assign sortedStudents = site.data.dreamers.year_2079 | sort: "img" %}
-      {% for dream in sortedStudents %}
-      <div class="col-lg-3 col-md-6 col-sm-6">
-        <div class="single-team mb-30">
-          <div class="team-img">
-            <img src="{{ dream.img }}" alt="" />
-            <!-- Blog Social -->
-            <!-- <ul class="team-social">
-              <li>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fas fa-globe"></i></a>
-              </li>
-            </ul> -->
-          </div>
-          <div class="team-caption">
-            <h3>
-              <a href="javascript:void(0)">{{ dream.name[page.lang] }}</a>
-            </h3>
-            <p>{{ dream.college[page.lang] }}</p>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
-        <!-- Section Tittle -->
-        <div class="section-tittle section-tittle2 text-center mb-70">
-          <span>शैक्षिक वर्ष</span>
-          <h2>२०७८</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      {% assign sortedStudents = site.data.dreamers.year_2078 | sort: "img" %}
-      {% for dream in sortedStudents %}
-      <div class="col-lg-3 col-md-6 col-sm-6">
-        <div class="single-team mb-30">
-          <div class="team-img">
-            <img src="{{ dream.img }}" alt="" />
-            <!-- Blog Social -->
-            <!-- <ul class="team-social">
-              <li>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fas fa-globe"></i></a>
-              </li>
-            </ul> -->
-          </div>
-          <div class="team-caption">
-            <h3>
-              <a href="javascript:void(0)">{{ dream.name[page.lang] }}</a>
-            </h3>
-            <p>{{ dream.college[page.lang] }}</p>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
     </div>
   </div>
 </div>
-<!-- Team Ara End -->
+<!-- Student Ara End -->
