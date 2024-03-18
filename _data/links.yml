@@ -16,10 +16,10 @@ faq:
 
 apply:
   en:
-    label: Apply
+    label: Apply Form 2081
     url: /apply/
   np:
-    label: आवेदन
+    label: आवेदन फर्म २०८१
     url: /apply/
 
 get_involved:
