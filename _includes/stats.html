@@ -1,6 +1,8 @@
 <!--? Count Down Start -->
 {% assign donations = site.data.donations.year_2021 | concat:
-site.data.donations.year_2022 %}
+site.data.donations.year_2022 | concat:
+site.data.donations.year_2023 | concat:
+site.data.donations.year_2024 %}
 <div
   class="count-down-area pt-25 section-bg"
   data-background="/assets/img/gallery/section_bg02.png"

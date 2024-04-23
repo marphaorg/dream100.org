@@ -87,26 +87,47 @@ permalink: /दाताहरु/
           <div id="progress"></div>
         </div>
         <div class="goal-stat">
-          <span class="goal-number">86.67%</span>
+          <span class="goal-number">86.92%</span>
           <span class="goal-label">Funded</span>
         </div>
         <div class="goal-stat">
-          <span class="goal-number">$8,667</span>
+          <span class="goal-number">$8,692</span>
           <span class="goal-label"
             ><a class="a-link" href="/donors/">Raised</a></span
           >
         </div>
         <div class="goal-stat">
-          <span class="goal-number">$2470</span>
+          <span class="goal-number">$25</span>
           <span class="goal-label">This year</span>
         </div>
         <div class="goal-stat">
-          <span class="goal-number">42</span>
+          <span class="goal-number">43</span>
           <span class="goal-label"
             ><a class="a-link" href="/donors/">Donors</a></span
           >
         </div>
       </div>
+      <h3>Year 2024</h3>
+      <hr/>
+    <div class="row">
+    {% for donation in site.data.donations.year_2024 %}
+    <div class="col-sm-3">
+      <div class="card border-primary mb-5">
+        <div class="card-header">#{{ donation.sn }}</div>
+        <div class="card-body text-primary">
+          <h5 class="card-title">{{ donation.donor | markdownify }}</h5>
+          <p class="card-text">
+            {{ donation.currency }}{{ donation.amount }}
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">on {{ donation.date }}</small>
+        </div>
+      </div>
+    </div>
+      {% endfor %}
+    </div>
+    <br/>
       <h3>Year 2023</h3>
       <hr/>
     <div class="row">

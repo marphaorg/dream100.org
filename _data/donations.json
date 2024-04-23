@@ -1,4 +1,14 @@
 {
+  "year_2024":[
+    {
+      "sn":1,
+      "donor": "Shringa Koirala",
+      "currency": "$",
+      "amount": "25",
+      "date": "Mar 29, 2024",
+      "dollar": 25
+    }
+  ],
   "year_2023":[
     {
       "sn":1,
