@@ -7,6 +7,14 @@
       "amount": "25",
       "date": "Mar 29, 2024",
       "dollar": 25
+    },
+    {
+      "sn":2,
+      "donor": "Sheela Dawadi",
+      "currency": "$",
+      "amount": "200",
+      "date": "Jun 8, 2024",
+      "dollar": 200
     }
   ],
   "year_2023":[
