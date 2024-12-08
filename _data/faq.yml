@@ -2,15 +2,15 @@
       en: What is dream100.org?
       np: Dream100.org भनेको के हो?
   ans: 
-      en: Dream100.Org is a social charitable initiative run by volunteers with the aim of helping the low-income students of Nepal to complete a college education.
-      np: Dream100.org कमजोर आर्थिक अवस्था भएका विद्यार्थीलाई कलेज (कक्षा ११र १२) पढ्न मद्दत गर्ने उदेश्यले सुरु गरिएको स्वयंसेवक बाट संचालित सामाजिक कार्यक्रम हो।
+      en: Dream100.Org is a social charitable organization run by volunteers with the aim of helping low-income students of Nepal to complete their high school education.
+      np: Dream100.org कमजोर आर्थिक अवस्था भएका विद्यार्थीलाई (कक्षा ११र १२) पढ्न मद्दत गर्ने उदेश्यले सुरु गरिएको स्वयंसेवक बाट संचालित सामाजिक कार्यक्रम हो।
 
 - question:
     en: Is this a registered organization?
     np: के यो अधिकारिक रुपमा नेपाल सरकारमा दर्ता भएको संस्था हो?
   ans: 
-    en: No, Dream100.Org is not a registered organization.
-    np: Dream100.org अझै नेपाल सरकारमा दर्ता भैसकेको छैन।
+    en: Yes, Dream100.Org is a registered nonprofit organization in Nepal.
+    np: Dream100.org नेपाल सरकारको समाज कल्याण परिषदमा दर्ता भएको छ।
 
 - question: 
     en: How this project is helping low-income students to continue college education?
