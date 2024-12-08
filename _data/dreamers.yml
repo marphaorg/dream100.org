@@ -337,3 +337,67 @@ year_2080:
         np: श्री गौमुखी मा.वि., गौमुखी -०५, ठुलाबेशी प्यूठान
         en: Shree Gaumukhi H.S.S, Gaumukhi - 06, Thulabesi Pyuthan
     img: /assets/img/dreamers/048-puspa-malla.png
+year_2081:
+  - name: 
+        np: गणेश खड्का
+        en: Ganesh Khadka
+    college: 
+        np: श्री उमामहेश्वरी मा.वि., स्वर्गद्वारी -०५, सारी प्यूठान
+        en: Shree Umamaheshwori H.S.S, Sworgadwari - 05, Sari Pyuthan
+    img: /assets/img/dreamers/049-ganesh-khadka.png
+  - name: 
+        np: जयस्वर पौडेल
+        en: Jayashwor Poudel
+    college: 
+        np: श्री भानुभक्त मा.वि., मल्लरानी -०३, बर्वोट प्यूठान
+        en: Shree Bhanubhakta H.S.S, Mallarani - 03, Barbot Pyuthan
+    img: /assets/img/dreamers/050-jayaswor-poudel.png
+  - name: 
+        np: नवराज बुढाथोकी
+        en: Nawaraj Budhathoki
+    college: 
+        np: श्री उमामहेश्वरी मा.वि., स्वर्गद्वारी -०५, सारी प्यूठान
+        en: Shree Umamaheshwori H.S.S, Sworgadwari - 05, Sari Pyuthan
+    img: /assets/img/dreamers/051-nawaraj-budhathoki.png
+  - name: 
+        np: निराजन जि.एम.
+        en: Nirajan G.M.
+    college: 
+        np: श्री उमामहेश्वरी मा.वि., स्वर्गद्वारी -०५, सारी प्यूठान
+        en: Shree Umamaheshwori H.S.S, Sworgadwari - 05, Sari Pyuthan
+    img: /assets/img/dreamers/052-nirajan-gm.png
+  - name: 
+        np: पुजा सुनार
+        en: Pooja Sunar
+    college: 
+        np: सरस्वती मा.वि., सरुमरानी -०१, बाङ्गेशाल प्यूठान
+        en: Shree Sarashwoti H.S.S, Sarumarani - 01, Bangesal Pyuthan
+    img: /assets/img/dreamers/053-pooja-sunar.png
+  - name: 
+        np: शृधर अधिकारि
+        en: Sridhar Adhikari
+    college: 
+        np: श्री जनता मा.वि., ऐरावती -०६, विजुली प्यूठान
+        en: Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan
+    img: /assets/img/dreamers/054-sridhar-adhikari.png
+  - name: 
+        np: सित्तल कुँवर
+        en: Sittal Kunwar
+    college: 
+        np: श्री जनता मा.वि., ऐरावती -०६, विजुली प्यूठान
+        en: Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan
+    img: /assets/img/dreamers/055-sittal-kunwar.png
+  - name: 
+        np: सोनिया खड्का
+        en: Sonia Khadka
+    college: 
+        np: श्री जनता मा.वि., ऐरावती -०६, विजुली प्यूठान
+        en: Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan
+    img: /assets/img/dreamers/056-sonia-khadka.png
+  - name: 
+        np: तारा भण्डारी
+        en: Tara Bhandari
+    college: 
+        np: श्री महेन्द्र मा.वि., ऐरावती -०५, सराङ्गवेशी, प्यूठान
+        en: Shree Mahendra H.S.S, Airawoti - 05, Sarangbesi Pyuthan
+    img: /assets/img/dreamers/057-tara-bhandari.png
