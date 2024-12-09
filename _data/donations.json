@@ -2,6 +2,14 @@
   "year_2024":[
     {
       "sn":1,
+      "donor": "Suvash Shah",
+      "currency": "$",
+      "amount": "1,000",
+      "date": "Jan 1, 2024",
+      "dollar": 1000
+    },
+    {
+      "sn":2,
       "donor": "Shringa Koirala",
       "currency": "$",
       "amount": "25",
@@ -9,7 +17,7 @@
       "dollar": 25
     },
     {
-      "sn":2,
+      "sn":3,
       "donor": "Sheela Dawadi",
       "currency": "$",
       "amount": "200",
@@ -20,6 +28,14 @@
   "year_2023":[
     {
       "sn":1,
+      "donor": "Suvash Shah",
+      "currency": "$",
+      "amount": "1,000",
+      "date": "Jan 1, 2023",
+      "dollar": 1000
+    },
+    {
+      "sn":2,
       "donor": "Prakash Roka Magar",
       "currency": "$",
       "amount": "250",
@@ -27,7 +43,7 @@
       "dollar": 250
     },
     {
-      "sn":2,
+      "sn":3,
       "donor": "Dinesh Maharjan",
       "currency": "$",
       "amount": "100",
@@ -35,7 +51,7 @@
       "dollar": 100
     },
     {
-      "sn":3,
+      "sn":4,
       "donor": "Ranjit Lama",
       "currency": "$",
       "amount": "100",
