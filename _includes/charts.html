@@ -12,18 +12,16 @@
 </section>
 <!--Chart End -->
  
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  
   <script>
     const ctx = document.getElementById('myChart');  
-
+    const Utils = ChartUtils.init();
     // <block:setup:1>
     const data = {
-      labels: ['2078', '2079', '2080', '2081', '2082', '2083'],
+      labels: ['2078', '2079', '2080', '2081', '2082', '2083', '2084'],
       datasets: [
         {
           label: 'Dataset',
-          data: [],
+          data: [16, 21, 11, 9, NaN, NaN, NaN],
           borderColor: Utils.CHART_COLORS.red,
           backgroundColor: Utils.transparentize(Utils.CHART_COLORS.red, 0.5),
           pointStyle: 'circle',
