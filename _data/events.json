@@ -105,5 +105,32 @@
         "date": "2023/08/16",
         "place": "Online",
         "url": "/pages/dream100-form2080-result/"
+    },
+    {
+        "name": "Application 2081 Open",
+        "img": "/assets/img/gallery/application.png",
+        "desc": "Application open for 2081",
+        "time": "10:00 AM",
+        "date": "2024/04/13",
+        "place": "Online",
+        "url": "/apply"
+    },
+    {
+        "name": "Result 2081 Publish",
+        "img": "/assets/img/gallery/result.png",
+        "desc": "",
+        "time": "10:00 AM",
+        "date": "2024/11/16",
+        "place": "Online",
+        "url": "/pages/dream100-form2081-result/"
+    },
+    {
+        "name": "Meetup #04: Meet & Greet",
+        "img": "/assets/img/gallery/meet_greet.png",
+        "desc": "",
+        "time": "11:00 AM",
+        "date": "2024/12/14",
+        "place": "Pyuthan, Nepal",
+        "url": "/events/meet-and-greet-2081"
     }
 ]
