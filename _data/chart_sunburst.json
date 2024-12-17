@@ -1,316 +1,314 @@
 {
-    "data": {
-        "name":"dream100",
-        "children":[
-            {
-                "name": "2078",
-                "children":
-                [
-                    {
-                        "id": "2078-001",
-                        "name": "Firoj Alam",
-                        "school_name": "Shree Saraswoti Namuna H.S.S, Pyuthan"
-                    },
-                    {
-                        "id": "2078-002",
-                        "name": "Juna Nepali",
-                        "school_name": "Shree Janta H.S.S, Bijulee, Pyuthan"
-                    },
-                    {
-                        "id": "2078-003",
-                        "name": "Keshab Bahadur Thapa",
-                        "school_name": "Shree Moti H.S.S, Baraula, Pyuthan"
-                    },
-                    {
-                        "id": "2078-004",
-                        "name": "Koma K.C.",
-                        "school_name": "Shree Moti H.S.S, Baraula, Pyuthan"
-                    },
-                    {
-                        "id": "2078-005",
-                        "name": "Kumar Budhathoki",
-                        "school_name": "Shree Umamaheshwori H.S.S, Pyuthan"
-                    },
-                    {
-                        "id": "2078-006",
-                        "name": "Manisha Pariyar",
-                        "school_name": "Shree Umamaheshwori H.S.S., Pyuthan"
-                    },
-                    {
-                        "id": "2078-007",
-                        "name": "Menuka Pun Magar",
-                        "school_name": "Shree Umamaheshwori H.S.S., Pyuthan"
-                    },
-                    {
-                        "id": "2078-008",
-                        "name": "Mitra Budha Magar",
-                        "school_name": "Shree Mukti H.S.S, Ratamata, Pyuthan"
-                    },
-                    {
-                        "id": "2078-009",
-                        "name": "Prarthana B.K.",
-                        "school_name": "Shree Janta H.S.S, Bijulee, Pyuthan"
-                    },
-                    {
-                        "id": "2078-010",
-                        "name": "Renu Bhandari",
-                        "school_name": "Shree Mahendra H.S.S, Shrangbesi, Pyuthan"
-                    },
-                    {
-                        "id": "2078-011",
-                        "name": "Sarita Rayamajhi",
-                        "school_name": "Shree Janta H.S.S, Bijulee, Pyuthan"
-                    },
-                    {
-                        "id": "2078-012",
-                        "name": "Sabina Pariyar",
-                        "school_name": "Shree Moti H.S.S, Baraula, Pyuthan"
-                    },
-                    {
-                        "id": "2078-013",
-                        "name": "Sonia Pariyar",
-                        "school_name": "Shree Moti H.S.S, Baraula, Pyuthan"
-                    },
-                    {
-                        "id": "2078-014",
-                        "name": "Saraswoti Bhusal",
-                        "school_name": "Shree Moti H.S.S, Baraula, Pyuthan"
-                    },
-                    {
-                        "id": "2078-015",
-                        "name": "Surakshya Bista",
-                        "school_name": "Shree Mukti H.S.S, Ratamata, Pyuthan"
-                    },
-                    {
-                        "id": "2078-016",
-                        "name": "Tulsi Bhattrai",
-                        "school_name": "Shree Mukti H.S.S, Ratamata, Pyuthan"
-                    }
-                ]
-            },
-            {
-                "name": "2079",
-                "children":
-                [
-                    {
-                        "id": "2079-017",
-                        "name": "Ajay Pariyar",
-                        "school_name": "Shree Bhanu Bhakta H.S.S, Mallarani RM, Pyuthan"
-                    },
-                    {
-                        "id": "2079-018",
-                        "name": "Akash Bishwokarma",
-                        "school_name": "Shree Sarashwoti H.S.S, Sarumarani RM, Pyuthan"
-                    },
-                    {
-                        "id": "2079-019",
-                        "name": "Anjali Gandarva",
-                        "school_name": "Shree Mukti H.S.S, Pyuthan Mun, Pyuthan"
-                    },
-                    {
-                        "id": "2079-020",
-                        "name": "Asmita B.K.",
-                        "school_name": "Shree Janta H.S.S, Airawoti RM, Pyuthan"
-                    },
-                    {
-                        "id": "2079-021",
-                        "name": "Binod Nepali",
-                        "school_name": "Shree Janta H.S.S, Pyuthan Mun, Pyuthan"
-                    },
-                    {
-                        "id": "2079-022",
-                        "name": "Geeta Buthathoki",
-                        "school_name": "Shree Umamaheshwori H.S.S, Sworgadwari Mun, Pyuthan"
-                    },
-                    {
-                        "id": "2079-023",
-                        "name": "Himal Bhandari",
-                        "school_name": "Shree Mukti H.S.S, Pyuthan Mun, Pyuthan"
-                    },
-                    {
-                        "id": "2079-024",
-                        "name": "Juna Thapa",
-                        "school_name": "Shree Janta H.S.S, Airawoti RM, Pyuthan"
-                    },
-                    {
-                        "id": "2079-025",
-                        "name": "Jyoti Thapa",
-                        "school_name": "Shree Moti H.S.S, Airawoti RM, Pyuthan"
-                    },
-                    {
-                        "id": "2079-026",
-                        "name": "Kalpana Bhattarai",
-                        "school_name": "Shree Bhanu Bhakta H.S.S, Mallarani RM, Pyuthan"
-                    },
-                    {
-                        "id": "2079-027",
-                        "name": "Khusi Sunar",
-                        "school_name": "Shree Umamaheshwori H.S.S, Sworgadwari Mun, Pyuthan"
-                    },
-                    {
-                        "id": "2079-028",
-                        "name": "Manisa BK",
-                        "school_name": "Shree Mukti H.S.S, Pyuthan Mun, Pyuthan"
-                    },
-                    {
-                        "id": "2079-029",
-                        "name": "Manju Sunar",
-                        "school_name": "Shree Umamaheshwori H.S.S, Sworgadwari Mun, Pyuthan"
-                    },
-                    {
-                        "id": "2079-030",
-                        "name": "Purnima Rana Magar",
-                        "school_name": "Shree Bhanu Bhakta H.S.S, Mallarani Mun, Pyuthan"
-                    },
-                    {
-                        "id": "2079-031",
-                        "name": "Puspa Raut",
-                        "school_name": "Shree Sarashwoti H.S.S, Sarumarani RM, Pyuthan"
-                    },
-                    {
-                        "id": "2079-032",
-                        "name": "Sagar Pun",
-                        "school_name": "Shree Mukti H.S.S, Pyuthan Mun, Pyuthan"
-                    },
-                    {
-                        "id": "2079-033",
-                        "name": "Sameer Sejwal",
-                        "school_name": "Shree Mahendra H.S.S, Mallarani RM, Pyuthan"
-                    },
-                    {
-                        "id": "2079-034",
-                        "name": "Sandhya Giri",
-                        "school_name": "Shree Sarashwoti H.S.S, Sarumarani RM, Pyuthan"
-                    },
-                    {
-                        "id": "2079-035",
-                        "name": "Shristee Nepali",
-                        "school_name": "Shree Mahendra H.S.S, Mallarani RM, Pyuthan"
-                    },
-                    {
-                        "id": "2079-036",
-                        "name": "Sundar Thapa",
-                        "school_name": "Shree Sarashwoti H.S.S, Sarumarani RM, Pyuthan"
-                    },
-                    {
-                        "id": "2079-037",
-                        "name": "Teki Sunar",
-                        "school_name": "Shree Mukti H.S.S, Pyuthan Mun, Pyuthan"
-                    }
-                ]
-            },
-            {
-                "name": "2080",
-                "children":
-                [
-                    {
-                        "id": "2080-038",
-                        "name": "Abhisek G.C.",
-                        "school_name": "Shree Gaumukhi H.S.S, Gaumukhi - 05, Thulabesi Pyuthan"
-                    },
-                    {
-                        "id": "2080-039",
-                        "name": "Ashok Pariyar",
-                        "school_name": "Shree Bhanubhakta H.S.S, Mallarani - 03, Barbot Pyuthan"
-                    },
-                    {
-                        "id": "2080-040",
-                        "name": "Bimal Khatri",
-                        "school_name": "Shree Sarashwoti H.S.S, Sarumarani - 01, Bangesal Pyuthan"
-                    },
-                    {
-                        "id": "2080-041",
-                        "name": "Bisal B.K.",
-                        "school_name": "Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan"
-                    },
-                    {
-                        "id": "2080-042",
-                        "name": "Chandani Gharti Magar",
-                        "school_name": "Shree Umamaheshwori H.S.S, Sworgadwari - 05, Sari Pyuthan"
-                    },
-                    {
-                        "id": "2080-043",
-                        "name": "Jharana Thapa",
-                        "school_name": "Shree Mahendra H.S.S, Airawoti - 05, Sarangbesi Pyuthan"
-                    },
-                    {
-                        "id": "2080-044",
-                        "name": "Mankala Thapa",
-                        "school_name": "Shree Mahendra H.S.S, Airawoti - 05, Sarangbesi Pyuthan"
-                    },
-                    {
-                        "id": "2080-045",
-                        "name": "Meena Rana Magar",
-                        "school_name": "Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan"
-                    },
-                    {
-                        "id": "2080-046",
-                        "name": "Nisa Sunar",
-                        "school_name": "Shree Mandavi H.S.S, Mandavi - 06, Nayagaun Pyuthan"
-                    },
-                    {
-                        "id": "2080-047",
-                        "name": "Pradip Hamal",
-                        "school_name": "Shree Gaumukhi H.S.S, Gaumukhi - 06, Thulabesi Pyuthan"
-                    },
-                    {
-                        "id": "2080-048",
-                        "name": "Puspa Malla",
-                        "school_name": "Shree Gaumukhi H.S.S, Gaumukhi - 06, Thulabesi Pyuthan"
-                    }
-                ]
-            },
-            {
-                "name": "2081",
-                "children":
-                [
-                    {
-                        "id": "2081-049",
-                        "name": "Ganesh Khadka",
-                        "school_name": "Shree Umamaheshwori H.S.S, Sworgadwari - 05, Sari Pyuthan"
-                    },
-                    {
-                        "id": "2081-050",
-                        "name": "Jayashwor Poudel",
-                        "school_name": "Shree Bhanubhakta H.S.S, Mallarani - 03, Barbot Pyuthan"
-                    },
-                    {
-                        "id": "2081-051",
-                        "name": "Nawaraj Budhathoki",
-                        "school_name": "Shree Umamaheshwori H.S.S, Sworgadwari - 05, Sari Pyuthan"
-                    },
-                    {
-                        "id": "2081-052",
-                        "name": "Nirajan G.M.",
-                        "school_name": "Shree Umamaheshwori H.S.S, Sworgadwari - 05, Sari Pyuthan"
-                    },
-                    {
-                        "id": "2081-053",
-                        "name": "Pooja Sunar",
-                        "school_name": "Shree Sarashwoti H.S.S, Sarumarani - 01, Bangesal Pyuthan"
-                    },
-                    {
-                        "id": "2081-054",
-                        "name": "Sridhar Adhikari",
-                        "school_name": "Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan"
-                    },
-                    {
-                        "id": "2081-055",
-                        "name": "Sittal Kunwar",
-                        "school_name": "Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan"
-                    },
-                    {
-                        "id": "2081-056",
-                        "name": "Sonia Khadka",
-                        "school_name": "Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan"
-                    },
-                    {
-                        "id": "2081-057",
-                        "name": "Tara Bhandari",
-                        "school_name": "Shree Mahendra H.S.S, Airawoti - 05, Sarangbesi Pyuthan"
-                    }
-                ]
-            }
-        ]
-    }
+    "name":"dream100",
+    "children":[
+        {
+            "name": "2078",
+            "children":
+            [
+                {
+                    "id": "2078-001",
+                    "name": "Firoj Alam",
+                    "school_name": "Shree Saraswoti Namuna H.S.S, Pyuthan"
+                },
+                {
+                    "id": "2078-002",
+                    "name": "Juna Nepali",
+                    "school_name": "Shree Janta H.S.S, Bijulee, Pyuthan"
+                },
+                {
+                    "id": "2078-003",
+                    "name": "Keshab Bahadur Thapa",
+                    "school_name": "Shree Moti H.S.S, Baraula, Pyuthan"
+                },
+                {
+                    "id": "2078-004",
+                    "name": "Koma K.C.",
+                    "school_name": "Shree Moti H.S.S, Baraula, Pyuthan"
+                },
+                {
+                    "id": "2078-005",
+                    "name": "Kumar Budhathoki",
+                    "school_name": "Shree Umamaheshwori H.S.S, Pyuthan"
+                },
+                {
+                    "id": "2078-006",
+                    "name": "Manisha Pariyar",
+                    "school_name": "Shree Umamaheshwori H.S.S., Pyuthan"
+                },
+                {
+                    "id": "2078-007",
+                    "name": "Menuka Pun Magar",
+                    "school_name": "Shree Umamaheshwori H.S.S., Pyuthan"
+                },
+                {
+                    "id": "2078-008",
+                    "name": "Mitra Budha Magar",
+                    "school_name": "Shree Mukti H.S.S, Ratamata, Pyuthan"
+                },
+                {
+                    "id": "2078-009",
+                    "name": "Prarthana B.K.",
+                    "school_name": "Shree Janta H.S.S, Bijulee, Pyuthan"
+                },
+                {
+                    "id": "2078-010",
+                    "name": "Renu Bhandari",
+                    "school_name": "Shree Mahendra H.S.S, Shrangbesi, Pyuthan"
+                },
+                {
+                    "id": "2078-011",
+                    "name": "Sarita Rayamajhi",
+                    "school_name": "Shree Janta H.S.S, Bijulee, Pyuthan"
+                },
+                {
+                    "id": "2078-012",
+                    "name": "Sabina Pariyar",
+                    "school_name": "Shree Moti H.S.S, Baraula, Pyuthan"
+                },
+                {
+                    "id": "2078-013",
+                    "name": "Sonia Pariyar",
+                    "school_name": "Shree Moti H.S.S, Baraula, Pyuthan"
+                },
+                {
+                    "id": "2078-014",
+                    "name": "Saraswoti Bhusal",
+                    "school_name": "Shree Moti H.S.S, Baraula, Pyuthan"
+                },
+                {
+                    "id": "2078-015",
+                    "name": "Surakshya Bista",
+                    "school_name": "Shree Mukti H.S.S, Ratamata, Pyuthan"
+                },
+                {
+                    "id": "2078-016",
+                    "name": "Tulsi Bhattrai",
+                    "school_name": "Shree Mukti H.S.S, Ratamata, Pyuthan"
+                }
+            ]
+        },
+        {
+            "name": "2079",
+            "children":
+            [
+                {
+                    "id": "2079-017",
+                    "name": "Ajay Pariyar",
+                    "school_name": "Shree Bhanu Bhakta H.S.S, Mallarani RM, Pyuthan"
+                },
+                {
+                    "id": "2079-018",
+                    "name": "Akash Bishwokarma",
+                    "school_name": "Shree Sarashwoti H.S.S, Sarumarani RM, Pyuthan"
+                },
+                {
+                    "id": "2079-019",
+                    "name": "Anjali Gandarva",
+                    "school_name": "Shree Mukti H.S.S, Pyuthan Mun, Pyuthan"
+                },
+                {
+                    "id": "2079-020",
+                    "name": "Asmita B.K.",
+                    "school_name": "Shree Janta H.S.S, Airawoti RM, Pyuthan"
+                },
+                {
+                    "id": "2079-021",
+                    "name": "Binod Nepali",
+                    "school_name": "Shree Janta H.S.S, Pyuthan Mun, Pyuthan"
+                },
+                {
+                    "id": "2079-022",
+                    "name": "Geeta Buthathoki",
+                    "school_name": "Shree Umamaheshwori H.S.S, Sworgadwari Mun, Pyuthan"
+                },
+                {
+                    "id": "2079-023",
+                    "name": "Himal Bhandari",
+                    "school_name": "Shree Mukti H.S.S, Pyuthan Mun, Pyuthan"
+                },
+                {
+                    "id": "2079-024",
+                    "name": "Juna Thapa",
+                    "school_name": "Shree Janta H.S.S, Airawoti RM, Pyuthan"
+                },
+                {
+                    "id": "2079-025",
+                    "name": "Jyoti Thapa",
+                    "school_name": "Shree Moti H.S.S, Airawoti RM, Pyuthan"
+                },
+                {
+                    "id": "2079-026",
+                    "name": "Kalpana Bhattarai",
+                    "school_name": "Shree Bhanu Bhakta H.S.S, Mallarani RM, Pyuthan"
+                },
+                {
+                    "id": "2079-027",
+                    "name": "Khusi Sunar",
+                    "school_name": "Shree Umamaheshwori H.S.S, Sworgadwari Mun, Pyuthan"
+                },
+                {
+                    "id": "2079-028",
+                    "name": "Manisa BK",
+                    "school_name": "Shree Mukti H.S.S, Pyuthan Mun, Pyuthan"
+                },
+                {
+                    "id": "2079-029",
+                    "name": "Manju Sunar",
+                    "school_name": "Shree Umamaheshwori H.S.S, Sworgadwari Mun, Pyuthan"
+                },
+                {
+                    "id": "2079-030",
+                    "name": "Purnima Rana Magar",
+                    "school_name": "Shree Bhanu Bhakta H.S.S, Mallarani Mun, Pyuthan"
+                },
+                {
+                    "id": "2079-031",
+                    "name": "Puspa Raut",
+                    "school_name": "Shree Sarashwoti H.S.S, Sarumarani RM, Pyuthan"
+                },
+                {
+                    "id": "2079-032",
+                    "name": "Sagar Pun",
+                    "school_name": "Shree Mukti H.S.S, Pyuthan Mun, Pyuthan"
+                },
+                {
+                    "id": "2079-033",
+                    "name": "Sameer Sejwal",
+                    "school_name": "Shree Mahendra H.S.S, Mallarani RM, Pyuthan"
+                },
+                {
+                    "id": "2079-034",
+                    "name": "Sandhya Giri",
+                    "school_name": "Shree Sarashwoti H.S.S, Sarumarani RM, Pyuthan"
+                },
+                {
+                    "id": "2079-035",
+                    "name": "Shristee Nepali",
+                    "school_name": "Shree Mahendra H.S.S, Mallarani RM, Pyuthan"
+                },
+                {
+                    "id": "2079-036",
+                    "name": "Sundar Thapa",
+                    "school_name": "Shree Sarashwoti H.S.S, Sarumarani RM, Pyuthan"
+                },
+                {
+                    "id": "2079-037",
+                    "name": "Teki Sunar",
+                    "school_name": "Shree Mukti H.S.S, Pyuthan Mun, Pyuthan"
+                }
+            ]
+        },
+        {
+            "name": "2080",
+            "children":
+            [
+                {
+                    "id": "2080-038",
+                    "name": "Abhisek G.C.",
+                    "school_name": "Shree Gaumukhi H.S.S, Gaumukhi - 05, Thulabesi Pyuthan"
+                },
+                {
+                    "id": "2080-039",
+                    "name": "Ashok Pariyar",
+                    "school_name": "Shree Bhanubhakta H.S.S, Mallarani - 03, Barbot Pyuthan"
+                },
+                {
+                    "id": "2080-040",
+                    "name": "Bimal Khatri",
+                    "school_name": "Shree Sarashwoti H.S.S, Sarumarani - 01, Bangesal Pyuthan"
+                },
+                {
+                    "id": "2080-041",
+                    "name": "Bisal B.K.",
+                    "school_name": "Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan"
+                },
+                {
+                    "id": "2080-042",
+                    "name": "Chandani Gharti Magar",
+                    "school_name": "Shree Umamaheshwori H.S.S, Sworgadwari - 05, Sari Pyuthan"
+                },
+                {
+                    "id": "2080-043",
+                    "name": "Jharana Thapa",
+                    "school_name": "Shree Mahendra H.S.S, Airawoti - 05, Sarangbesi Pyuthan"
+                },
+                {
+                    "id": "2080-044",
+                    "name": "Mankala Thapa",
+                    "school_name": "Shree Mahendra H.S.S, Airawoti - 05, Sarangbesi Pyuthan"
+                },
+                {
+                    "id": "2080-045",
+                    "name": "Meena Rana Magar",
+                    "school_name": "Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan"
+                },
+                {
+                    "id": "2080-046",
+                    "name": "Nisa Sunar",
+                    "school_name": "Shree Mandavi H.S.S, Mandavi - 06, Nayagaun Pyuthan"
+                },
+                {
+                    "id": "2080-047",
+                    "name": "Pradip Hamal",
+                    "school_name": "Shree Gaumukhi H.S.S, Gaumukhi - 06, Thulabesi Pyuthan"
+                },
+                {
+                    "id": "2080-048",
+                    "name": "Puspa Malla",
+                    "school_name": "Shree Gaumukhi H.S.S, Gaumukhi - 06, Thulabesi Pyuthan"
+                }
+            ]
+        },
+        {
+            "name": "2081",
+            "children":
+            [
+                {
+                    "id": "2081-049",
+                    "name": "Ganesh Khadka",
+                    "school_name": "Shree Umamaheshwori H.S.S, Sworgadwari - 05, Sari Pyuthan"
+                },
+                {
+                    "id": "2081-050",
+                    "name": "Jayashwor Poudel",
+                    "school_name": "Shree Bhanubhakta H.S.S, Mallarani - 03, Barbot Pyuthan"
+                },
+                {
+                    "id": "2081-051",
+                    "name": "Nawaraj Budhathoki",
+                    "school_name": "Shree Umamaheshwori H.S.S, Sworgadwari - 05, Sari Pyuthan"
+                },
+                {
+                    "id": "2081-052",
+                    "name": "Nirajan G.M.",
+                    "school_name": "Shree Umamaheshwori H.S.S, Sworgadwari - 05, Sari Pyuthan"
+                },
+                {
+                    "id": "2081-053",
+                    "name": "Pooja Sunar",
+                    "school_name": "Shree Sarashwoti H.S.S, Sarumarani - 01, Bangesal Pyuthan"
+                },
+                {
+                    "id": "2081-054",
+                    "name": "Sridhar Adhikari",
+                    "school_name": "Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan"
+                },
+                {
+                    "id": "2081-055",
+                    "name": "Sittal Kunwar",
+                    "school_name": "Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan"
+                },
+                {
+                    "id": "2081-056",
+                    "name": "Sonia Khadka",
+                    "school_name": "Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan"
+                },
+                {
+                    "id": "2081-057",
+                    "name": "Tara Bhandari",
+                    "school_name": "Shree Mahendra H.S.S, Airawoti - 05, Sarangbesi Pyuthan"
+                }
+            ]
+        }
+    ]
 }
