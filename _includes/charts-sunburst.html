@@ -5,7 +5,7 @@
     <label>Click a node to zoom in, or the center to zoom out.</label>
     <div class="row">
       <div class="col-md-12">
-        <input type="hidden" id="chartData" value="{{ site.data.chart_sunburst.data }}">
+        <input type="hidden" id="chartData" value="{{ site.data.chart_sunburst.data  | jsonify }}">
         <div id="myChart"></div>
       </div>
     </div>
