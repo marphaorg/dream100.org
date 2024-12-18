@@ -16,9 +16,9 @@
   var data = JSON.parse(decodeURIComponent("{{ site.data.chart_sunburst  | jsonify | uri_escape }}"));//$("#chartData").val();
   console.log(data);
     // Specify the chart’s dimensions.
-    const width = 1024;
+    const width = 924;
       const height = width;
-      const radius = width / 12;
+      const radius = width / 10;
 
       // Create the color scale.
       const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
