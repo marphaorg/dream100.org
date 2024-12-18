@@ -4,8 +4,7 @@
   <div class="container">
     <label>Click a node to zoom in, or the center to zoom out.</label>
     <div class="row">
-      <div class="col-md-12">
-        <input type="hidden" id="chartData" value="{{ site.data.chart_sunburst | escape | jsonify }}">
+      <div class="col-md-12">        
         <div id="myChart"></div>
       </div>
     </div>
@@ -14,7 +13,7 @@
 <!--Chart End -->
  
   <script type="module">   
-  var data = $("#chartData").val();
+  var data = JSON.parse(decodeURIComponent("{{ site.data.chart_sunburst  | jsonify | uri_escape }}"));//$("#chartData").val();
   console.log(data);
     // Specify the chart’s dimensions.
     const width = 928;
