@@ -2,10 +2,10 @@
 <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
 <script>
   document
-    .getElementById("txt-form2080-select")
+    .getElementById("txt-form2082-select")
     .addEventListener("change", handleFileUploadChange);
   document
-    .getElementById("btn-form2080-upload")
+    .getElementById("btn-form2082-upload")
     .addEventListener("click", handleFileUploadSubmit);
   let selectedFormFile;
   function loadApplicationStats(folderName) {
@@ -45,16 +45,16 @@
   function handleFileUploadChange(e) {
     selectedFormFile = e.target.files[0];
     if (selectedFormFile) {
-      $("#btn-form2080-upload").enable();
+      $("#btn-form2082-upload").enable();
     } else {
-      $("#btn-form2080-upload").prop("disabled", true);
+      $("#btn-form2082-upload").prop("disabled", true);
     }
   }
   function handleFileUploadSubmit(e) {
     //show loader
     $("#preloader-active").show();
     const uploadTask = dbFileManager.uploadFileTask(
-      "form-2080",
+      "form-2082",
       selectedFormFile
     );
 
