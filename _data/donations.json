@@ -94,7 +94,7 @@
   "year_2022":[
     {
       "sn":1,
-      "donor": "Suvash Shah, Amrita Sen",
+      "donor": "Suvash Shah",
       "currency": "$",
       "amount": "1,000",
       "date": "Jan 1, 2022",
@@ -216,7 +216,7 @@
   "year_2021":[
     {
       "sn":1,
-      "donor": "Suvash Shah, Amrita Sen",
+      "donor": "Suvash Shah",
       "currency": "$",
       "amount": "1,000",
       "date": "Dec 1, 2020",
