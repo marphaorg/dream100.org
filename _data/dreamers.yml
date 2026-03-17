@@ -401,3 +401,81 @@ year_2081:
         np: श्री महेन्द्र मा.वि., ऐरावती -०५, सराङ्गवेशी, प्यूठान
         en: Shree Mahendra H.S.S, Airawoti - 05, Sarangbesi Pyuthan
     img: /assets/img/dreamers/057-tara-bhandari.png
+year_2082:
+  - name: 
+        np: रेखा थापा मगर
+        en: Rekha Thapa Magar
+    college: 
+        np: श्री दाङबाङ मा.वि. दाङबाङ - ४, अमिली प्यूठान
+        en: Shree Dangbang H.S.S, Dangbang - 04, Amili Pyuthan
+    img: /assets/img/dreamers/058-rekha-thapa-magar.png
+  - name: 
+        np: प्रतीमा जी.सी.
+        en: Pratima G.C.
+    college: 
+        np: श्री खड्गेश्वरी मा.वि. सरुमारानी - २, दर्भान प्यूठान
+        en: Shree Khadgeshwari H.S.S, Sarumarani - 02, Darbhan Pyuthan
+    img: /assets/img/dreamers/059-pratima-gc.png
+  - name: 
+            np: अजय महत क्षेत्री
+            en: Ajay Mahat Kshetri
+    college: 
+            np: श्री प्रभात मा. वि. झिमरुक - ३ , आहालखोला प्यूठान
+            en: Shree Prabhata H.S.S, Jimaruk - 03, Ahalakhola Pyuthan
+    img: /assets/img/dreamers/060-ajay-mahat.png
+  - name: 
+            np: दिनेश रोका मगर
+            en: Dinesh Roka Magar
+    college: 
+            np: श्री उमामहेश्वरी मा.वि. स्वर्गद्वारी - ५, सारी प्यूठान
+            en: Shree Umamaheshwori H.S.S, Sworgadwari - 05, Sari Pyuthan
+    img: /assets/img/dreamers/061-dinesh-roka.png
+  - name: 
+            np: अशोक थापा
+            en: Ashok Thapa
+    college: 
+            np: श्री मोति मा.वि. ऐरावती - २, बरौला प्यूठान
+            en: Shree Moti H.S.S, Airawoti - 02, Baraula Pyuthan
+    img: /assets/img/dreamers/062-ashok-thapa.png
+  - name: 
+            np: अस्मिता अधिकारी
+            en: Asmita Adhikari
+    college: 
+            np: श्री भानुभक्त मा.वि मल्लारानी - ३, बर्बोट प्यूठान
+            en: Shree Bhanubhakta H.S.S, Mallarani - 03, Barbot Pyuthan
+    img: /assets/img/dreamers/063-asmita-adhikari.png
+  - name: 
+            np: उर्मीला परियार
+            en: Urmila Pariyar
+    college: 
+            np: श्री सरस्वती मा.वि. सरुमरानी - १, बाङ्गेशाल प्यूठान
+            en: Shree Sarashwoti H.S.S, Sarumarani - 01, Bangesal Pyuthan
+    img: /assets/img/dreamers/064-urmila-pariyar.png
+  - name: 
+            np: गंगा राउत
+            en: Ganga Raut
+    college: 
+            np: श्री सरस्वती मा.वि. सरुमरानी - १, बाङ्गेशाल प्यूठान
+            en: Shree Sarashwoti H.S.S, Sarumarani - 01, Bangesal Pyuthan
+    img: /assets/img/dreamers/065-ganga-raut.png
+  - name: 
+            np: बिनोद सार्की
+            en: Binod Sarki
+    college: 
+            np: श्री जनता मा.वि. ऐरावती - ६, विजुली प्यूठान
+            en: Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan
+    img: /assets/img/dreamers/066-binod-sarki.png
+  - name: 
+            np: दिपक सार्की
+            en: Dipak Sarki
+    college: 
+            np: श्री जनता मा.वि. ऐरावती - ६, विजुली प्यूठान
+            en: Shree Janta H.S.S, Airawoti - 06, Bijulee Pyuthan
+    img: /assets/img/dreamers/067-dipak-sarki.png
+  - name: 
+            np: हेमराज खड्का
+            en: Hemraj Khadka
+    college: 
+            np: श्री धर्मोदय मा.वि. ऐरावती - ३, जाबुने प्यूठान
+            en: Shree Dharmaody H.S.S, Airawoti - 03, Jabune Pyuthan
+    img: /assets/img/dreamers/068-hemraj-khadka.png

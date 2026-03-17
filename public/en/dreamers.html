@@ -32,6 +32,20 @@ permalink: /dreamers/
       <li class="nav-item" role="presentation">
         <button
           class="nav-link active year-tab"
+          id="tab-2082"
+          data-toggle="tab"
+          data-target="#content-2082"
+          type="button"
+          role="tab"
+          aria-controls="content-2082"
+          aria-selected="true"
+        >
+          Academic Year 2082
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link year-tab"
           id="tab-2081"
           data-toggle="tab"
           data-target="#content-2081"
@@ -89,6 +103,43 @@ permalink: /dreamers/
     <div class="tab-content" id="myTabContent">
       <div
         class="tab-pane fade show active"
+        id="content-2082"
+        role="tabpanel"
+        aria-labelledby="tab-2082"
+      >
+        <div class="row">
+          {% assign sortedStudents = site.data.dreamers.year_2082 | sort: "img"
+          %} {% for dream in sortedStudents %}
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="single-team mb-30">
+              <div class="team-img">
+                <img src="{{ dream.img }}" alt="" />
+                <!-- Blog Social -->
+                <!-- <ul class="team-social">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-globe"></i></a>
+                </li>
+              </ul> -->
+              </div>
+              <div class="team-caption">
+                <h3>
+                  <a href="javascript:void(0)">{{ dream.name[page.lang] }}</a>
+                </h3>
+                <p>{{ dream.college[page.lang] }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div
+        class="tab-pane fade"
         id="content-2081"
         role="tabpanel"
         aria-labelledby="tab-2081"
